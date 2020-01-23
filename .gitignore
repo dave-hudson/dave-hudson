@@ -1,0 +1,12 @@
+# Don't ignore directories
+
+!*/
+
+# Ignore Mac OS/X DS_store files
+
+**/.DS_store
+
+# Ignore vim backup files
+
+**/*~
+

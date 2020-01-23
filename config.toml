@@ -1,0 +1,70 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Musings of an Itinerant Software Designer"
+paginate = 5
+
+copyright = "© 2020 David J. Hudson"
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+# disqusShortname = "dave-hudson-demo"
+
+[params]
+	subtitle = "Dave Hudson's Blog/Wiki"
+	disableDisqusTypes = ["page"]
+	featherIconsCDN = true
+	mode = "auto" # "dark", "auto", "light"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
+
+[[menu.main]]
+name = "Recent Posts"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Wiki"
+url = "/wiki"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 5
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/dave-hudson"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/hashingitcom"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/davejh"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
