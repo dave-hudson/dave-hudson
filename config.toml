@@ -1,15 +1,22 @@
-baseURL = "https://dave-hudson.github.io/"
 languageCode = "en-us"
 title = "Musings of an Itinerant Software Designer"
+copyright = "© 2020 David J. Hudson"
 paginate = 5
 
+#
+# This site will go to a github pages site.  Have the site URL set accordingly, and the publishing directory match.
+#
+baseURL = "https://dave-hudson.github.io/"
 publishDir = "dave-hudson.github.io"
-
-copyright = "© 2020 David J. Hudson"
 
 pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+#
+# Mixed case pathnames are not a crime.
+#
+disablePathToLower = true
 
 googleAnalytics = "UA-123-45"
 # disqusShortname = "dave-hudson-demo"
