@@ -1,5 +1,5 @@
 ---
-title: "Episode 4: A New Blog"
+title: "Episode IV: A New Blog"
 date: 2020-01-22T22:30:00+00:00
 description: "Some thoughts on what I'm trying to achieve with this site/blog/wiki"
 tags: [hugo, blog, vim, MacVim]
