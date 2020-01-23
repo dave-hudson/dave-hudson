@@ -5,7 +5,7 @@ type: "page"
 ---
 {{< figure src="/about/dave.jpg" title="Dave (apparently always pictured with a drink!)" >}}
 
-Hello, good morning/afternoon/evening and welcome! _(delete as appropriate)_
+Hello, good morning/afternoon/evening\* and welcome! _(\*please delete as appropriate)_
 
 I'm a unrepentant geek who loves all things engineering, scientific or otherwise techie.  I would say I love maths
 too, but I should probably leave that to the experts :-)
