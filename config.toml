@@ -1,7 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://dave-hudson.github.io/"
 languageCode = "en-us"
 title = "Musings of an Itinerant Software Designer"
 paginate = 5
+
+publishDir = "dave-hudson.github.io"
 
 copyright = "© 2020 David J. Hudson"
 
