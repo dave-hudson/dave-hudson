@@ -1,6 +1,6 @@
 ---
 title: "Making this site work for real (AKA I hate Git submodules)"
-date: 2020-01-24T11:21:40+00:00
+date: 2020-01-24T21:40:00+00:00
 description: "I said I disliked Git submodules and this is why"
 tags: [Hugo, Git, Git submodules]
 ---

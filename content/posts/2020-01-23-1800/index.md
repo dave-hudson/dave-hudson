@@ -1,6 +1,6 @@
 ---
 title: "Making this site work"
-date: 2020-01-23T11:18:00+00:00
+date: 2020-01-23T18:30:00+00:00
 description: "All unfamiliar technologies can be tricky, but this one needed a little more work than I'd hoped"
 tags: [Hugo, Git, GitHub, Git submodules]
 ---
