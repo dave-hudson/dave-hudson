@@ -14,6 +14,7 @@ body {
     color: #333;
     line-height: 1.6;
     font-size: 16px;
+    padding: 20px;
 }
 
 a {
@@ -222,13 +223,12 @@ ul.flat li {
 }
 
 .wrapper {
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .container {
     max-width: 800px;
-    margin-top: 50px;
 }
 
 .header {
@@ -298,10 +298,16 @@ ul.flat li {
     margin-bottom: 4px;
 }
 
+.list .posts .post {
+    display: table;
+    width: 100%;
+}
+
 .list .posts .post .meta {
+    display: table-cell;
+    text-align: right;
     font-size: 0.725rem;
     color: #999;
-    margin-bottom: 0;
     margin-left: 5px;
 }
 
@@ -331,13 +337,11 @@ ul.flat li {
     font-size: 0.75em;
     color: #999;
     border-top: 1px solid #f4f4f4;
-    padding: 20px 0;
+    padding: 0px 0;
     margin-top: 40px;
 }
 
 .page-title {
-    margin: 0;
-    margin-bottom: 0;
 }
 
 .tag-cloud {
@@ -374,31 +378,5 @@ ul.flat li {
 
 .pagination .page-item.page-next {
     text-align: right;
-}
-
-@media (max-width: 767px) {
-    body {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    h4 {
-        font-size: 1rem;
-    }
-
-    .container {
-        margin-top: 10px;
-    }
 }
 
