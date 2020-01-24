@@ -4,10 +4,15 @@ copyright = "© 2020 David J. Hudson"
 paginate = 5
 
 #
-# This site will go to a github pages site.  Have the site URL set accordingly, and the publishing directory match.
+# This site will go to a github pages site.  Have the site URL set accordingly.
 #
 baseURL = "https://dave-hudson.github.io/"
-publishDir = "dave-hudson.github.io"
+
+#
+# We could use git submodules, but that's just a world of pain.  Instead point our publication directory
+# to another repo at the same level as this one.
+#
+publishDir = "../dave-hudson.github.io"
 
 pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
@@ -30,6 +35,9 @@ googleAnalytics = "UA-123-45"
 	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
 
+#
+# Menu items.
+#
 [[menu.main]]
 name = "Recent Posts"
 url = "/"
@@ -55,6 +63,9 @@ name = "About"
 url = "/about"
 weight = 5
 
+#
+# Icons.
+#
 [[params.social]]
 name = "Github"
 icon = "github"

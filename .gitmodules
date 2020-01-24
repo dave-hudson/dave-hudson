@@ -1,5 +1,0 @@
-[submodule "dave-hudson.github.io"]
-	path = dave-hudson.github.io
-	url = git@github.com:dave-hudson/dave-hudson.github.io.git
-	branch = master
-	update = rebase
