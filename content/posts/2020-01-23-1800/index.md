@@ -10,12 +10,12 @@ what it is to be someone who does this day in and out (organising teams of engin
 sometimes).
 
 As with all new technical challenges, I wasn't expecting that setting up a site with Hugo and GitHub pages would be
-completely straightforward, but I have been remdinded that the quality of technical documentation on the web can be quite
+completely straightforward, but I have been reminded that the quality of technical documentation on the web can be quite
 variable.  It's amazing how quickly software engineers get used to things that must drive everyone else slightly
 mad.
 
 As GitHub doesn't have a native integration with Hugo, there's a two-repo process involved in making changes to the site.
-First we have the repo with the source content, and then we have a separate one that has the rendered output from that
+First, we have the repo with the source content, and then we have a separate one that has the rendered output from that
 content.
 
 Maybe I was a little tired, but the guidance on the
@@ -33,7 +33,7 @@ never to do it again.  Anyway, this time the instructions were:
 ![](./hugo-inst-2.png)
 
 This little bit of magic makes the default `public` output directory map to the repo we just discussed, which wasn't
-competely obvious either.  It's worth noting that other advice online suggested a different approach in which the `public`
+completely obvious either.  It's worth noting that other advice online suggested a different approach in which the `public`
 directory is replaced with one that has the same name as the output repo.  It's this that I ended up doing.
 
 So far, so good, but I quickly found my submodule having a detached head, and needing this solution:
