@@ -1,5 +1,5 @@
 ---
-title: "Making this site work for real (AKA I hate Git submodules)"
+title: "Making this site work for real (AKA no more Git submodules)"
 date: 2020-01-24T21:40:00+00:00
 description: "I said I disliked Git submodules and this is why"
 tags: [Hugo, Git, Git submodules]
