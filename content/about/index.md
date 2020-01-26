@@ -32,7 +32,5 @@ or [LinkedIn](http://linkedin.com/in/davejh/).
 
 # Credits
 
-The site it put together using [Hugo](http://gohugo.io) and borrowed heavily from a formatting theme called
-[Ezhil](http://themes.gohugo.io/ezhil/).  While the formatting has evolved quite a lot from that I strongly
-believe in giving credit where it's due and would like to recognise the work of all involved - you have all saved me
-a lot of time!
+The site it put together using [Hugo](http://gohugo.io).  Thank you to all the developers who built this and to the
+many websites/blogs that describe how to set it up.
