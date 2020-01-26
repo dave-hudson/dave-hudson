@@ -1,7 +1,13 @@
-languageCode = "en-us"
+#
+# I write in British English.
+#
+languageCode = "en-gb"
+
+#
+# Name of the blog and the copyright info.
+#
 title = "Musings of an Itinerant Software Designer"
 copyright = "© 2020 David J. Hudson"
-paginate = 5
 
 #
 # This site will go to a github pages site.  Have the site URL set accordingly.
@@ -14,14 +20,16 @@ baseURL = "https://dave-hudson.github.io/"
 #
 publishDir = "../dave-hudson.github.io"
 
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
 #
 # Mixed case pathnames are not a crime.
 #
 disablePathToLower = true
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate = 5
 
 googleAnalytics = "UA-123-45"
 # disqusShortname = "dave-hudson-demo"
@@ -31,60 +39,60 @@ googleAnalytics = "UA-123-45"
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "auto" # "dark", "auto", "light"
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
-	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
 	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
+
+    #
+    # Icons.
+    #
+    [[params.social]]
+        name = "Github"
+        icon = "github"
+        url = "https://github.com/dave-hudson"
+
+    [[params.social]]
+        name = "Twitter"
+        icon = "twitter"
+        url = "https://twitter.com/hashingitcom"
+
+    [[params.social]]
+        name = "LinkedIn"
+        icon = "linkedin"
+        url = "https://linkedin.com/in/davejh"
+
+    [[params.social]]
+        name = "RSS"
+        icon = "rss"
+        url = "/index.xml"
 
 #
 # Menu items.
 #
-[[menu.main]]
-name = "Recent Posts"
-url = "/"
-weight = 1
+[menu]
+    [[menu.main]]
+        name = "Recent Posts"
+        url = "/"
+        weight = 1
 
-[[menu.main]]
-name = "All Posts"
-url = "/posts"
-weight = 2
+    [[menu.main]]
+        name = "All Posts"
+        url = "/posts"
+        weight = 2
 
-[[menu.main]]
-name = "Wiki"
-url = "/wiki"
-weight = 3
+    [[menu.main]]
+        name = "Wiki"
+        url = "/wiki"
+        weight = 3
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags"
+        weight = 4
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 5
-
-#
-# Icons.
-#
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/dave-hudson"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/hashingitcom"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://linkedin.com/in/davejh"
-
-[[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 5
 
 [taxonomies]
-   tag = "tags"
+    tag = "tags"
+
