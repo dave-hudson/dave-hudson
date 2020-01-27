@@ -222,13 +222,9 @@ ul.flat li {
     background-color: #FAFAFA;
 }
 
-.wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .container {
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .header {
@@ -333,6 +329,8 @@ ul.flat li {
 }
 
 .footer {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: right;
     font-size: 0.75em;
     color: #999;

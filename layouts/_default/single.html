@@ -2,7 +2,7 @@
 <html>
     {{ partial "header.html" . }}
     <body>
-        <div class="container wrapper post">
+        <div class="container post">
             {{ partial "head.html" . }}
 
             <div class="post-header">
@@ -10,10 +10,6 @@
                 <div class="meta">
                     Posted at {{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read
                 </div>
-            </div>
-
-            <div class="markdown">
-                {{ .Content }}
             </div>
 
             <div class="post-tags">
@@ -28,6 +24,10 @@
                         </nav>
                     {{ end }}
                 {{ end }}
+            </div>
+
+            <div class="markdown">
+                {{ .Content }}
             </div>
 
             {{- $.Scratch.Set "isDisqus" true -}}
