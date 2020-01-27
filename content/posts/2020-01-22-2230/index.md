@@ -1,7 +1,7 @@
 ---
 title: "Episode IV: A new blog"
 date: 2020-01-22T22:30:00+00:00
-description: "Some thoughts on what I'm trying to achieve with this site/blog/wiki"
+description: "Some thoughts on what I'm trying to achieve with this site/blog/wiki."
 tags: [Hugo, Blog, Vim, MacVim]
 ---
 A number of times in the past I've found myself wanting to blog about some of the things I've been reading about, thinking

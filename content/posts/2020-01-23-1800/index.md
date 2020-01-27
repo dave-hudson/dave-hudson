@@ -1,7 +1,7 @@
 ---
 title: "Making this site work"
 date: 2020-01-23T18:30:00+00:00
-description: "All unfamiliar technologies can be tricky, but this one needed a little more work than I'd hoped"
+description: "All unfamiliar technologies can be tricky, but this one needed a little more work than I'd hoped."
 tags: [Hugo, Git, GitHub, Git submodules]
 ---
 One of the more fun things about setting up this site (or at least fun for me!) is getting to have vim open
