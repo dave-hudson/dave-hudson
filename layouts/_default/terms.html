@@ -3,7 +3,7 @@
     {{ partial "head.html" . }}
 
     <body>
-        <div class="container tags">
+        <div class="container">
             {{ partial "header.html" . }}
 
             <h1 class="page-title">All Tags</h1>
@@ -22,8 +22,8 @@
                 <a style="font-size: {{ $size }}rem;" href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
             {{ end }}
             </div>
-        </div>
 
-        {{ partial "footer.html" . }}
+            {{ partial "footer.html" . }}
+        </div>
     </body>
 </html>
