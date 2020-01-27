@@ -7,69 +7,71 @@
 }
 
 body {
-	color: #ddd;
 	background-color: #000;
 }
 
-hr {
-    border-color: #333;
-}
-
-blockquote {
-	border-color: #ddd;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.container {
 	color: #ddd;
 }
 
-a {
+.container hr {
+    border-color: #333;
+}
+
+.container blockquote {
+	border-color: #ddd;
+}
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+	color: #ddd;
+}
+
+.container a {
 	color: #ff7979;
 }
 
-a:hover {
+.container a:hover {
 	color: #ff7979;
 	opacity: 0.8;
 }
 
-table th {
+.container table th {
     background-color: #333;
     padding: 10px 20px;
     border: 1px solid #666;
 }
 
-table td {
+.container table td {
     padding: 10px 20px;
     border: 1px solid #666;
 }
 
-.site-title a {
+.container .header nav {
+	border-color: #333;
+}
+
+.container .header .site-title a {
 	color: #ddd;
 	text-decoration: none !important;
 }
 
-.site-description a,
-.site-description a:hover {
+.container .header .site-description a,
+.container .header .site-description a:hover {
 	color: #ddd;
 	text-decoration: none;
 }
 
-.post-tags .tags a {
-    border: 1px solid #ddd;
-	color: #ddd;
-}
-
-.header nav,
-.footer {
+.container .footer {
 	border-color: #333;
 }
 
-.highlight {
-	background-color: #333;
+.container .post-tags .tags a {
+    border: 1px solid #ddd;
+	color: #ddd;
 }
 

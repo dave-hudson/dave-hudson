@@ -8,38 +8,40 @@
     text-shadow: none;
 }
 
-body {
+.container {
     font-family: "ubuntu", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
     padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-a {
+.container a {
     color: #a00;
     text-decoration: none;
 }
 
-a:hover {
+.container a:hover {
     color: #a00;
     text-decoration: underline;
 	opacity: 0.8;
 }
 
-a img {
+.container a img {
     border: none;
 }
 
-html,
-button,
-input,
-select {
+.container html,
+.container button,
+.container input,
+.container select {
     color: #333;
 }
 
-hr {
+.container hr {
     display: block;
     height: 1px;
     border: 0;
@@ -48,29 +50,29 @@ hr {
     padding: 0;
 }
 
-img {
+.container img {
     margin: 10px auto 10px auto;
     max-width: 100%;
     display: block;
 }
 
-figure {
+.container figure {
     margin: 0;
     text-align: center;
 }
 
-fieldset {
+.container fieldset {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
-textarea {
+.container textarea {
     color: #333;
     resize: vertical;
 }
 
-blockquote {
+.container blockquote {
     margin-left: 1rem;
     font-style: italic;
     font-size: 1.4rem;
@@ -80,124 +82,116 @@ blockquote {
     padding-left: 20px;
 }
 
-blockquote cite {
+.container blockquote cite {
     font-size: 70%;
     opacity: .8;
 }
 
-blockquote em {
+.container blockquote em {
     font-weight: 600;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
     font-family: raleway,sans-serif;
     line-height: 1.2;
     color: #333;
     font-weight: 200;
 }
 
-h1 {
+.container h1 {
     font-size: 2.75rem;
 }
 
-h2 {
+.container h2 {
     font-size: 2rem;
 }
 
-h3 {
+.container h3 {
     font-size: 1.6rem;
 }
 
-h4 {
+.container h4 {
     font-size: 1.2rem;
 }
 
-h5 {
+.container h5 {
     font-size: 1rem;
 }
 
-h6 {
+.container h6 {
     font-size: .9rem;
 }
 
-table th {
+.container table th {
     background-color: #f4f4f4;
     padding: 10px 20px;
     border: 1px solid #dddddd;
 }
 
-table td {
+.container table td {
     padding: 10px 20px;
     border: 1px solid #dddddd;
 }
 
-.align-center {
-    text-align: center;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.align-right {
-    text-align: right;
-}
-
-.prevent-collapse {
-    min-height: .1rem
-}
-
-.smaller {
-    font-size: 70%;
-}
-
-.site-title a {
-	color: #333;
-	text-decoration: none !important;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.header {
+.container .header {
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
 
-.header h1,
-.header h2 {
+.container .header h1,
+.container .header h2 {
     margin: 0;
     padding: 0;
     font-size: 2rem;
     line-height: 1.3em;
 }
 
-.header h2 {
+.container .header h2 {
     font-size: 1.125rem;
 }
 
-.header nav {
+.container .header .site-title a {
+	color: #333;
+	text-decoration: none !important;
+}
+
+.container .header .site-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header .site-description nav {
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 50px;
+    margin-left: 15px;
+}
+
+.container .header .site-description nav ul svg {
+    max-height: 15px;
+}
+
+.container .header nav {
     margin-top: 20px;
     border-top: 1px solid #f4f4f4;
 }
 
-.header nav ul,
-.header nav li {
+.container .header nav ul,
+.container .header nav li {
     margin: 0;
 }
 
-.header nav ul.flat {
+.container .header nav ul.flat {
     padding: 0;
 }
 
-.header nav ul.flat li {
+.container .header nav ul.flat li {
     display: inline-block;
     list-style: none;
     margin-left: 0;
@@ -206,24 +200,7 @@ table td {
     text-transform: capitalize;
 }
 
-.header .site-description {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header .site-description nav {
-    margin: 0;
-    padding: 0;
-    border: none;
-    min-width: 50px;
-    margin-left: 15px;
-}
-
-.header .site-description nav ul svg {
-    max-height: 15px;
-}
-
-.footer {
+.container .footer {
     text-align: right;
     font-size: 0.75em;
     color: #999;
@@ -232,49 +209,60 @@ table td {
     margin-top: 40px;
 }
 
-.footer .copyright {
+.container .footer .copyright {
     margin-top: 10px;
 }
 
-.highlight pre {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 20px;
-    background-color: transparent !important;
-}
-
-.highlight {
-    background: 0 0;
-    background-color: #FAFAFA;
-}
-
-.recent-posts .posts .post {
+.container .recent-posts .posts .post {
     margin-bottom: 30px;
 }
 
-.recent-posts .posts .post .meta {
+.container .recent-posts .posts .post .meta {
     font-size: 0.725rem;
     color: #999;
     margin-bottom: 4px;
 }
 
-.post ul li {
+.container .recent-posts .posts .pagination {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .recent-posts .posts .pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.container .recent-posts .posts .pagination .page-prev {
+    text-align: left;
+}
+
+.container .recent-posts .posts .pagination .page-next {
+    text-align: right;
+}
+
+.container .post ul li {
     margin-bottom: 10px;
 }
 
-.post ul li p {
+.container .post ul li p {
     display: inline;
 }
 
-.post .post-header {
+.container .post .post-header {
     margin-bottom: 30px;
 }
 
-.post .post-header .title {
+.container .post .post-header .title {
     margin: 0;
 }
 
-.post .post-header .meta {
+.container .post .post-header .meta {
     font-size: 0.725rem;
     color: #999;
     margin-bottom: 4px;
@@ -282,7 +270,7 @@ table td {
     margin-top: 10px;
 }
 
-.post .draft-label {
+.container .post .draft-label {
     color: #a00;
     text-decoration: none;
     padding: 2px 4px;
@@ -291,12 +279,12 @@ table td {
     background-color: #f9f2f4;
 }
 
-.list .posts .post {
+.container .list .posts .post {
     display: table;
     width: 100%;
 }
 
-.list .posts .post .meta {
+.container .list .posts .post .meta {
     display: table-cell;
     text-align: right;
     font-size: 0.725rem;
@@ -304,16 +292,16 @@ table td {
     margin-left: 5px;
 }
 
-.post-tags a {
+.container .post-tags a {
 	margin-right: 5px;
 }
 
-.post-tags .tags li {
+.container .post-tags .tags li {
     margin-bottom: 0;
     margin-top: 20px;
 }
 
-.post-tags .tags a {
+.container .post-tags .tags a {
     display: inline-block;
     border: 1px solid #a00;
     border-radius: 4px;
@@ -325,50 +313,27 @@ table td {
     margin: 0 1px;
 }
 
-.post-tags .tags ul {
+.container .post-tags .tags ul {
     padding-left: 15px;
     list-style: disc inside;
 }
 
-.post-tags .tags ul.flat {
+.container .post-tags .tags ul.flat {
     margin: 0;
     padding: 0;
 }
 
-.post-tags .tags ul.flat li {
+.container .post-tags .tags ul.flat li {
     display: inline-block;
     list-style: none;
     margin-left: 0;
 }
 
-.tag-cloud {
+.container .tag-cloud {
     margin-top: 20px;
 }
 
-.tag-cloud a {
+.container .tag-cloud a {
     margin-right: 15px;
-}
-
-.pagination {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-}
-
-.pagination li {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-.pagination .page-prev {
-    text-align: left;
-}
-
-.pagination .page-next {
-    text-align: right;
 }
 
