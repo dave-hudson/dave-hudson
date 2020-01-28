@@ -60,7 +60,7 @@ code just describing it!
 
 ## Source code needs to be written for people
 
-So, this brings me to the point that I wish more software developers thought about.
+So, finally, here's the thing that I wish more software developers thought about.
 
 The objective of writing good source code isn't just for a compiler or interpreter - it's for the benefit of future
 maintainers.  Those people are going to need a lot more hints and help.  They not only need to know what you
