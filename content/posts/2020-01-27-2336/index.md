@@ -1,8 +1,8 @@
 ---
-title: "The joys of HTML and CSS"
+title: "Understanding other people's code"
 date: 2020-01-27T23:36:00+00:00
-description: "The original HTML and CSS I picked for this site weren't quite as clean as I'd hoped, so they needed cleaning up"
-tags: [Hugo, HTML, CSS, Software development]
+description: "The original HTML and CSS I started with for this site weren't quite as clean as I'd hoped, so I decided to clean them up.  Doing so was harder than it looked, but that shouldn't have surprised me.  Understanding other people's code is always harder than it sounds."
+tags: [Software development]
 ---
 When I decided to create this site, one of the main things I wanted to do was keep the blog as something of a journal.
 I've tried this in the past when I was writing a C++ library, [C8](http://github.com/hashingitcom/c8/wiki/Dev-Notes) and it
@@ -52,7 +52,26 @@ So, this brings me to the point that I wish more software developers thought abo
 
 The objective of writing good source code isn't just for a compiler or interpreter - it's for the benefit of future
 maintainers.  Those people are going to need a lot more hints and help.  They not only need to know what you
-wanted the code to do now, but also how it might need to be modified by the time they're looking at it.
+wanted the code to do now but also how it might need to be modified by the time they're looking at it.
 
 Thing's aren't done when the machine in front of you gets it right, they're done when the next developer who needs
 to alter something is able to get it right too.
+
+## Unconvinced?  Here's a test
+
+I don't expect to have convinced anyone yet, but here's a test that might help persuade you.  Take any significant
+piece of software that you've written and find another developer who doesn't understand already it.  Your role is to
+answer any questions about your software, while their role is to read it and explain back to you how each part works.
+To see this properly you have to arrange to do this in person.
+
+What I've always found interesting about this test is the number of questions that get asked by the other person.
+Usually they'll seek clarifications.  Often they'll end up saying things like "err, oh, no, that's not what it's doing".
+Sometimes they're completely baffled.  Occasionally they'll find bugs!  Almost never do they scroll quickly through the
+code just describing it.
+
+With truly great code (well structured, well documented, well commented) they might ask relatively few questions, but
+often you'll find yourself wondering in disbelief at how slowly they make progress and how little they "just get".
+
+I've worked with many brilliant engineers and it always amazes me just how often they don't immediately "get" other
+people's code, or have other people "get" theirs.  Those that have done this and understood the lessons tend to end
+up seeing source code in a very different light afterwards.
