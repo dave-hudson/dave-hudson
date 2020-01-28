@@ -46,6 +46,18 @@ do we tell our future selves about things that we shouldn't do because they don'
 that might want to happen in the future?  There are certainly bad comments; those that don't match up with the code, or
 just describe obvious syntactic characteristics, but good comments explain why the code is the way it's written!
 
+## Unconvinced?  Here's a test
+
+I don't expect to have convinced anyone yet, but here's a test that might help persuade you.  Take any significant
+piece of software that you've written and find another developer who doesn't understand already it.  Your role is to
+answer any questions about your software, while their role is to read it and explain back to you how each part works.
+To see this properly you have to arrange to do this in person.
+
+What I've always found interesting about this test is the number of questions that get asked by the other person.
+Usually they'll seek clarifications.  Often they'll end up saying things like "err, oh, no, that's not what it's doing".
+Sometimes they're completely baffled.  Occasionally they'll find bugs.  Almost never do they scroll quickly through the
+code just describing it!
+
 ## Source code needs to be written for people
 
 So, this brings me to the point that I wish more software developers thought about.
@@ -57,21 +69,3 @@ wanted the code to do now but also how it might need to be modified by the time 
 Thing's aren't done when the machine in front of you gets it right, they're done when the next developer who needs
 to alter something is able to get it right too.
 
-## Unconvinced?  Here's a test
-
-I don't expect to have convinced anyone yet, but here's a test that might help persuade you.  Take any significant
-piece of software that you've written and find another developer who doesn't understand already it.  Your role is to
-answer any questions about your software, while their role is to read it and explain back to you how each part works.
-To see this properly you have to arrange to do this in person.
-
-What I've always found interesting about this test is the number of questions that get asked by the other person.
-Usually they'll seek clarifications.  Often they'll end up saying things like "err, oh, no, that's not what it's doing".
-Sometimes they're completely baffled.  Occasionally they'll find bugs!  Almost never do they scroll quickly through the
-code just describing it.
-
-With truly great code (well structured, well documented, well commented) they might ask relatively few questions, but
-often you'll find yourself wondering in disbelief at how slowly they make progress and how little they "just get".
-
-I've worked with many brilliant engineers and it always amazes me just how often they don't immediately "get" other
-people's code, or have other people "get" theirs.  Those that have done this and understood the lessons tend to end
-up seeing source code in a very different light afterwards.
