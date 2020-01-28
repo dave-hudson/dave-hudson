@@ -27,7 +27,7 @@
 .container a:hover {
     color: #a00;
     text-decoration: underline;
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 .container a img {
@@ -156,8 +156,8 @@
 }
 
 .container .header .site-title a {
-	color: #333;
-	text-decoration: none !important;
+    color: #333;
+    text-decoration: none !important;
 }
 
 .container .header .site-description {
@@ -293,7 +293,7 @@
 }
 
 .container .post-tags a {
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .container .post-tags .tags li {

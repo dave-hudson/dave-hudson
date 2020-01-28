@@ -7,11 +7,11 @@
 }
 
 body {
-	background-color: #000;
+    background-color: #000;
 }
 
 .container {
-	color: #ddd;
+    color: #ddd;
 }
 
 .container hr {
@@ -19,7 +19,7 @@ body {
 }
 
 .container blockquote {
-	border-color: #ddd;
+    border-color: #ddd;
 }
 
 .container h1,
@@ -28,16 +28,16 @@ body {
 .container h4,
 .container h5,
 .container h6 {
-	color: #ddd;
+    color: #ddd;
 }
 
 .container a {
-	color: #ff7979;
+    color: #ff7979;
 }
 
 .container a:hover {
-	color: #ff7979;
-	opacity: 0.8;
+    color: #ff7979;
+    opacity: 0.8;
 }
 
 .container table th {
@@ -52,26 +52,26 @@ body {
 }
 
 .container .header nav {
-	border-color: #333;
+    border-color: #333;
 }
 
 .container .header .site-title a {
-	color: #ddd;
-	text-decoration: none !important;
+    color: #ddd;
+    text-decoration: none !important;
 }
 
 .container .header .site-description a,
 .container .header .site-description a:hover {
-	color: #ddd;
-	text-decoration: none;
+    color: #ddd;
+    text-decoration: none;
 }
 
 .container .footer {
-	border-color: #333;
+    border-color: #333;
 }
 
 .container .post-tags .tags a {
     border: 1px solid #ddd;
-	color: #ddd;
+    color: #ddd;
 }
 
