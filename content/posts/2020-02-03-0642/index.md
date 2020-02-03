@@ -9,7 +9,7 @@ notes are just my stream of conciousness, with a primary purpose being to think 
 managed.
 
 One of the major things I wanted to organise is a large collection of research papers that I've
-been accumulating ever since I first got an Internet connection (1992).  In that pre-web era, I origially used a 2400 baud
+been accumulating ever since I first got an Internet connection (1992).  In that pre-web era, I originally used a 2400 baud
 modem.  For anyone unfamiliar, that was 2400 bps.  Yes, really, 2.4 kbps, 0.0024 Mbps, or 0.0000024 Gpbs!  I vividly
 remember a series of days in which each afternoon was spent downloading a single 10 Mbyte paper from MIT.
 
