@@ -10,6 +10,8 @@
                     {{- range $index, $key := .Site.Params.Social -}}
                     <a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
                     {{- end -}}
+                    <a id="dark-mode-moon" style="display:none"><i data-feather="moon"></i></a>
+                    <a id="dark-mode-sun" style="display:inline"><i data-feather="sun"></i></a>
                 </ul>
             </div>
         </nav>
