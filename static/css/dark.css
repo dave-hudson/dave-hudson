@@ -22,15 +22,6 @@ body {
     border-color: #ddd;
 }
 
-.container h1,
-.container h2,
-.container h3,
-.container h4,
-.container h5,
-.container h6 {
-    color: #ddd;
-}
-
 .container a {
     color: #ff7979;
 }
@@ -57,13 +48,11 @@ body {
 
 .container .header .site-title a {
     color: #ddd;
-    text-decoration: none !important;
 }
 
 .container .header .site-description a,
 .container .header .site-description a:hover {
     color: #ddd;
-    text-decoration: none;
 }
 
 .container .footer {
