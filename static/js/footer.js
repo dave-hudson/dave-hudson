@@ -16,7 +16,6 @@ function setTheme(mode) {
 
 // If the user clicks the sun icon then flip to lisht mode.
 darkModeSun.addEventListener("click", () => {
-    console.log("click ");
     if (darkModeSun.style.display === "none") {
         setTheme("dark");
     } else {
@@ -26,7 +25,6 @@ darkModeSun.addEventListener("click", () => {
 
 // If the user clicks the moon icon then flip to dark mode.
 darkModeMoon.addEventListener("click", () => {
-    console.log("click ");
     if (darkModeMoon.style.display === "none") {
         setTheme("light");
     } else {
