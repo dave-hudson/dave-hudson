@@ -50,11 +50,6 @@ body {
     color: #ddd;
 }
 
-.container .header .site-description a,
-.container .header .site-description a:hover {
-    color: #ddd;
-}
-
 .container .footer {
     border-color: #333;
 }
