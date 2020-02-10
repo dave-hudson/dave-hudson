@@ -10,3 +10,6 @@
 
 **/*~
 
+# Ignore vim swp files
+
+**/*.swp
