@@ -51,7 +51,7 @@ body {
     border-color: #333;
 }
 
-.container nav.post-tags .tags a {
+.container .post nav.post-tags .tags a {
     border: 1px solid #ff7979;
     color: #ff7979;
 }

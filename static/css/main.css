@@ -277,29 +277,11 @@
     background-color: #f9f2f4;
 }
 
-.container .list .posts .post {
-    display: table;
-    width: 100%;
-}
-
-.container .list .posts .post .meta {
-    display: table-cell;
-    text-align: right;
-    font-size: 0.725rem;
-    color: #999;
-    margin-left: 5px;
-}
-
-.container nav.post-tags a {
+.container .post nav.post-tags a {
     margin-right: 5px;
 }
 
-.container nav.post-tags .tags li {
-    margin-bottom: 0;
-    margin-top: 20px;
-}
-
-.container nav.post-tags .tags a {
+.container .post nav.post-tags .tags a {
     display: inline-block;
     border: 1px solid #a00;
     border-radius: 4px;
@@ -311,20 +293,30 @@
     margin: 0 1px;
 }
 
-.container nav.post-tags .tags ul {
+.container .post nav.post-tags .tags ul {
     padding-left: 15px;
     list-style: disc inside;
-}
-
-.container nav.post-tags .tags ul.flat {
     margin: 0;
     padding: 0;
 }
 
-.container nav.post-tags .tags ul.flat li {
+.container .post nav.post-tags .tags ul li {
+    margin-top: 20px;
     display: inline-block;
     list-style: none;
-    margin-left: 0;
+}
+
+.container .list .posts .post {
+    display: table;
+    width: 100%;
+}
+
+.container .list .posts .post .meta {
+    display: table-cell;
+    text-align: right;
+    font-size: 0.725rem;
+    color: #999;
+    margin-left: 5px;
 }
 
 .container .tag-cloud {
