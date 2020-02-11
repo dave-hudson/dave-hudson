@@ -6,7 +6,7 @@
         {{- end -}}
         <nav class="social">
             {{- range $index, $key := .Site.Params.Social -}}
-            <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
+                <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
             {{- end -}}
             <div class="icon" id="dark-mode-moon"><a><i data-feather="moon"></i></a></div>
             <div class="icon" id="dark-mode-sun"><a><i data-feather="sun"></i></a></div>
@@ -16,9 +16,9 @@
     <nav class="site-menu">
         <ul>
             {{ range .Site.Menus.main }}
-            <li>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-            </li>
+                <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
             {{ end }}
         </ul>
     </nav>

@@ -11,33 +11,33 @@
                     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
                     {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
                     {{ range $paginator.Pages }}
-                    <div class="post">
-                        <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
-                        <a class="title" href="{{ .RelPermalink }}">{{.Title}}</a> &mdash;
-                        <span class="description">
-                            {{ if isset .Params "description" }}
-                            {{ .Description }}
-                            {{ else if gt (len .RawContent) 120 }}
-                            {{ slicestr .RawContent 0 120 }}...
-                            {{ else }}
-                            {{ .RawContent }}
-                            {{ end }}
-                        </span>
-
-                        <nav class="post-tags">
-                            {{ if ne .Type "page" }}
-                                {{ if gt .Params.tags 0 }}
-                                    <div class="tags">
-                                        <ul>
-                                            {{ range .Params.tags }}
-                                            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-                                            {{ end }}
-                                        </ul>
-                                    </div>
+                        <div class="post">
+                            <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
+                            <a class="title" href="{{ .RelPermalink }}">{{.Title}}</a> &mdash;
+                            <span class="description">
+                                {{ if isset .Params "description" }}
+                                    {{ .Description }}
+                                {{ else if gt (len .RawContent) 120 }}
+                                    {{ slicestr .RawContent 0 120 }}...
+                                {{ else }}
+                                    {{ .RawContent }}
                                 {{ end }}
-                            {{ end }}
-                        </nav>
-                    </div>
+                            </span>
+
+                            <nav class="post-tags">
+                                {{ if ne .Type "page" }}
+                                    {{ if gt .Params.tags 0 }}
+                                        <div class="tags">
+                                            <ul>
+                                                {{ range .Params.tags }}
+                                                    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                                                {{ end }}
+                                            </ul>
+                                        </div>
+                                    {{ end }}
+                                {{ end }}
+                            </nav>
+                        </div>
                     {{ end }}
                     {{ template "partials/paginator.html" . }}
                 </div>
