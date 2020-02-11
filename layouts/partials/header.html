@@ -2,7 +2,7 @@
     <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     <div class="site-description">
         {{- if isset .Site.Params "subtitle" -}}
-        <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
+            <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
         {{- end -}}
         <nav class="social">
             {{- range $index, $key := .Site.Params.Social -}}
