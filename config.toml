@@ -79,13 +79,13 @@ googleAnalytics = "UA-123-45"
         weight = 2
 
     [[menu.main]]
-        name = "Wiki"
-        url = "/wiki"
+        name = "Tags"
+        url = "/tags"
         weight = 3
 
     [[menu.main]]
-        name = "Tags"
-        url = "/tags"
+        name = "Wiki"
+        url = "/wiki"
         weight = 4
 
     [[menu.main]]
