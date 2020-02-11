@@ -28,34 +28,31 @@ body {
 
 .container a:hover {
     color: #ff7979;
-    opacity: 0.8;
 }
 
 .container table th {
     background-color: #333;
-    padding: 10px 20px;
     border: 1px solid #666;
 }
 
 .container table td {
-    padding: 10px 20px;
     border: 1px solid #666;
-}
-
-.container .header nav {
-    border-color: #333;
 }
 
 .container .header .site-title a {
     color: #ddd;
 }
 
+.container .header nav.site-menu {
+    border-color: #333;
+}
+
 .container .footer {
     border-color: #333;
 }
 
-.container .post-tags .tags a {
-    border: 1px solid #ddd;
-    color: #ddd;
+.container nav.post-tags .tags a {
+    border: 1px solid #ff7979;
+    color: #ff7979;
 }
 

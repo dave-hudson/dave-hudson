@@ -13,21 +13,19 @@
                     </div>
                 </div>
 
-                <div class="post-tags">
+                <nav class="post-tags">
                     {{ if ne .Type "page" }}
                         {{ if gt .Params.tags 0 }}
-                            <nav class="nav">
-                                <div class="tags">
-                                    <ul class="flat">
-                                        {{ range .Params.tags }}
-                                        <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-                                        {{ end }}
-                                    </div>
-                                </ul>
-                            </nav>
+                            <div class="tags">
+                                <ul class="flat">
+                                    {{ range .Params.tags }}
+                                    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                                    {{ end }}
+                                </div>
+                            </ul>
                         {{ end }}
                     {{ end }}
-                </div>
+                </nav>
 
                 <div class="markdown">
                     {{ .Content }}

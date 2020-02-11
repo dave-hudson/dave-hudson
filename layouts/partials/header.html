@@ -4,21 +4,17 @@
         {{- if isset .Site.Params "subtitle" -}}
         <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
         {{- end -}}
-        <nav class="nav">
-            <div class="social">
-                <ul class="flat">
-                    {{- range $index, $key := .Site.Params.Social -}}
-                    <a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
-                    {{- end -}}
-                    <a id="dark-mode-moon" style="display:none"><i data-feather="moon"></i></a>
-                    <a id="dark-mode-sun" style="display:inline"><i data-feather="sun"></i></a>
-                </ul>
-            </div>
+        <nav class="social">
+            {{- range $index, $key := .Site.Params.Social -}}
+            <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
+            {{- end -}}
+            <div class="icon" id="dark-mode-moon"><a><i data-feather="moon"></i></a></div>
+            <div class="icon" id="dark-mode-sun"><a><i data-feather="sun"></i></a></div>
         </nav>
     </div>
 
-    <nav class="nav">
-        <ul class="flat">
+    <nav class="site-menu">
+        <ul>
             {{ range .Site.Menus.main }}
             <li>
                 <a href="{{ .URL }}">{{ .Name }}</a>

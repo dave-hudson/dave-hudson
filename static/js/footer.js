@@ -5,7 +5,7 @@ const windowMedia = window.matchMedia("(prefers-color-scheme: dark)");
 
 function setDarkTheme(dark) {
     if (dark === true) {
-        darkModeSun.style.display = "inline";
+        darkModeSun.style.display = "";
         darkModeMoon.style.display = "none";
         darkTheme.disabled = false;
         if (windowMedia.matches) {
@@ -15,7 +15,7 @@ function setDarkTheme(dark) {
         }
     } else {
         darkModeSun.style.display = "none";
-        darkModeMoon.style.display = "inline";
+        darkModeMoon.style.display = "";
         darkTheme.disabled = true;
         if (!windowMedia.matches) {
             localStorage.removeItem("darkTheme");
