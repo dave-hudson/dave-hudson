@@ -34,11 +34,23 @@
     border: none;
 }
 
-.container html,
-.container button,
-.container input,
-.container select {
-    color: #333;
+.container blockquote {
+    margin-left: 1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: Georgia, bitstream charter, serif;
+    border-left: 3px solid;
+    border-color: #a00;
+    padding-left: 20px;
+}
+
+.container blockquote cite {
+    font-size: 70%;
+    opacity: .8;
+}
+
+.container blockquote em {
+    font-weight: 600;
 }
 
 .container hr {
@@ -59,36 +71,6 @@
 .container figure {
     margin: 0;
     text-align: center;
-}
-
-.container fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.container textarea {
-    color: #333;
-    resize: vertical;
-}
-
-.container blockquote {
-    margin-left: 1rem;
-    font-style: italic;
-    font-size: 1.4rem;
-    font-family: Georgia, bitstream charter, serif;
-    border-left: 3px solid;
-    border-color: #a00;
-    padding-left: 20px;
-}
-
-.container blockquote cite {
-    font-size: 70%;
-    opacity: .8;
-}
-
-.container blockquote em {
-    font-weight: 600;
 }
 
 .container h1,

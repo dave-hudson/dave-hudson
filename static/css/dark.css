@@ -14,20 +14,20 @@ body {
     color: #ddd;
 }
 
-.container hr {
-    border-color: #333;
-}
-
-.container blockquote {
-    border-color: #ddd;
-}
-
 .container a {
     color: #ff7979;
 }
 
 .container a:hover {
     color: #ff7979;
+}
+
+.container blockquote {
+    border-color: #ddd;
+}
+
+.container hr {
+    border-color: #333;
 }
 
 .container table th {
