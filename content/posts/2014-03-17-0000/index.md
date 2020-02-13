@@ -1,8 +1,8 @@
 ---
-title: Chickens And Eggs?
+title: "Chickens And Eggs?"
 date: 2014-03-17T00:00:00+00:00
-description: Which comes first:"" The miners or the money? Much as the old question of \"Which came first\:"" The chicken or the egg?\" there appears to have been a lot of debate about whether the price of Bitcoins is a result of mining activity or whether mining activity is the result of the price of Bitcoins.  The generally-held belief is that as the value of Bitcoins has increased there has been more interest in Bitcoins and this has in turn driven miners to mine, but is it really this simple?
-tags: [Bitcoin mining]
+description: "Which comes first The miners or the money? Much as the old question of \"Which came first:\" The chicken or the egg?\" there appears to have been a lot of debate about whether the price of Bitcoins is a result of mining activity or whether mining activity is the result of the price of Bitcoins.  The generally-held belief is that as the value of Bitcoins has increased there has been more interest in Bitcoins and this has in turn driven miners to mine, but is it really this simple?"
+tags: [Bitcoin, Bitcoin mining]
 ---
 Which comes first: The miners or the money? Much as the old question of
 "Which came first: The chicken or the egg?" there appears to have been
@@ -18,8 +18,7 @@ Let's look at a chart comparing the value of Bitcoin in US Dollars vs
 the global hashrate in GHash/s and see if we can make any sense of
 this?
 
-![20140317
-Bitcoin-vs-hash](./20140317_Bitcoin-vs-hash.png)
+![20140317 Bitcoin-vs-hash](./20140317_Bitcoin-vs-hash.png)
 
 This chart is plotted on two logarithmic axis but they're not on the
 same scale. The price trace increases by approximately a factor of a
@@ -58,7 +57,7 @@ pay a lot of money to mine Bitcoins but curiously the price started to
 go up just as the ASICs started to become available. Even more
 curiously, the ASICs had long lead times so miners had made a financial
 commitment to mining months in advance of their mining hardware being
-available. Was it just \"good luck\" that the Bitcoin price suddenly
+available. Was it just "good luck" that the Bitcoin price suddenly
 surged, and then surged again, or was the price increase simply
 reflecting that a lot of money had been spent to go
 mining?
@@ -67,10 +66,10 @@ It seems quite possible that at least part of the reason for the surges
 in the Bitcoin price is a result of the miners investing in mining. The
 price increases have encouraged more miners too and that means more
 money spent on mining by those new miners. This really does feel like a
-\"chicken and egg\" problem. A bigger question, however, is what happens
+"chicken and egg" problem. A bigger question, however, is what happens
 when the number of miners is large and the technology roadmap eventually
 limits the ability to increase the hash rate? At that point there will
 need to be some other driver for any other price
 increases.
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+\[Data reference: blockchain.info\]

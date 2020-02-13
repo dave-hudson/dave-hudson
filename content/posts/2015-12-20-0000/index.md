@@ -1,5 +1,10 @@
-In November 2014 I wrote an article, \"[Bitcoin Traffic
-Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)\"
+---
+title: ""
+date: 2015-12-20T00:00:00+00:00
+description: ""
+tags: 
+---
+In November 2014 I wrote an article, "[Bitcoin Traffic Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)"
 that sought to look at what happens if the Bitcoin network started to
 get congested. Since then there has been considerable debate about the
 Bitcoin block size and there are now many proposals to increase block
@@ -10,7 +15,7 @@ block capacity but events have moved on and we're at nearer to 60% at
 the time of writing. It's probably a good time to review things once
 more!
 
-### Acknowledgement {#acknowledgement style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Acknowledgement
 
 I'd been thinking about writing an updated version of the original
 article for several months but didn't feel there was enough new data to
@@ -24,12 +29,11 @@ realized there were interesting new findings to present.
 
 ------------------------------------------------------------------------
 
-### Bitcoin Transaction Processing
+## Bitcoin transaction processing
 
 Bitcoin mining (and therefore transaction processing) is what's known
 as a Non-Homogenous (or Inhomogeneous) Poisson Process. In the article,
-\"[Hash Rate
-Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)\",
+"[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)",
 we saw how this actually works and that our nominal 10 minute spacing
 between Bitcoin blocks isn't quite as straightforward as we might hope.
 For transaction processing though things get even more complicated. Now,
@@ -38,8 +42,7 @@ randomly; in fact they will typically follow something like an NH
 Poisson Process distribution too.
 
 In the case of Bitcoin the transactions do have some other biases. We
-saw in \"[7 Transactions Per Second?
-Really?](administrator/index.php?option=com_content&task=article.edit&id=33)\"
+saw in "[7 Transactions Per Second?  Really?](administrator/index.php?option=com_content&task=article.edit&id=33)"
 that Sundays are usually quieter than other days, while Bitcoin
 transactions can also be perturbed by network delays, orphan races and
 mining fees that might incentivize some transactions to be processed
@@ -47,14 +50,13 @@ quicker than others. We can also observe that transaction behaviour is
 different at different times of the day too, depending on where the
 transactions originate.
 
-In \"[7 Transactions Per Second?
-Really?](administrator/index.php?option=com_content&task=article.edit&id=33)\"
+In "[7 Transactions Per Second?  Really?](administrator/index.php?option=com_content&task=article.edit&id=33)"
 we saw that the current Bitcoin network has a peak capacity of a little
 under 3.5 transactions per second (arguably closer to 3.2 at times). We
 can use that information to build a Monte Carlo simulation that will
 predict how long it takes to get transactions confirmed.
 
-### Monte Carlo Simulation
+## Monte Carlo simulation
 
 For the purposes of this article I constructed just such a Monte Carlo
 simulation that assumed a peak of 3.5 TPS and that would simulate a
@@ -112,16 +114,16 @@ logarithmic time (horizontal) axis:
 
 ![probabilities for time to a first block confirmation with the Bitcoin network loaded at 0.1% (log scale)](./first-conf-0-log.png)
 
-The logarithmic scale compresses the \"tail\" to the right so we can
+The logarithmic scale compresses the "tail" to the right so we can
 compare things more easily later. The cumulative probability curve looks
 different too, and is somewhat easier to work with on this sort of
 scale.
 
-In this version we can also see a little of the \"noise\" that the
+In this version we can also see a little of the "noise" that the
 simulation has when compared with the theoretical model (the red trace
 at times under 10 seconds).
 
-### What Happens With More Loading?
+## What happens with more loading?
 
 Things become much more interesting when we start to consider some
 reasonable loading on the network. As of early December 2015 the
@@ -154,7 +156,7 @@ though, the problems would be much worse as 10% of all transactions
 would still not have received a confirmation after 22800 seconds (6.3
 hours).
 
-### Mining Fees Will Save Us?
+## Mining fees will save us?
 
 The simulations are pretty simplistic because they assume all
 transactions are processed in the order they arrive. There's no attempt
@@ -165,7 +167,7 @@ congestion so fee-base reordering of transactions won't make any real
 difference. As the network gets congested though then fees can start to
 have an impact.
 
-During 2015 we have seen a few attempts to generate \"stress tests\"
+During 2015 we have seen a few attempts to generate "stress tests"
 that spam the Bitcoin network with large volumes of transactions. In
 each instance transaction confirmation times were seen to increase, and
 arguably fees increases to match. This suggests that the network can
@@ -173,7 +175,7 @@ adapt reasonably well, but service was certainly affected, not least
 because transactions with small fees could be almost indefinitely
 delayed.
 
-### Rewards For A Bitcoin Miner?
+## Rewards for a Bitcoin miner?
 
 While less than ideal for users of Bitcoin, congestion of the network
 does have a potentially positive impact for one group: Miners. As block
@@ -181,8 +183,8 @@ space becomes scarce, users of the network will have to attach larger
 fees to continue to see confirmation times of the order they are used
 to. When fees increase then miners reap the reward.
 
-When block space is readily available, miners suffer from a \"tragedy of
-the commons\" problem in which the only rational behaviour is to accept
+When block space is readily available, miners suffer from a "tragedy of
+the commons" problem in which the only rational behaviour is to accept
 all transactions, no matter how small the fee. With scarcity, however,
 there's suddenly a competitive market for block space. Those paying
 fees may not appreciate the extra costs, but a transition to a system
@@ -192,7 +194,7 @@ Increased fees, or a hard fork that changes the nature of mining
 rewards, are the only long-term approaches that will ensure that miners
 are incentivized to provide that security.
 
-### Block Size Increases
+## Block size increases
 
 In the time since the original article was written the debate about
 block sizes has become very heated. Inevitably it seems that one, if not
@@ -205,19 +207,15 @@ market will be in place before then.
 
 ------------------------------------------------------------------------
 
-### Source Code {#source-code style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Source code
 
 This article was written with the help of data from a C language
 simulation. The data was rendered into charts using Excel. The source
-code can be found on
-github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>[\
-](https://github.com/hashingitcom/pool_wars)
+code can be found on github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>[](https://github.com/hashingitcom/pool_wars)
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[7 Transactions Per Second? Really?
-(2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)[\
-Finding 2016 Blocks
-(2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)
+- [7 Transactions Per Second? Really? (2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)
+- [Finding 2016 Blocks (2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)

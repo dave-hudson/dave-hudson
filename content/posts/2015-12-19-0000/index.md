@@ -1,3 +1,9 @@
+---
+title: ""
+date: 2015-12-19T00:00:00+00:00
+description: ""
+tags: 
+---
 Bitcoin blocks take 10 minutes to find don't they? Well, actually no
 they don't. Sometimes they can be found really quickly, but other times
 they can take a very long time. Just to make things confusing, the gaps
@@ -9,10 +15,9 @@ So what should we expect? What happens during hashing growth phases, and
 what would happen if the network were to lose large amounts of hashing
 capacity?
 
-### Note {#note style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Note
 
-This article is a revised version of an earlier one, \"[Waiting For
-Blocks](index.php?option=com_content&view=article&id=41:waiting-for-blocks&catid=8:analysis&Itemid=110)\".
+This article is a revised version of an earlier one, "[Waiting For Blocks](index.php?option=com_content&view=article&id=41:waiting-for-blocks&catid=8:analysis&Itemid=110)".
 Unfortunately, in that article, some of the probability data wasn't
 presented in the right form and this affected a few minor parts of the
 commentary. This revision contains updated charts and also updated
@@ -20,7 +25,7 @@ commentary!
 
 ------------------------------------------------------------------------
 
-### Running Like Clockwork?
+## Running like clockwork?
 
 In a somewhat perfect world we might hope that our nominal 10 minute gap
 between blocks would be exactly 10 minutes, but anyone who has ever
@@ -57,7 +62,7 @@ record these were 340450 (77 mins), 340521 (63 mins), 340544 (67 mins),
 341727 (60 mins) and 342002 (72 mins). Three of these occurred in a
 single 24 hour period over the 25th and 26th of January.
 
-### 6 Confirmations?
+## 6 confirmations?
 
 If a single block can take so long to find, what about the 6 blocks that
 we need for many simple Bitcoin clients (SPV wallets)?
@@ -75,7 +80,7 @@ of cases we get all 6 blocks within 1890 seconds (a little under 32
 minutes) and in 1% of cases we have all 6 within 1070 seconds (just
 under 18 minutes).
 
-### The Network Isn't Static!
+## The network isn't static!
 
 So far none of the results we've seen should come as anything of a
 shock to anyone who understands the statistics assoicated with a Poisson
@@ -86,14 +91,13 @@ we start out at, say, 300 PH/s but add 0.2% new capacity every day, then
 after 14 days (a little more than the 2016 blocks take) we'd have 308.5
 PH/s. That means that towards the end of the 2016 blocks we're actually
 going to see blocks found more quickly than at the start. In addition,
-as we saw in \"[Lies, Damned Lies And Bitcoin
-Difficulties](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)\",
+as we saw in "[Lies, Damned Lies And Bitcoin Difficulties](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)",
 the nominal hash rate calculated at the end of each difficulty period
 lags about a week behind the current hash rate.
 
 The 0.2% increase per day isn't a completely random number; it's a
 good approximation to the underlying trend for the last couple of
-months. Comparing this and the \"ideal\" numbers where there's no
+months. Comparing this and the "ideal" numbers where there's no
 change in the network's hash rate we can see the following:
 
 ![Comparison of probabilities for finding a Bitcoin block with 0% and 0.2% per day hash rate expansion](./1b_double.png)
@@ -102,7 +106,7 @@ The difference isn't all that great. Our mean block finding time is
 closer to 9 minutes 45 seconds, while our mean time to see a block take
 an hour or longer increases to once every 480 blocks.
 
-### What About More Extreme Changes In Hash Rate?
+## What about more extreme changes in hash rate?
 
 A hash rate increase of 0.2% per day doesn't have much effect, but what
 about 2% per day? 2% seems like a huge number based on recent months,
@@ -135,7 +139,7 @@ Now let's look at the same behaviour for our 6 confirmations:
 As we might expect, the pattern for a single block is mirrored for 6
 blocks.
 
-### Final Thoughts
+## Final thoughts
 
 The Bitcoin design is suprisingly well adjusted for a network in which
 hash rates are expanding. Given that technologies continually improve
@@ -160,20 +164,16 @@ halves in 2016.
 
 ------------------------------------------------------------------------
 
-### Source Code
+## Source code
 
 The source code for the simulation tool that generated the results for
-this article can be found on github
-at: <https://github.com/hashingitcom/waiting_for_blocks>
+this article can be found on github at: <https://github.com/hashingitcom/waiting_for_blocks>
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[Lies, Damned Lies And Bitcoin
-Difficulties (2014-06-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)\
-[Reach For The Ear Defenders
-(2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)\
-[Hash Rate Headaches
-(2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)[\
-](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)
+- [Lies, Damned Lies And Bitcoin Difficulties (2014-06-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)
+- [Reach For The Ear Defenders (2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
+- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)

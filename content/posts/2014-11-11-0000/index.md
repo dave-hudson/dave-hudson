@@ -1,9 +1,14 @@
+---
+title: ""
+date: 2014-11-11T00:00:00+00:00
+description: ""
+tags: 
+---
 \[[***Note 2015-12-20:***]{style="color: #ff6600;"} This article is the
-original \"Bitcoin Traffic Bulletin\" but has a minor problem with some
+original "Bitcoin Traffic Bulletin" but has a minor problem with some
 of the probability statistics. A revised, authoritative, version with
-significantly updated commentary can be found as \"[Bitcoin Traffice
-Bulletin
-(Redux)](index.php?option=com_content&view=article&id=44:bitcoin-traffic-bulletin-redux&catid=8:analysis&Itemid=110)\".
+significantly updated commentary can be found as "[Bitcoin Traffice
+Bulletin (Redux)](index.php?option=com_content&view=article&id=44:bitcoin-traffic-bulletin-redux&catid=8:analysis&Itemid=110)".
 Please read that one; this one is retained purely for historical
 information!\]
 
@@ -14,12 +19,11 @@ cars they start to get congested, when large numbers of visitors enter
 or exit a building everyone slows down and takes longer to set where
 they want, but what happens with Bitcoin?
 
-### Bitcoin Transaction Processing
+## Bitcoin transaction processing
 
 Bitcoin mining (and therefore transaction processing) is what's known
 as a Non-Homogenous (or Inhomogeneous) Poisson Process. In the article,
-\"[Hash Rate
-Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)\",
+"[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)",
 we saw how this actually works and that our nominal 10 minute spacing
 between Bitcoin blocks isn't quite as straightforward as we might hope.
 For transaction processing though things get even more complicated. Now
@@ -28,8 +32,7 @@ they will typically follow something like a Poisson Process distribution
 too.
 
 In the case of Bitcoin the transactions do have some other biases. We
-saw in \"[7 Transactions Per Second?
-Really?](administrator/index.php?option=com_content&task=article.edit&id=33)\"
+saw in "[7 Transactions Per Second? Really?](administrator/index.php?option=com_content&task=article.edit&id=33)"
 that Sundays are usually quieter than other days, while Bitcoin
 transactions can also be perturbed by network delays, orphan races and
 mining fees that might incentivize some transactions to be processed
@@ -37,14 +40,13 @@ quicker than others. None of those effects really come into play though
 when we have a very small number of transactions so we could actually
 model the behaviour and see what happens.
 
-In \"[7 Transactions Per Second?
-Really?](administrator/index.php?option=com_content&task=article.edit&id=33)\"
+In "[7 Transactions Per Second? Really?](administrator/index.php?option=com_content&task=article.edit&id=33)"
 we saw that the current Bitcoin network has a peak capacity of a little
 under 3.5 transactions per second (arguably closer to 3.2 at times). We
 can use that information to build a Monte Carlo simulation that will
 predict how long it takes to get transactions confirmed.
 
-### Monte Carlo Simulation
+## Monte Carlo simulation
 
 For the purposes of this article I constructed just such a Monte Carlo
 simulation that assumed a peak of 3.5 TPS and that would simulate a
@@ -96,12 +98,12 @@ logarithmic time (horizontal) axis:
 
 ![probabilities for time to a first block confirmation with the Bitcoin network loaded at 0.1% (log scale)](./first-conf-0-log.png)
 
-The logarithmic scale compresses the \"tail\" to the right so we can
+The logarithmic scale compresses the "tail" to the right so we can
 compare things more easily later. The cumulative probability curve looks
 different too, and is somewhat easier to work with on this sort of
 scale.
 
-### What Happens With More Loading?
+## What happens with more loading?
 
 Things become much more interesting when we start to consider some
 reasonable loading on the network. As of early November 2014 the network
@@ -125,7 +127,7 @@ though, the problems would be much worse as 10% of all transactions
 would still not have received a confirmation after 22800 seconds (6.3
 hours).
 
-### Mining Fees Will Save Us?
+## Mining fees will save us?
 
 The simulations are pretty simplistic because they assume all
 transactions are processed in the order they arrive. There's no attempt
@@ -148,14 +150,14 @@ the simple model predicts.
 No matter how much the fee structures are changed, however, unless the
 speed of finding blocks is increased then we're pretty-much stuck with
 the characteristics that have been present for the last 5+ years. For
-example, the \"floating fees\" change coming in the new Bitcoin Core
+example, the "floating fees" change coming in the new Bitcoin Core
 software won't improve anyone's confirmation times beyond a few
 seconds, but fee-based prioritization will allow anyone willing to pay
 to keep their current confirmation behaviour. Similarly making the
 blocks larger won't improve confirmation times other than by moving us
 to the curves for a less congested network.
 
-### Rewards For A Bitcoin Miner?
+## Rewards for a Bitcoin miner?
 
 While less than ideal for users of Bitcoin, congestion of the network
 does have a potentially positive impact for one group: Miners. As block
@@ -163,8 +165,8 @@ space becomes scarce, users of the network will have to attach larger
 fees to continue to see confirmation times of the order they are used
 to. When fees increase then miners reap the reward.
 
-When block space is readily available, miners suffer from a \"tragedy of
-the commons\" problem in which the only rational behaviour is to accept
+When block space is readily available, miners suffer from a "tragedy of
+the commons" problem in which the only rational behaviour is to accept
 all transactions, no matter how small the fee. With scarcity, however,
 there's suddenly a competitive market for block space. Those paying
 fees may not appreciate the extra costs, but a transition to a system
@@ -173,10 +175,10 @@ actually a good thing for the long term security of the network.
 Increased fees would go some way to offsetting the losses that miners
 will see at the next block reward halving to 12.5 BTC per block in 2016.
 
-### Consequences
+## Consequences
 
 If the network becomes more congested and fees increase then this will
-inevitably have an interesting impact on \"spam\" or low value
+inevitably have an interesting impact on "spam" or low value
 transactions. They may well start to find themselves priced out of the
 blockchain. This may well also be a trigger for the use of something
 like sidechains.
@@ -188,19 +190,16 @@ slowing down pretty soon.
 
 ------------------------------------------------------------------------
 
-### Source Code {#source-code style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Source Code
 
 This article was written with the help of data from a C language
 simulation. The data was rendered into charts using Excel. The source
 code can be found on
-github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>[\
-](https://github.com/hashingitcom/pool_wars)
+github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>[](https://github.com/hashingitcom/pool_wars)
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[7 Transactions Per Second? Really?
-(2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)[\
-Finding 2016 Blocks
-(2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)
+- [7 Transactions Per Second? Really? (2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)
+- [Finding 2016 Blocks (2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)

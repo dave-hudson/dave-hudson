@@ -1,16 +1,22 @@
+---
+title: ""
+date: 2014-11-12T00:00:00+00:00
+description: ""
+tags: 
+---
 Bitcoin is often touted as having substantially lower fees associated
 with using it than most other financial systems, but fees and costs are
 very different things. The reality of things in the Bitcoin ecosystem is
 rarely simple, and this one is no exception. What then are the actual
 numbers, where are they heading and what are the consequences?
 
-### Transaction Fees
+## Transaction fees
 
 Probably the biggest challenge in looking at the costs of transactions
 is to work out what that actually means. For anyone sending BTC the
-obvious \"cost\" is the transaction fee, so let's look at that:
+obvious "cost" is the transaction fee, so let's look at that:
 
-### ![Mean cost per Bitcoin transaction for the last 4 years (linear scale)](./fee-per-trans-linear.png)
+## ![Mean cost per Bitcoin transaction for the last 4 years (linear scale)](./fee-per-trans-linear.png)
 
 This data, as with all of the data in this article, comes from
 blockchain.info. The chart shows the fee per transaction for the last 4
@@ -29,15 +35,14 @@ always been less than 1%, and are now more like 0.15%!
 
 This is where things start to become a little interesting though. The
 fee is primarily concerned with ensuring a minimum charge to avoid the
-network relaying \"dust\" transactions of tiny amounts, and also
+network relaying "dust" transactions of tiny amounts, and also
 charging an amount per kbyte of data required to store the transaction
 in the blockchain. What the fee doesn't take into account at all is the
 BTC value being transferred.
 
 The fee structure means that BTC transfers are incredibly inexpensive
 for large transactions, but that small transfers can become much more
-expensive. As we've seen before in \"[7 Transactions Per Second?
-Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)\",
+expensive. As we've seen before in "[7 Transactions Per Second? Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)",
 there's actually a hard limit on transaction space and the current mean
 transaction size limits the network to less than 3.5 transactions per
 second so the fee structure is designed to prevent people from consuming
@@ -52,7 +57,7 @@ specific transactions, and the only way to do that is to add a larger
 fee to a transaction. If the network starts to become congested then one
 natural consequence is that fees will start to increase too.
 
-### Rewards For Bitcoin Miners
+## Rewards for Bitcoin miners
 
 The observation that fees are likely to increase may upset some users of
 the Bitcoin network, but is good news for the people actually doing the
@@ -94,7 +99,7 @@ trend is that transaction fees are currently almost inconsequential to
 the viability of mining operations. The total fees paid in a day are far
 less than even a single block reward.
 
-### Block Reward Halving
+## Block reward halving
 
 We might look back at the reward halving in 2012 and observe that there
 wasn't much of a problem back then so why might there be in 2016, but
@@ -108,17 +113,16 @@ placed under extreme pressures.
 Advocates of decentralization may like to think that this as a good
 thing, but there are two notable problems:
 
--   If 50% of the network were to be unplugged then the amount of
-    security for the network would drop by 50% and that would in turn
-    risk an attack from that now \"dark\" hardware. 51% wouldn't be a
-    just a theoretical problem anymore, there would be hardware sitting
-    idle and able to launch just such an attack.\
-    \
--   Smaller miners would feel the economic pinch much sooner than the
-    larger miners. The largest operations almost invariably have better
-    economies of scale and can probably weather the loss of income
-    better. Our 50% sized network would now almost certainly end up in
-    the hands of even fewer industrial miners.
+- If 50% of the network were to be unplugged then the amount of
+  security for the network would drop by 50% and that would in turn
+  risk an attack from that now "dark" hardware. 51% wouldn't be a
+  just a theoretical problem anymore, there would be hardware sitting
+  idle and able to launch just such an attack.
+- Smaller miners would feel the economic pinch much sooner than the
+  larger miners. The largest operations almost invariably have better
+  economies of scale and can probably weather the loss of income
+  better. Our 50% sized network would now almost certainly end up in
+  the hands of even fewer industrial miners.
 
 One potential way to offset the reward change and keep miners
 incentivised would be to increase the transaction fees. If the network
@@ -126,7 +130,7 @@ were to move to being funded largely by fees rather than block rewards
 then the risks associated with block reward halving could be
 dramatically reduced.
 
-### What Do Transactions Really Cost?
+## What do transactions really cost?
 
 To understand how fees might become a significant incentive for miners
 we need to understand what the costs of transactions look like in terms
@@ -149,7 +153,7 @@ the cost per transaction would be half of our current estimate: i.e.
 it's just halving, so we'd need fees to make up a shortfall of 0.01125
 BTC per transaction.
 
-### Another Approach?
+## Another approach?
 
 It seems pretty unrealistic to expect fees of that magnitude based on
 the current scheme for setting fee levels so perhaps we need to consider
@@ -178,12 +182,9 @@ running smoothly. 
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[Bitcoin Traffic Bulletin
-(2014-11-11)](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110) [\
-](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)[7
-Transactions Per Second? Really? (2014-11-02)\
-](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)[The
-Rewards For A Bitcoin Miner
-(2014-04-04)](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)
+- [Bitcoin Traffic Bulletin (2014-11-11)](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)
+- [](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)
+- [7 Transactions Per Second? Really? (2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)
+- [The Rewards For A Bitcoin Miner (2014-04-04)](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)

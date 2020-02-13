@@ -1,3 +1,9 @@
+---
+title: ""
+date: 2014-11-02T00:00:00+00:00
+description: ""
+tags: 
+---
 The general wisdom seems to be that the Bitcoin network can currently
 sustain 7 transactions per second. Bitcoin advocates often worry that
 this will be a limiting factor when credit card processing networks can
@@ -7,7 +13,7 @@ processing? Our Bitcoin [mine train](analysis/24-megawatts-of-mining)
 may not be seeing its hashing engines running away quite as much as they
 were earlier this year, but are we heading for other problems instead?
 
-### Bitcoin Transactions Per Day
+## Bitcoin transactions per day
 
 Before we can really think about Bitcoin transaction processing we need
 to look at how its transaction processing has evolved over time. Let's
@@ -35,7 +41,7 @@ What else can we see? Well we're not really getting to more than about
 surface it would seem that we ought to be quite some way from hitting
 any limits.
 
-### A Quick Aside: The Bitcoin Network Gets Tired On Sundays?
+## A quick aside: The Bitcoin network gets tired on Sundays?
 
 Did you notice that the noise over the last year looks surprsingly
 periodic? Zooming in on this we can see that's surprisingly consistent!
@@ -49,7 +55,7 @@ know why this happens either! Perhaps it gets tired and needs a nap? :-)
 The trend is evident all the way back to fairly early in 2013 but has
 become much more pronounced in 2014.
 
-### Block Statistics
+## Block statistics
 
 We've looked at how many transactions are processed, but there's
 another really important characteristic. We need to consider how large
@@ -85,7 +91,7 @@ seeing multi-sig transactions and ones with very large numbers of inputs
 and outputs, all of which makes the individual transactions larger. That
 claim of 7 TPS is looking more fragile all the time.
 
-### What Is The TPS Rate That We Can Actually Get?
+## What is the TPS rate that we can actually get?
 
 Given that we know how many transactions take place per day and we know
 how large the average block size is, we can now work out the maximum TPS
@@ -113,23 +119,22 @@ way into the blockchain, especially as the [10 minutes between
 blocks](analysis/27-hash-rate-headaches) is only a mean, not a
 guarantee.
 
-### A Final Thought
+## A final thought
 
 There is one interesting aspect to finding that blocks might soon become
 congested. With congestion miners will actually have a significant
 incentive to pick transactions with higher fees associated, as opposed
-to just taking all available transactions. The specific \"tragedy of the
-commons\" that says it's better to take any minor reward than to hold
+to just taking all available transactions. The specific "tragedy of the
+commons" that says it's better to take any minor reward than to hold
 out for a better one may be overturned! Block scarcity may actually
 prove to be the characteristic that helps miners finally achieve
 revenues from fees instead of block rewards. That, however, seems like a
-story for another day\...
+story for another day...
 
 \[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[Finding 2016 Blocks
-(2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)
+- [Finding 2016 Blocks (2014-06-16)](index.php?option=com_content&view=article&id=30:finding-2016-blocks&catid=8:analysis&Itemid=110)

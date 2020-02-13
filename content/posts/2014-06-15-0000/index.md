@@ -1,11 +1,16 @@
+---
+title: ""
+date: 2014-06-15T00:00:00+00:00
+description: ""
+tags: 
+---
 2016 blocks is the magic number that corresponds to each change in
 difficulty within the Bitcoin network. Nominally it should take 14 days
 to find this many blocks, but how long does it really take?
 
-### The Simple Case
+## The simple case
 
-In an earlier article, \"[Hash Rate
-Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)\", I
+In an earlier article, "[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)", I
 looked at the probabilities of finding a particular number of blocks in
 a given time. This time around the goal is to work out how long it takes
 to find 2016 blocks.
@@ -27,7 +32,7 @@ in the hashing design though and how once every 10 difficulty changes
 we'd be likely to see the time at +/- half a day (i.e. 13.5 days or
 less, or 14.5 days or more).
 
-### Practical Complexities
+## Practical complexities
 
 [Previously](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110),
 I've talked about how Bitcoin hashing is a Poisson process.
@@ -43,8 +48,7 @@ irrespective of the number of blocks found.
 
 Another complication is that the current difficulty level doesn't
 really indicate the the actual hashing rate of the network even on the
-day it's first set. In the article, \"[Lies, Damned Lies And Bitcoin
-Difficulties](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)\",
+day it's first set. In the article, "[Lies, Damned Lies And Bitcoin Difficulties](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)",
 I showed that a more accurate starting measure was to multiple the new
 difficulty by the square root of the difficulty increase. The
 simulations account for this too.
@@ -74,7 +78,7 @@ we get to the next change quicker and thus compensate faster too.
 The numbers also have an interesting implication for the block reward
 halving dates though as the dates move closer all the time.
 
-### Putting It All Together
+## Putting it all together
 
 Here's a final chart. This shows the 3 earlier charts superimposed on
 each other:
@@ -95,11 +99,8 @@ questions than answers!
 
 ------------------------------------------------------------------------
 
-### Related Articles
+## Related articles
 
-[Lies, Damned Lies And Bitcoin Difficulties
-(2014-05-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)[\
-Reach For The Ear Defenders!
-(2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)[\
-Hash Rate Headaches (2014-05-20)\
-](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [Lies, Damned Lies And Bitcoin Difficulties (2014-05-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)
+- [Reach For The Ear Defenders! (2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
+- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)

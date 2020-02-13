@@ -1,7 +1,13 @@
+---
+title: ""
+date: 2015-12-30T00:00:00+00:00
+description: ""
+tags: 
+---
 As we approach 2016 there seem to be endless discussions about
-\"blockchain\". It's a term that is ever-more frequently cited in even
+"blockchain". It's a term that is ever-more frequently cited in even
 mainstream journalism, while in the fintech space alone there are a slew
-of would-be suppliers and would-be users claiming that \"blockchain\"
+of would-be suppliers and would-be users claiming that "blockchain"
 will revolutionize any number of applications. This now-common usage
 suggests it must be something precisely defined and well understood, but
 this seems to be more a matter of mantra than comprehension.
@@ -20,17 +26,17 @@ in 1826 (almost 190 years ago), demonstrates how blocks and chains can
 create something quite remarkable and enduring (photograph taken by the
 author).*
 
-### The Satoshi Whitepaper
+## The Satoshi whitepaper
 
 Almost every discussion of blockchains starts with the Satoshi
 whitepaper, but it is this very foundation that starts us on a path to
-confusion. Neither the terms \"blockchain\" or \"block chain\" appear
-there; there are 67 uses of \"block\" and \"27\" of chain, but 0 of
-\"block chain\" or \"blockchain\". This aside though, let's see where
+confusion. Neither the terms "blockchain" or "block chain" appear
+there; there are 67 uses of "block" and "27" of chain, but 0 of
+"block chain" or "blockchain". This aside though, let's see where
 this origin leads us.
 
 The whitepaper is short; it's just 9 page long. The first mention of
-\"block\" and \"chain\" starts at the bottom of page 2, section 3, where
+"block" and "chain" starts at the bottom of page 2, section 3, where
 there is a discussion of a basic timestamp server. Prior to this the
 whitepaper describes a series of design goals associated with the
 Bitcoin design such as the ability to allow two parties to transact
@@ -43,18 +49,18 @@ look at what each new layer does. In our quest for the nature of a
 blockchain we need to be careful to look for things that are its
 attributes, rather than characteristics of this first implementation.
 
-#### Transactions
+### Transactions
 
 Section 1 of the whitepaper is an introduction and it is with section 2
 that we see anything really substantive. Section 2 sets a scene for a
 digital coin, but it is described as being a chain of transactions in
-which the \"coin\" is assigned to new owners. The coin is really a
+which the "coin" is assigned to new owners. The coin is really a
 metaphor for a transaction history of linked transactions.
 
 Interestingly, section 2 also describes how a centralized system
 doesn't actually need to do this.
 
-#### Blocks And Chains
+### Blocks and chains
 
 With section 3 we see the essence of the design pattern that might best
 describe the basis of a blockchain. It is given as something that is
@@ -89,12 +95,12 @@ ones:
     blocks is produced be deterministic and well specified. Without
     these our external observer cannot recompute the hashes.
 
-#### Enabling Peer-To-Peer Operations
+### Enabling peer-to-peer operations
 
 The next section, 4, of the whitepaper talks about proof-of-work. The
-first line is interesting: \"To implement a distributed timestamp server
+first line is interesting: "To implement a distributed timestamp server
 on a peer-to-peer (P2P) basis, we will need to use a proof-of-work
-system similar to Adam Back's Hashcash\". Proof-of-work is not required
+system similar to Adam Back's Hashcash". Proof-of-work is not required
 to construct a blockchain, just to enable the peer-to-peer
 implementation of the timestamp server. Subsequent cryptocurrency
 designs have shown there are potentially other approaches that can be
@@ -105,7 +111,7 @@ actually necessary.
 This is not to say that proof-of-work might not have some other uses
 with a blockchain design, but none seem fundamental to our quest.
 
-#### Network And Beyond
+### Network and beyond
 
 Section 5 describes the implementation characteristics of the Bitcoin
 network. Nothing here explicitly extends the concept of what a
@@ -113,42 +119,42 @@ blockchain is, or might require. Indeed, neither sections 6, 7, 8, 9,
 10, 11 or 12 (the final section) go on to explicitly offer any new ideas
 about what a blockchain might be.
 
-### Answers To Our Questions
+## Answers to our questions
 
 If the Satoshi whitepaper is the origin of the blockchain design we're
 left with a rather thin definition, but perhaps that is the most
 enlightening aspect. It is very explicit about particular design choices
 and their purpose, which tends to lead towards a realization that many
-of the claims about \"blockchains\" may actually be a matter of
+of the claims about "blockchains" may actually be a matter of
 implementation rather than architecture.
 
 Let's ask some specific questions then!
 
-#### Must A Blockchain Have Coins?
+### Must a blockchain have coins?
 
 There is an interesting discussion in the whitepaper about the need to
 provide incentives to those providing security to the P2P network to
-remain honest and as a means to introduce \"coins\" into the system, but
+remain honest and as a means to introduce "coins" into the system, but
 the discussion is clearly in the context of the P2P network. The concept
-of coins themselves is noted as unnecessary with a trusted \"mint\".
+of coins themselves is noted as unnecessary with a trusted "mint".
 
 A trusted mint is not something desirable in a cryptocurrency, but there
 seems to be no requirement for coins if we wish to construct a chain of
 cryptographically-linked blocks. There is an interesting question to ask
 about trust but we will return to that later.
 
-#### Must A Blockchain Implement Smart Contracts?
+### Must a blockchain implement smart contracts?
 
 From the perspective of the whitepaper this seems unlikely. The word
-\"contract\" does not appear anywhere.
+"contract" does not appear anywhere.
 
 Might a blockchain enable smart contracts? Yes, of course it might, but
 it might enable many other things too.
 
-#### Must A Blockchain Be Programmable?
+### Must a blockchain be programmable?
 
-Again the answer seems to be no. Neither the words \"program\" or
-\"script\" appear in the whitepaper.
+Again the answer seems to be no. Neither the words "program" or
+"script" appear in the whitepaper.
 
 A blockchain does have a requirement to be interpretable by one or more
 indepdendent observers, so it is clearly built from one or more
@@ -163,11 +169,11 @@ limited scripting language, and other systems, such as Ethereum, have
 subsequently attempted to support more elaborate programming models. The
 choice to support such concepts seems more to be either expedience, or,
 more ambitious design goals, but it seems a blockchain need no more be
-\"programmable\" than any other linked list data structure.
+"programmable" than any other linked list data structure.
 
-#### Is A Blockchain A Database?
+### Is a blockchain a database?
 
-Once more the answer seems to be no. As before, the word \"database\"
+Once more the answer seems to be no. As before, the word "database"
 does not appear in the whitepaper.
 
 At its core a blockchain is a special type of data structure. The blocks
@@ -206,26 +212,26 @@ within the Bitcoin and similar networks set out to try to minimize trust
 in peers, but even this model has potential failure points. Here are a
 few:
 
--   We trust that the blockchain software that we are running has not
-    been compromised to deliver falsified data.
--   We trust that the operating system under which our blockchain
-    software is running has not been compromised to deliver falsified
-    data.
--   We trust that the network processors providing connectivity to our
-    system have not been compromised to deliver falsified data.
+- We trust that the blockchain software that we are running has not
+  been compromised to deliver falsified data.
+- We trust that the operating system under which our blockchain
+  software is running has not been compromised to deliver falsified
+  data.
+- We trust that the network processors providing connectivity to our
+  system have not been compromised to deliver falsified data.
 
-\"In code we trust\" makes for an interesting mantra, but 30+ years of
+"In code we trust" makes for an interesting mantra, but 30+ years of
 malware, spyware, etc., informs us that this is a highly debatable
 strategy.
 
 A blockchain design does make falsifications harder for an adversary,
 and makes accidental errors dramatically less likely. We are able to
-\"trust but verify\" (within bounds), but this is still a significant
+"trust but verify" (within bounds), but this is still a significant
 improvement over blindly trusting. Most importantly, none of these trust
 minimizing characteristics are aspects of the P2P network design, but
 are instead intrinsic to the block encoding.
 
-#### Must A Blockchain Be Non-Permissioned Or Can It Be Permission-less?
+### Must a blockchain be non-permissioned or can it be permission-less?
 
 A blockchain is just a data structure so really the question makes no
 sense. Who has the ability to read or write a data structure is a
@@ -238,7 +244,7 @@ block makers such a mining pool operators, not those who just hash
 blocks) get to write new blocks. Transactors on the network can provide
 candidate transactions to be included in blocks, but this does not
 guarantee blocks will ever contain those transactions. With Bitcoin we
-talk about this being \"non-permissioned\" because no-one needs any
+talk about this being "non-permissioned" because no-one needs any
 explicit permission to become a block maker.
 
 If we consider other potential uses of a blockchain design, though,
@@ -252,11 +258,11 @@ blockchain can at least provide a means to verify the state of such a
 system, and to do so in a way that enables histories to be validated.
 This is only the start of the possibilities, however!
 
-#### Is A Blockchain The Internet Of Money (Or The Internet Of Anything Else)?
+### Is a blockchain the Internet of money (or the Internet of anything else)?
 
 Realistically, no, or at least not on its own.
 
-When we looked at \"not a database\" we also touched on why this claim
+When we looked at "not a database" we also touched on why this claim
 doesn't really make sense. Superficially the argument seems seductive.
 The thought is that we can build lots of technology on top of a
 blockchain in the way that a network stack is layered.

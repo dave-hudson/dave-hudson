@@ -1,19 +1,20 @@
+---
+title: ""
+date: 2015-01-18T00:00:00+00:00
+description: ""
+tags: 
+---
 It's well described how Bitcoin has a one Megabyte block limit; it's
 defined in the Bitcoin Core source code. The knowledge of that 1 Mbyte
-limit has even served in some of my analysis such as \"[The Future Of
-Bitcoin Transaction
-Fees?](index.php?option=com_content&view=article&id=35:the-future-of-bitcoin-transaction-fees&catid=8:analysis&Itemid=110)\",
-\"[Bitcoin Traffic
-Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)\"
-and \"[7 Transactions Per Second?
-Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)\".
+limit has even served in some of my analysis such as "[The Future Of Bitcoin Transaction Fees?](index.php?option=com_content&view=article&id=35:the-future-of-bitcoin-transaction-fees&catid=8:analysis&Itemid=110)",
+"[Bitcoin Traffic Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)"
+and "[7 Transactions Per Second?  Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)".
 Turns out that I was wrong; in practice this limit is actually quite a
 lot smaller!
 
-### A Puzzle
+## A puzzle
 
-Back in \"[Bitcoin Traffic
-Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)\"
+Back in "[Bitcoin Traffic Bulletin](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)"
 we saw how first transaction confirmation times were highly dependent on
 how full mined blocks were. Essentially anything larger than 30% started
 to show noticably slower confirmations than the default 415 seconds that
@@ -55,7 +56,7 @@ If our actual maximum block size limit was actually somewhat less than
 1M bytes, though, the estimate block usage numbers would be incorrect
 and would need to be scaled up!
 
-### An Interlude On Block Sizing
+## An interlude on block sizing
 
 Why would 750k bytes be being used instead of 1M bytes? If one or more
 miner was systematically generating smaller blocks than the theoretical
@@ -91,14 +92,13 @@ bandwidth still plays an effect.
 Back to our original problem, however! The problem with miners selecting
 a smaller maximum block size is that if the network is heavily loaded
 then our miner is effectively leaving transactions waiting when they
-declare a block \"full\" at some level below 1M bytes. Far from the 3.2
+declare a block "full" at some level below 1M bytes. Far from the 3.2
 transactions per second that we thought the network could sustain in
-\"[7 Transactions Per Second?
-Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)\",
+"[7 Transactions Per Second?  Really?](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)",
 every miner imposing a 750k bytes limit would mean the network capacity
 was actually only 2.4 TPS!
 
-### What Is The Effective Block Size Limit?
+## What is the effective block size limit?
 
 With good historical data we can estimate the actual block size limit
 for various miners. If we look at the largest block mined by specific
@@ -115,43 +115,43 @@ interesting. Over the last two years the effective block size has
 steadily been growing, and if anything has, until a few months ago,
 slightly outpaced the growth in actual block usage.
 
-### Mining Pool Behaviour
+## Mining pool behaviour
 
 The raw data is also a source of some interesting discoveries.
 Individual pool operators sometimes try to optimize things in
 interesting (and quite different) ways. Here are some examples for some
 of the larger pools:
 
--   Antpool never adopted the 350k bytes value and jumped from 250k to
-    750k in June 2014.
--   BTCGuild adoped 475k bytes in March 2013, then 500k bytes from
-    August 2013.
--   The now defunct DeepBit pool never went over 100k bytes.
--   Discus Fish (F2Pool) switched from 250k bytes to 32k in
-    December 2013. After 6 weeks they variously tried 48k and 64k sizes
-    for a few weeks each before adopting 916k in March 2014, then 933k
-    in August 2014. In October 2014 they systematically started mining
-    at 1M bytes; as such they consistently mine the largest blocks of
-    all pools. Discus Fish also, curiously, mined a very large number of
-    0 transaction blocks for during the middle of 2014, suggesting some
-    other peculiarities in their block selection.
--   Until November 2013 Eligius appears to have tried many quite large
-    block sizes, before adopting a value just over 900k bytes.
--   GHash.IO ran with the 750k default for 2 weeks in March 2014 before
-    moving back to 350k until late June. Their switch to larger blocks
-    coincided with their decline in peak hash rate from a mean of 40% of
-    the network. Curiously, both times they moved to 750k there was a
-    corresponding large drop (about one sixth) in their share of the
-    network; this could be complete coincidence but perhaps not!
--   Megabigpower has highly erratic maximum block sizes; the variation
-    is seemingly far too large for their share of the network, with
-    smaller pools showing dramatically more stability. This perhaps
-    implies that they are usign some sort of custom maximum block size
-    estimation software.
--   Most of the \"unknown\" hashing seems to be done by miners using the
-    default sizes.
+- Antpool never adopted the 350k bytes value and jumped from 250k to
+  750k in June 2014.
+- BTCGuild adoped 475k bytes in March 2013, then 500k bytes from
+  August 2013.
+- The now defunct DeepBit pool never went over 100k bytes.
+- Discus Fish (F2Pool) switched from 250k bytes to 32k in
+  December 2013. After 6 weeks they variously tried 48k and 64k sizes
+  for a few weeks each before adopting 916k in March 2014, then 933k
+  in August 2014. In October 2014 they systematically started mining
+  at 1M bytes; as such they consistently mine the largest blocks of
+  all pools. Discus Fish also, curiously, mined a very large number of
+  0 transaction blocks for during the middle of 2014, suggesting some
+  other peculiarities in their block selection.
+- Until November 2013 Eligius appears to have tried many quite large
+  block sizes, before adopting a value just over 900k bytes.
+- GHash.IO ran with the 750k default for 2 weeks in March 2014 before
+  moving back to 350k until late June. Their switch to larger blocks
+  coincided with their decline in peak hash rate from a mean of 40% of
+  the network. Curiously, both times they moved to 750k there was a
+  corresponding large drop (about one sixth) in their share of the
+  network; this could be complete coincidence but perhaps not!
+- Megabigpower has highly erratic maximum block sizes; the variation
+  is seemingly far too large for their share of the network, with
+  smaller pools showing dramatically more stability. This perhaps
+  implies that they are usign some sort of custom maximum block size
+  estimation software.
+- Most of the "unknown" hashing seems to be done by miners using the
+  default sizes.
 
-### So Does This Explain Our Original Chart?
+## So does this explain our original chart?
 
 Let's look at our original one but now with the estimated block usage
 too:
@@ -165,7 +165,7 @@ one per 10 minutes. The higher effective block usage (above 30%) also
 goes a long way to explaining why our original chart was much more
 highly correlated than we expected.
 
-### Implications
+## Implications
 
 The implications of these results are intriguing. We can certainly see
 that the current network can't actually handle even the modest
@@ -203,10 +203,10 @@ likelihoods could be very interesting.
 
 ------------------------------------------------------------------------
 
-### Acknowledgments
+## Acknowledgments
 
 Many thanks to [\@oocBlog](https://twitter.com/oocBlog) (author of the
-\"[Neighbourhood Pool Watch](http://organofcorti.blogspot.com)\" blog;
+"[Neighbourhood Pool Watch](http://organofcorti.blogspot.com)" blog;
 well worth reading every week). After I spotted the trends that led me
 to speculate about block size limits he generated the raw data that I
 needed to perform my analysis. Other data sets came from standard charts
@@ -214,24 +214,20 @@ available at [blockchain.info](http://blockchain.info).
 
 ------------------------------------------------------------------------
 
-### Source Code {#source-code style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Source code
 
 When I came to write this article I also wrote a C++ application that
 would combine all of the raw data into a form I could use with Excel to
 generate the charts. The source code, and the source CSV data files can
-be found on
-github: <https://github.com/hashingitcom/the_myth_of_the_megabyte_bitcoin_block>
+be found on github: <https://github.com/hashingitcom/the_myth_of_the_megabyte_bitcoin_block>
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[The Future Of Bitcoin Transaction Fees?
-(2014-11-12)](index.php?option=com_content&view=article&id=35:the-future-of-bitcoin-transaction-fees&catid=8:analysis&Itemid=110)[\
-](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)[Bitcoin
-Traffic Bulletin
-(2014-11-11)](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110) [\
-](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)[7
-Transactions Per Second? Really? (2014-11-02)\
-](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)[\
-](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)
+- [The Future Of Bitcoin Transaction Fees? (2014-11-12)](index.php?option=com_content&view=article&id=35:the-future-of-bitcoin-transaction-fees&catid=8:analysis&Itemid=110)
+- [](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)
+- [Bitcoin Traffic Bulletin (2014-11-11)](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)
+- [](index.php?option=com_content&view=article&id=34:bitcoin-traffic-bulletin&catid=8:analysis&Itemid=110)
+- [Transactions Per Second? Really? (2014-11-02)](index.php?option=com_content&view=article&id=33:7-transactions-per-second&catid=8:analysis&Itemid=110)
+- [](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)

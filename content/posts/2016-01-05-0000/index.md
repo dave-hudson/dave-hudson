@@ -1,4 +1,10 @@
-\"Exahash\" sounds like it could well have been the hammer of the Norse
+---
+title: ""
+date: 2016-01-05T00:00:00+00:00
+description: ""
+tags: 
+---
+"Exahash" sounds like it could well have been the hammer of the Norse
 Gods of old as it defeated all in battle. In the Bitcoin world of early
 2016, however, a mining network that achieves one exahash per second
 will soon become part of the new folklore. It will, as others before it,
@@ -9,23 +15,22 @@ network continually stronger, but what does that strength mean? What is
 it stronger than? What guarantees does it offer? The answer, as so
 often, is perhaps less clear-cut than we might first imagine!
 
-### The Nature Of Bitcoin Hashing (An Aside) {#the-nature-of-bitcoin-hashing-an-aside style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## The nature of Bitcoin hashing (an aside)
 
 The Bitcoin network is secured and processes transactions by mining.
 Mining comprises two activities, block making and hashing. Block making
 is generally the preserve of very large miners or mining pool operators
-(see [\"The Gambler's Guide To Bitcoin
-Mining\"](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)),
+(see ["The Gambler's Guide To Bitcoin Mining"](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)),
 while hashing is the activity that can be decentralized to many
 different operators. For our purposes, though, we're not interested in
 block making, but instead hashing.
 
 Hashing is the process by which computational guesses are made in order
 to solve the cryptographic puzzle required to mine a Bitcoin block. The
-hashing process is the \"work\" in the \"proof-of-work\" that is often
+hashing process is the "work" in the "proof-of-work" that is often
 synonymous with Bitcoin mining.
 
-When we talk about \"work\" we really mean this in a thermodynamic
+When we talk about "work" we really mean this in a thermodynamic
 sense. The work involves performing a deliberately uninteresting
 computational task that takes useful energy (electricity) and turns it
 into less useful energy (heat). The purpose is for the hashing engines
@@ -46,7 +51,7 @@ episode of Star Wars and seeing the First Order's Starkiller Base
 draining all of the power from a sun I was left wondering if this was
 the ultimate fate of proof-of-work!
 
-### Hash Rates
+## Hash rates
 
 Hash rates have been incrementally on the rise for very good economic
 reasons. Throughout 2015 their growth rates reflected the lower BTC:USD
@@ -70,7 +75,7 @@ planet each make the same sorts of guesses that the hashing network does
 then every one of us would need to make more than 135 million guesses
 per second to match this same rate.
 
-### What Does Proof-Of-Work Actually Do?
+## What does proof-of-work actually do?
 
 Proof-of-work is intended to secure the Bitcoin network. It does this by
 making it computationally very difficult for a bad actor to change
@@ -113,7 +118,7 @@ cumulative date was around 2013-10-22, and the daily date was
 2014-06-16. Instead of 24 months required for the 100 exahash level,
 slighly less than 8 months was required for 10 zettahashes.
 
-### A New Metric
+## A new metric
 
 What we've just seen is something of an intellectual curiosity, but
 let's consider a new metric. How long it would take the network to
@@ -152,9 +157,7 @@ blockchain.
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[Hash Rate Headaches (2014-05-20)\
-](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)[The
-Gambler's Guide To Bitcoin Mining
-(2014-06-30)](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)
+- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [The Gambler's Guide To Bitcoin Mining (2014-06-30)](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)

@@ -1,11 +1,17 @@
+---
+title: ""
+date: 2014-06-23T00:00:00+00:00
+description: ""
+tags: 
+---
 Every so often a Bitcoin mining pool is reported to manage more than
 half of the Bitcoin hashing capacity, exposing the spectre of a so
-called \"51% attack\". Ignoring the perceived threat though, can we
+called "51% attack". Ignoring the perceived threat though, can we
 really trust the statistics? We've seen, previously, that Bitcoin
 mining statistics aren't quite as obvious as we might hope, so what do
 they look like in these cases?
 
-### A Day In The Life Of A 50% Mining Pool
+## A day in the life of a 50% mining pool
 
 Let's look at what happens when a Bitcoin mining pool has 50% of the
 actual global hash rate and see what the estimated statistics look like
@@ -16,7 +22,7 @@ Carlo simulation with 10M trials:
 ![Mining pool with 50% of the Bitcoin network over 24 hours, assuming no network hash rate expansion](./24hours0percent.png)
 
 One curious thing is to note that around the 50% level we see the
-cumulative statistics actually become a little \"blocky\" but that's
+cumulative statistics actually become a little "blocky" but that's
 because there turn out to be a limited number of values that can occur.
 
 With 50% of the hashing capacity we do indeed see an average rate where
@@ -34,10 +40,10 @@ expanding at 2% per day:
 
 The 2% per day hash rate expansion is pretty extreme, corresponding to a
 difficulty change of 24.8% on average, but this doesn't actually make
-much difference. Our \"once in ten days\" metric now has ranges of 43.5%
+much difference. Our "once in ten days" metric now has ranges of 43.5%
 or less and 56.4% and greater.
 
-### 50% For 2016 Blocks
+## 50% For 2016 blocks
 
 We've seen what happens on a daily basis, but what happens when we look
 at the 2016 block difficulty change? Here's the simulation for the
@@ -50,7 +56,7 @@ variability in the measured hash rates. One difficulty change in five
 we'll see a discrepancy in the estimated pool hash rate of more than
 +/- 1.4%.
 
-### Final Thoughts
+## Final thoughts
 
 As with many of the Bitcoin statistics we've seen, things are rarely as
 clear-cut as they first appear. We really need to see more than 55%, and
@@ -65,11 +71,8 @@ show that this level has been reached.
 
 ------------------------------------------------------------------------
 
-### Related Articles
+## Related articles
 
-[Lies, Damned Lies And Bitcoin Difficulties
-(2014-05-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)[\
-Reach For The Ear Defenders!
-(2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)[\
-Hash Rate Headaches (2014-05-20)\
-](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [Lies, Damned Lies And Bitcoin Difficulties (2014-05-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)
+- [Reach For The Ear Defenders! (2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
+- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)

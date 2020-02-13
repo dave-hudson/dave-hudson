@@ -1,5 +1,10 @@
-An intriguiging paper, \"[The Miner's
-Dilemma](http://hackingdistributed.com/2014/12/03/the-miners-dilemma/)\"
+---
+title: ""
+date: 2014-12-05T00:00:00+00:00
+description: ""
+tags: 
+---
+An intriguiging paper, "[The Miner's Dilemma](http://hackingdistributed.com/2014/12/03/the-miners-dilemma/)"
 was published a few days ago by Ittay Eyal. It describes an attack by
 which an open mining pool may be attacked using block withholding. Given
 that most Bitcoin mining is managed by open mining pools then it seems
@@ -7,7 +12,7 @@ like it ought to raise a few eyebrows (perhaps more than it has
 already). Just how does this attack work though, who wins, who loses and
 by how much?
 
-### Mining Pools
+## Mining pools
 
 Before we can really talk about winners and losers we really need to
 take a simple look at how mining pools pay out to their miners.
@@ -15,7 +20,7 @@ take a simple look at how mining pools pay out to their miners.
 A mining pool needs to use a way to have its contributors demonstrate
 that they've been working to find Bitcoin blocks. Given that Bitcoin is
 designed as a trustless system this isn't a trivial problem. The
-approach that is taken is to have miners submit \"shares\" where a share
+approach that is taken is to have miners submit "shares" where a share
 is defined to be a proof-of-work solution towards the Bitcoin block that
 the pool is trying to find but that doesn't necessarily meet the
 difficulty requirement for a full Bitcoin block. Shares that don't meet
@@ -60,7 +65,7 @@ mean values. For example our miner may end up submitting 1050 shares for
 one block and 950 for the next and 1000 for the one after that; it
 won't be a consistent 1000 for each.
 
-### Block Withholding
+## Block withholding
 
 Block withholding is a scenario in which a miner submits valid
 lower-difficulty shares but does not submit shares that match full
@@ -114,7 +119,7 @@ takes the transaction fees will actually see a 4.17% increase in their
 own income even as the victim miners see a significant reduction in
 theirs.
 
-### Smaller Scale?
+## Smaller scale?
 
 We might now ask what happens if our pools are smaller. Say our attacker
 has 10% of the network hash rate and our victim has 10%:
@@ -136,7 +141,7 @@ clear that the nominal rewards from this style of attack scale
 dramatically in percentage terms as the attacker and victim hold larger
 percentages of the total network capacity.
 
-### Scaling Effects (Part 1)
+## Scaling effects (part 1)
 
 The scaling effects we've just considered may seem surprising, but a
 little thought reveals that they are not. The attacker wins by gaining a
@@ -147,7 +152,7 @@ switched hashing doesn't affect the global hash rate by very much. The
 larger the attack, the larger the effect. This has other implications
 that we will return to later.
 
-### Mutually Assured Destruction?
+## Mutually assured destruction?
 
 If one party can attack another then surely the victim might retaliate?
 There are some wrinkles to this but for now let's just consider that.
@@ -157,8 +162,8 @@ each other in similar proportions:
 ![Two 25% mining pools performing block withholding attacks against each other](./c1-25-25-yes-yes.png)
 
 Attacker 1 isn't off the chart here, they're just on the same trend
-line as our previous victim, now \"Attacker 2\". Now it's clear that
-\"Everyone Else\" would sit back and enjoy the fight. The more the two
+line as our previous victim, now "Attacker 2". Now it's clear that
+"Everyone Else" would sit back and enjoy the fight. The more the two
 antogonists contribute to the fight the quicker both lose!
 
 We might assume that the attackers could simply try to harm everyone
@@ -167,10 +172,10 @@ participants can sign up and contribute shares without an element of
 trust between the mining pool operator and the miners who contribute
 shares. This is the wrinkle noted above; if our attacker has 25% of the
 hash rate but operates a private/closed mining pool then the victim
-cannot retaliate. If the \"Everyone Else\" capacity is found in closed
+cannot retaliate. If the "Everyone Else" capacity is found in closed
 mining pools then they cannot be victims of this type of attack either.
 
-### Big Vs Little?
+## Big vs little?
 
 We've seen two large pools involved, but what happens with a large
 attacker and a small open pool?
@@ -184,7 +189,7 @@ longer gaining, but the victim pool's miners sees a 25% reduction in
 revenue. At that sort of loss in revenue it would be likely that miners
 would start seeking other ways to mine more profitably.
 
-### Little Vs Big?
+## Little vs big?
 
 If this works one way round then can it work the other way round?
 
@@ -196,7 +201,7 @@ order to do this they must use 12.7% of their total hashing capacity to
 achieve the largest gain and that the gain in question probably isn't
 sufficient to be worthwhile.
 
-### Scaling Effects (Part 2) {#scaling-effects-part-2 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Scaling effects (part 2)
 
 So far what we've seen is that large attackers and large victims result
 in big gains for attackers and that attackers not operating in open
@@ -206,10 +211,9 @@ that are directly profitable to larger pools (other than damaging
 competitors). It might seem that this is a clear win for small mining
 pools, but let's not get too hasty! There are (at least) 2 problems:
 
--   Small mining pools suffer from significanly worse reward variances
-    as we've seen before in, \"[The Gambler's Guide To Bitcoin
-    Mining](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)\".
--   The block withholding attack scales up by attacking multiple pools!
+- Small mining pools suffer from significanly worse reward variances
+  as we've seen before in, "[The Gambler's Guide To Bitcoin Mining](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)".
+- The block withholding attack scales up by attacking multiple pools!
 
 Let's consider 2 victim mining pools with 12.5% of the total hash rate
 each, and an attacker that has 25%. Now if our attacker targets each
@@ -225,29 +229,28 @@ attackers target the same victim with a large enough combined attack
 then they will actually push the potential gains into negative territory
 for both of them.
 
-### [Countermeasures?]{style="color: inherit; font-family: inherit;"} {#countermeasures style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Countermeasures?
 
-[The only real way to prevent an attacker or group of attackers from
+The only real way to prevent an attacker or group of attackers from
 being able to gain from this sort of attack would be to reduce the
 mining rewards paid by pools for shares rather than for actual full
-blocks.]{style="color: inherit; font-family: inherit;"}
+blocks.
 
-[In the case of a 10% pool attacking another 10% pool we would require
+In the case of a 10% pool attacking another 10% pool we would require
 that shares be paid no more than 90% of the total mined reward in order
 to prevent an attacker from gaining. In the case of a 25% pool attacking
 another 25% pool then the share-only reward would have to be no more
 than 75% of the total mined reward while a 40% pool attacking another
 40% pool would require that share-only rewards be 60% or less of the
-total earned.]{style="color: inherit; font-family: inherit;"}
+total earned.
 
-[As we've seen before, though, the problem is that this attack scales
+As we've seen before, though, the problem is that this attack scales
 so attacking 25 pools of 1% size is the same as attacking one of 25%;
 the pools couldn't set share payout levels that reduced the vast
 majority of miners' payouts by 25%, even though a few lucky miners
-would gain far more for finding full
-blocks.]{style="color: inherit; font-family: inherit;"}
+would gain far more for finding full blocks.
 
-### Bring On The Stealth Weapons
+## Bring on the stealth weapons
 
 In the scenarios we have considered so far our attacker transfers some
 of their hashing capacity from mining to attacking so that hashing
@@ -257,7 +260,7 @@ raise some eyebrows, especially if the same hashing capacity didn't
 reappear somewhere else. With this said, however, statistical variance
 would certainly mask some of this.
 
-An alternative, however, would be for an attacker to deploy \"stealth\"
+An alternative, however, would be for an attacker to deploy "stealth"
 hashing. This is hashing capacity that has never been used for
 conventional mining but is brought online solely to attack open pools.
 As this capacity would never have contributed to hash rate statistics
@@ -280,7 +283,7 @@ observers would be any the wiser unless the victim pool publishes its
 share data for analysis (which most pools would probably not wish to do
 for privacy reasons).
 
-### [More Than Just A Theory?]{style="color: inherit; font-family: inherit;"}
+## More than just a theory?
 
 Are we actually seeing this style of attack on mining pools already?
 Realistically unless someone published verifiable details of what they
@@ -290,7 +293,7 @@ network statistics there's a lot of room for things to hide!
 
 ------------------------------------------------------------------------
 
-### Source Code {#source-code style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Source code
 
 This article was written with the help of data from a C language
 simulation. The data was rendered into charts using Excel. The source
@@ -298,9 +301,7 @@ code can be found on github: <https://github.com/hashingitcom/pool_wars>
 
 ------------------------------------------------------------------------
 
-### Related Articles {#related-articles style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333;"}
+## Related articles
 
-[The Gambler's Guide To Bitcoin Mining (2014-06-30)\
-](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)[The
-Rewards For A Bitcoin Miner
-(2014-04-04)](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)
+- [The Gambler's Guide To Bitcoin Mining (2014-06-30)](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)
+- [The Rewards For A Bitcoin Miner (2014-04-04)](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)

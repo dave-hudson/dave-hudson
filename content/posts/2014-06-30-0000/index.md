@@ -1,3 +1,9 @@
+---
+title: ""
+date: 2014-06-30T00:00:00+00:00
+description: ""
+tags: 
+---
 What's the best way to get a return when we mine Bitcoins? Should we
 mine on our own, mine with a small pool or mine with a large pool? How
 much difference does it really make?
@@ -6,7 +12,7 @@ Whether we want to be a gambler or an investor is really a question of
 how much risk we're prepared to take, but what are those risks and what
 are the odds of success?
 
-### Starting Thoughts
+## Starting thoughts
 
 Before we can look at the odds of getting a particular return we need to
 establish a few starting conditions. Let's assume that we're planning
@@ -24,14 +30,13 @@ factor of 6.177 by the end, so our 0.01% of the network is only
 0.0016188% after the 6 months. We're not expecting to add new capacity
 as we go though, so we only have the hardware that we start with.
 
-Bitcoin mining is highly erratic (see \"[Hash Rate
-Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)\")
+Bitcoin mining is highly erratic (see "[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)")
 so it's not easy to calculate how our mining will progress so instead I
 built a Monte Carlo simulator. The results presented here all come from
 that simulation with 10M simulations of each scenario to ensure that the
 data is well smoothed.
 
-### Solo Mining
+## Solo mining
 
 Let's start with the simplest case. We're going to assume that we'll
 use all of our hashing capacity to mine for blocks on our own. What
@@ -51,7 +56,7 @@ The gambler in us might be attracted to the potential for high rewards;
 that part of us that wants to be an investor though is probably going to
 look at this graph in horror!
 
-### Mining With A Pool
+## Mining with a pool
 
 The easiest way to mitigate some of the risk is to join a mining pool.
 Let's ignore pool fees or anything that doesn't just give an equal
@@ -68,7 +73,7 @@ a pool that has 10x the total mining capacity has made a huge difference
 to the variance of the mining rewards. Our 50% reward point is higher
 too (the chart shows 48% to keep things simpler)!
 
-### What Are The Effects Of Using Larger Mining Pools?
+## What are the effects of using larger mining pools?
 
 Now that we can see the reduction in variance from using a mining pool
 we really need to ask questions about just how much does the mining pool
@@ -88,7 +93,7 @@ The first things to notice are just how bad the solo mining and 10%
 membership of 0.1% pool now look! The larger pools are definitely more
 attractive to anyone seeking predictable returns.
 
-### Mining Pools Are Here To Stay?
+## Mining pools are here to stay?
 
 In a simpler world the Bitcoin mining network might only be expanding
 very slowly and miners could attempt to allow time to smooth out the
@@ -107,7 +112,6 @@ variance if it is to gain any sort of widespread acceptance.
 
 ------------------------------------------------------------------------
 
-### Related Articles
+## Related articles
 
-[51% Of The Network
-(2014-06-23)](index.php?option=com_content&view=article&id=31:51-percent-of-the-network&catid=8:analysis&Itemid=110)
+- [51% Of The Network (2014-06-23)](index.php?option=com_content&view=article&id=31:51-percent-of-the-network&catid=8:analysis&Itemid=110)
