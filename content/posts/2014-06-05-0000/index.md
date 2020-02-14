@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Strange spikes revisited!"
 date: 2014-06-05T00:00:00+00:00
-description: ""
-tags: 
+description: "About 3 months ago I looked at how the BTC price seems to spike up approximately every 7 months.  It seems to be happening again!"
+tags: [Bitcoin, Bitcoin price]
 ---
 About 3 months ago I looked at how the BTC price seems to spike up
 approximately every 7 months.  It seems to be happening again!
@@ -15,10 +15,9 @@ Let's look at the graph (plotted on a logarithmic Y axis):
 
 ![Chart of BTC price over time](./BTC-price.png)
 
-The trend of high points in the graph (red line) shows another [theme
-park
-ride](index.php?option=com_content&view=article&id=19:the-bitcoin-runaway-mine-train&catid=8:analysis&Itemid=110):
-The Bitcoin Runaway Roller Coaster.  Like any good thrill ride we see
+The trend of high points in the graph (red line) shows another
+[theme park ride]({{< relref "../2014-03-09-0000" >}}):
+The Bitcoin runaway roller coaster.  Like any good thrill ride we see
 regular highs and lows; here the peaks are anywhere between 212 days and
 235 days, but in general the later ones have been nearer 235 days.  235
 days from the last high would be 2014-07-24.  It will be interesting to
@@ -36,4 +35,4 @@ attention?
 
 ## Related articles
 
-- [Strange Spikes In The Bitcoin Price (2014-03-13)](index.php?option=com_content&view=article&id=20:strange-spikes-in-the-bitcoin-price&catid=8:analysis&Itemid=110)
+- [Strange Spikes In The Bitcoin Price (2014-03-12)]({{< relref "../2014-03-12-0000" >}})
