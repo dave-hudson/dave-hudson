@@ -67,7 +67,7 @@ slowdown but even with the simplification we can still see that the
 variance from our 16.9% is very similar to what the simulation shows:
 
 | **Date**   | **Difficulty** | **Change** | **Variance** |
-| ---------- | -------------- | ---------- | ------------ |
+| ---------- | -------------: | ---------: | -----------: |
 | 2014-05-24 | 10455720138    | 18.10%     | 1.20%        |
 | 2014-05-12 | 8853416309     | 10.66%     | -6.24%       |
 | 2014-04-29 | 8000872136     | 14.64%     | -2.26%       |
