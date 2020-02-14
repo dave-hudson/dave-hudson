@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Lies, damned lies and Bitcoin difficulties"
 date: 2014-06-10T00:00:00+00:00
-description: ""
-tags: 
+description: "Bitcoin difficulty and hash rate statistics should be considered an illness.  The symptoms include anxiety, depression, sleeplessness and paranoia.  Bitcoin miners follow their every movement, rejoicing at smaller-than-expected difficulty changes and collectively dismaying when things go the other way.  Authoritative-looking charts have people puzzling about why things are so erratic and chasing non-existent mining conspiracies.  The truth is out there..."
+tags: [Bitcoin, Bitcoin mining, Bitcoin difficulty]
 ---
 Bitcoin difficulty and hash rate statistics should be considered an
 illness.  The symptoms include anxiety, depression, sleeplessness and
@@ -69,16 +69,15 @@ fixed points is an interpolation that assumes a steady percentage growth
 rate between them.
 
 This particular baseline isn't perfect because it has no way to account
-for statistical noise in the hashing rate (see \"[Hash Rate
-Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)\")
+for statistical noise in the hashing rate (see \"[Hash rate
+headaches]({{< relref "../2014-05-20-0000" >}})\")
 but it turns out to be a surprisingly effective estimate nonetheless.
 
 ## Checking the baseline
 
 Visually our baseline looks pretty reasonable.  We know that even if the
 hash rate was constant the difficulty would change as a result of random
-noise (see \"[Reach For The Ear
-Defenders](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)\").
+noise (see \"[Reach for the ear defenders]({{< relref "../2014-05-24-0000" >}})\").
 The question is what does our noise profile look like if we subtract out
 the baseline hash rate estimate? This should approximately follow
 Bitcoin's Poisson process' noise profile and should oscillate about
@@ -119,5 +118,5 @@ truth that only becomes apparent over a much longer timescale.
 
 ## Related articles
 
-[Reach For The Ear Defenders! (2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
-[Hash Rate Headaches (2014-05-20)\ ](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [Reach for the ear defenders! (2014-05-24)]({{< relref "../2014-05-24-0000" >}})
+- [Hash rate headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})

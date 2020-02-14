@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Finding 2016 blocks"
 date: 2014-06-15T00:00:00+00:00
-description: ""
-tags: 
+description: "2016 blocks is the magic number that corresponds to each change in difficulty within the Bitcoin network.  Nominally it should take 14 days to find this many blocks, but how long does it really take?"
+tags: [Bitcoin, Bitcoin mining]
 ---
 2016 blocks is the magic number that corresponds to each change in
 difficulty within the Bitcoin network. Nominally it should take 14 days
@@ -10,7 +10,7 @@ to find this many blocks, but how long does it really take?
 
 ## The simple case
 
-In an earlier article, "[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)", I
+In an earlier article, "[Hash rate headaches]({{< relref "../2014-05-19-0000" >}})", I
 looked at the probabilities of finding a particular number of blocks in
 a given time. This time around the goal is to work out how long it takes
 to find 2016 blocks.
@@ -27,14 +27,14 @@ changing:
 
 As we'd expect, the average time to find 2016 blocks is indeed 14 days.
 We can see the effects of the
-[noise](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
+[noise]({{< relref "../2014-05-24-0000" >}})
 in the hashing design though and how once every 10 difficulty changes
 we'd be likely to see the time at +/- half a day (i.e. 13.5 days or
 less, or 14.5 days or more).
 
 ## Practical complexities
 
-[Previously](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110),
+[Previously]({{< relref "../2014-05-19-0000" >}}),
 I've talked about how Bitcoin hashing is a Poisson process.
 \@coinometrics pointed out on Twitter that things become more complex
 when the hashing rate is expanding because it then becomes a
@@ -48,15 +48,14 @@ irrespective of the number of blocks found.
 
 Another complication is that the current difficulty level doesn't
 really indicate the the actual hashing rate of the network even on the
-day it's first set. In the article, "[Lies, Damned Lies And Bitcoin Difficulties](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)",
+day it's first set. In the article, "[Lies, damned lies and Bitcoin Ddfficulties]({{< relref "../2014-06-10-0000" >}})",
 I showed that a more accurate starting measure was to multiple the new
 difficulty by the square root of the difficulty increase. The
 simulations account for this too.
 
 Let's see what happens when we have a 1% daily hashing rate expansion:
 
-![Time to find 2016 Bitcoin blocks with 1% hash rate
-expansion](./find2016_1.png)
+![Time to find 2016 Bitcoin blocks with 1% hash rate expansion](./find2016_1.png)
 
 With a 1% daily expansion rate we now typically find our 2016 blocks
 after 12.37 days (a little under 12 days, 9 hours). It also equates to a
@@ -64,8 +63,7 @@ difficulty increase of 13.1%.
 
 Now let's look at a 2% daily hashing rate increase:
 
-![Time to find 2016 Bitcoin blocks with 2% hash rate
-expansion](./find2016_2.png)
+![Time to find 2016 Bitcoin blocks with 2% hash rate expansion](./find2016_2.png)
 
 With a 2% daily expansion rate we now typically find our 2016 blocks
 after 11.19 days (a little over 11 days, 4.5 hours). This equates to a
@@ -101,6 +99,6 @@ questions than answers!
 
 ## Related articles
 
-- [Lies, Damned Lies And Bitcoin Difficulties (2014-05-10)](index.php?option=com_content&view=article&id=29:lies-damned-lies-and-bitcoin-difficulties&catid=8:analysis&Itemid=110)
-- [Reach For The Ear Defenders! (2014-05-24)](index.php?option=com_content&view=article&id=28:reach-for-the-ear-defenders&catid=8:analysis&Itemid=110)
-- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
+- [Lies, damned lies and Bitcoin difficulties (2014-06-10)]({{< relref "../2014-06-10-0000" >}})
+- [Reach for the ear defenders! (2014-05-24)]({{< relref "../2014-05-24-0000" >}})
+- [Hash rate headaches (2014-05-19)]({{< relref "../2014-05-19-0000" >}})

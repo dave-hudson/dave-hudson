@@ -101,4 +101,4 @@ noise can sometimes be very loud indeed!
 
 ## Related Articles
 
-- [Hash Rate Headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})
+- [Hash rate headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})

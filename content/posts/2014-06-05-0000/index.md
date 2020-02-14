@@ -35,4 +35,4 @@ attention?
 
 ## Related articles
 
-- [Strange Spikes In The Bitcoin Price (2014-03-12)]({{< relref "../2014-03-12-0000" >}})
+- [Strange spikes in the Bitcoin price (2014-03-12)]({{< relref "../2014-03-12-0000" >}})

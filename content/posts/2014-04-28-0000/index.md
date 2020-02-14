@@ -169,6 +169,6 @@ facilities.
 
 ## Related articles
 
-- [The Rewards For A Bitcoin Miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})
-- [Where Next For Bitcoin Mining ASICs? (2014-03-23)]({{< relref "../2014-03-23-0000" >}})
-- [The Bitcoin Runaway Mine Train (2014-03-09)]({{< relref "../2014-03-09-0000" >}})
+- [The rewards for a Bitcoin miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})
+- [Where next for Bitcoin mining ASICs? (2014-03-23)]({{< relref "../2014-03-23-0000" >}})
+- [The Bitcoin runaway mine train (2014-03-09)]({{< relref "../2014-03-09-0000" >}})
