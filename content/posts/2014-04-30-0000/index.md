@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Prisoner's dilemmas?"
 date: 2014-04-30T00:00:00+00:00
-description: ""
-tags: 
+description: "Over the last few months I've written about patterns and trends in Bitcoin mining while I've been trying to predict how things will evolve.  More recently I\"ve built simulations that attempt to model how various trends will affect the mining network.  Irrespective of the \"improvements\", be they improved hashing rates, lower power consumption per hash, lower price per kWh of electricity or higher BTC price, one thing is inescapable: The Bitcoin difficulty increases quickly absorb everything thrown at them in order to maintain the system's block finding rate.  This has very significant implications for the not-too-distant future."
+tags: [Bitcoin, Bitcoin mining]
 ---
 Over the last few months I've written about patterns and trends in
 Bitcoin mining while I've been trying to predict how things will
@@ -72,13 +72,13 @@ This is the core of the problem with Bitcoin difficulty, but the
 outcomes are slightly different.  With mining we have a zero sum game
 (the total result however played is the same).  Consider 2 miners:
 
-1.  A and B have the same hardware: both get 50% of the mining reward
-2.  A and B both double their hashing rates: both get 50% of the mining
-    reward
-3.  A doubles their hashing rate but B does not: A gets 67% of the
-    mining reward, B gets 33%.
-4.  A keeps the same hardware but B doubles their hashing rate: A gets
-    33% of the mining reward, B gets 67%
+1. A and B have the same hardware: both get 50% of the mining reward
+2. A and B both double their hashing rates: both get 50% of the mining
+   reward
+3. A doubles their hashing rate but B does not: A gets 67% of the
+   mining reward, B gets 33%.
+4. A keeps the same hardware but B doubles their hashing rate: A gets
+   33% of the mining reward, B gets 67%
 
 In this version the average is still 50% of the total, but now defecting
 (increasing hashing rate) averages 58.3% of the mining reward vs 41.7%
@@ -92,10 +92,9 @@ player will choose to leave the game but then another will likely try to
 join and ultimately no-one gains an advantage.
 
 Interestingly one of Satoshi Nakamoto's last public posts (2010-12-12)
-alluded to this same problem: "[We should have a gentleman's agreement
+alluded to this same problem: "We should have a gentleman's agreement
 to postpone the GPU arms race as long as we can for the good of the
-network...](http://crypt.la/2014/01/06/satoshi-nakamoto-quotes/)".
-It's unclear just how far he had gone in thinking about this though.
+network".  It's unclear just how far he had gone in thinking about this though.
 
 This then is the headache for mining.  The headlong race of miners trying
 to prevent anyone else from outdoing themselves simply leads to a point
@@ -156,7 +155,7 @@ I first posted a link to it!\]
 
 ## Related articles
 
-- [Megawatts Of Mining (2014-04-28)](index.php?option=com_content&view=article&id=24:megawatts-of-mining&catid=8:analysis&Itemid=110)
-- [The Rewards For A Bitcoin Miner (2014-04-04)](index.php?option=com_content&view=article&id=23:the-rewards-for-a-bitcoin-miner&catid=8:analysis&Itemid=110)
-- [Where Next For Bitcoin Mining ASICs? (2014-03-24)](index.php?option=com_content&view=article&id=22:where-next-for-bitcoin-mining-asics&catid=8:analysis&Itemid=110)
-- [The Bitcoin Runaway Mine Train (2014-03-09)](index.php?option=com_content&view=article&id=19:the-bitcoin-runaway-mine-train&catid=8:analysis&Itemid=110)
+- [Megawatts Of Mining (2014-04-28)]({{< relref "../2014-04-28-0000" >}})
+- [The Rewards For A Bitcoin Miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})
+- [Where Next For Bitcoin Mining ASICs? (2014-03-23)]({{< relref "../2014-03-23-0000" >}})
+- [The Bitcoin Runaway Mine Train (2014-03-09)]({{< relref "../2014-03-09-0000" >}})
