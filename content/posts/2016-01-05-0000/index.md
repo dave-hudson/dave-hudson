@@ -1,8 +1,8 @@
 ---
-title: ""
+title: "Behold mighty exahash, hammer of the blocks!"
 date: 2016-01-05T00:00:00+00:00
-description: ""
-tags: 
+description: "\"Exahash\" sounds like it could well have been the hammer of the Norse Gods of old as it defeated all in battle.  In the Bitcoin world of early 2016, however, a mining network that achieves one exahash per second will soon become part of the new folklore.  It will, as others before it, quantitatively destroy all earlier incarnations of itself.  Common wisdom that this ever-increasing hash rate makes the Bitcoin network continually stronger, but what does that strength mean?  What is it stronger than?  What guarantees does it offer? The answer, as so often, is perhaps less clear-cut than we might first imagine!"
+tags: [Bitcoin, Bitcoin mining]
 ---
 "Exahash" sounds like it could well have been the hammer of the Norse
 Gods of old as it defeated all in battle. In the Bitcoin world of early
@@ -20,7 +20,7 @@ often, is perhaps less clear-cut than we might first imagine!
 The Bitcoin network is secured and processes transactions by mining.
 Mining comprises two activities, block making and hashing. Block making
 is generally the preserve of very large miners or mining pool operators
-(see ["The Gambler's Guide To Bitcoin Mining"](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)),
+(see ["The gambler's guide to Bitcoin mining"]({{< relref "../2014-06-30-0000" >}})),
 while hashing is the activity that can be decentralized to many
 different operators. For our purposes, though, we're not interested in
 block making, but instead hashing.
@@ -159,5 +159,5 @@ blockchain.
 
 ## Related articles
 
-- [Hash Rate Headaches (2014-05-20)](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)
-- [The Gambler's Guide To Bitcoin Mining (2014-06-30)](index.php?option=com_content&view=article&id=32:the-gamblers-guide-to-bitcoin-mining&catid=8:analysis&Itemid=110)
+- [The gambler's guide to Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})
+- [Hash rate headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})

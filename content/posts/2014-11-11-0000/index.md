@@ -5,10 +5,10 @@ description: "The Bitcoin network is currently running at around 30% of its maxi
 tags: [Bitcoin, Bitcoin mining]
 ---
 \[***Note 2015-12-20:***  This article is the
-original "Bitcoin Traffic Bulletin" but has a minor problem with some
+original "Bitcoin traffic bulletin" but has a minor problem with some
 of the probability statistics.  A revised, authoritative, version with
 significantly updated commentary can be found as "[Bitcoin traffic
-bulletin (redux)](index.php?option=com_content&view=article&id=44:bitcoin-traffic-bulletin-redux&catid=8:analysis&Itemid=110)".
+bulletin (redux)]({{< relref "../2015-12-20-0000" >}})".
 Please read that one; this one is retained purely for historical
 information!\]
 
