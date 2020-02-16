@@ -1,5 +1,5 @@
 ---
-title: "Where Next For Bitcoin Mining ASICs?"
+title: "Where next for Bitcoin mining ASICs?"
 date: 2014-03-23T00:00:00+00:00
 description: "ASIC mining is now the norm for Bitcoin, and 28 nm ASICs are now becoming the mainstream replacing the 65 nm, or even 110 nm, designs of a year ago.  Bitcoin ASICs have leapfrogged several integrated circuit (IC) technologies in a way that's rarely been seen before and at an almost unprecedented rate of progress.  How have things been able to move so fast, how much further can this go, and what might we expect from new designs?"
 tags: [Bitcoin, Bitcoin mining, ASICs]

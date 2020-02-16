@@ -73,6 +73,6 @@ show that this level has been reached.
 
 ## Related articles
 
-- [Lies, Damned Lies And Bitcoin Difficulties (2014-06-10)]({{< relref "../2014-06-10-0000" >}})
-- [Reach For The Ear Defenders! (2014-05-24)]({{< relref "../2014-05-24-0000" >}})
-- [Hash Rate Headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})
+- [Lies, damned lies and Bitcoin difficulties (2014-06-10)]({{< relref "../2014-06-10-0000" >}})
+- [Reach for the ear defenders! (2014-05-24)]({{< relref "../2014-05-24-0000" >}})
+- [Hash rate headaches (2014-05-20)]({{< relref "../2014-05-20-0000" >}})
