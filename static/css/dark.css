@@ -15,11 +15,11 @@ body {
 }
 
 .container a {
-    color: #ff7979;
+    color: #6bf;
 }
 
 .container a:hover {
-    color: #ff7979;
+    color: #6bf;
 }
 
 .container blockquote {
@@ -51,8 +51,12 @@ body {
     border-color: #333;
 }
 
+.container .post .draft-label {
+    color: #6bf;
+}
+
 .container .post nav.post-tags .tags a {
-    border: 1px solid #ff7979;
-    color: #ff7979;
+    border: 1px solid #6bf;
+    color: #6bf;
 }
 

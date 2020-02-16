@@ -20,12 +20,12 @@
 }
 
 .container a {
-    color: #a00;
+    color: #29f;
     text-decoration: none;
 }
 
 .container a:hover {
-    color: #a00;
+    color: #29f;
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -40,7 +40,7 @@
     font-size: 1.4rem;
     font-family: Georgia, bitstream charter, serif;
     border-left: 3px solid;
-    border-color: #a00;
+    border-color: #29f;
     padding-left: 20px;
 }
 
@@ -257,7 +257,7 @@
 }
 
 .container .post .draft-label {
-    color: #a00;
+    color: #29f;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -271,10 +271,10 @@
 
 .container .post nav.post-tags .tags a {
     display: inline-block;
-    border: 1px solid #a00;
+    border: 1px solid #29f;
     border-radius: 4px;
     padding: 0px 6px;
-    color: #a00;
+    color: #29f;
     line-height: 20px;
     font-size: 12px;
     text-decoration: none;
