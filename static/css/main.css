@@ -9,23 +9,23 @@
 }
 
 .container {
-    font-family: ubuntu, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-weight: 400;
     color: #333;
-    line-height: 1.6;
-    font-size: 16px;
+    line-height: 1.5;
+    font-size: 15px;
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .container a {
-    color: #29f;
+    color: #27c;
     text-decoration: none;
 }
 
 .container a:hover {
-    color: #29f;
+    color: #27c;
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -40,7 +40,7 @@
     font-size: 1.4rem;
     font-family: Georgia, bitstream charter, serif;
     border-left: 3px solid;
-    border-color: #29f;
+    border-color: #27c;
     padding-left: 20px;
 }
 
@@ -51,6 +51,14 @@
 
 .container blockquote em {
     font-weight: 600;
+}
+
+.container figure {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .container hr {
@@ -68,20 +76,15 @@
     display: block;
 }
 
-.container figure {
-    margin: 0;
-    text-align: center;
-}
-
 .container h1,
 .container h2,
 .container h3,
 .container h4,
 .container h5,
 .container h6 {
-    font-family: raleway, sans-serif;
+    font-family: Lalezar, sans-serif;
     line-height: 1.2;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .container h1 {
@@ -89,11 +92,14 @@
 }
 
 .container h2 {
+    margin-top: 1em;
+    margin-bottom: 0.67em;
     font-size: 2rem;
 }
 
 .container h3 {
     font-size: 1.6rem;
+    margin-bottom: 0.5em;
 }
 
 .container h4 {
@@ -116,13 +122,13 @@
 .container table th {
     background-color: #f4f4f4;
     padding: 5px 10px;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     font-weight: bold;
 }
 
 .container table td {
     padding: 5px 10px;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
 }
 
 .container .header {
@@ -135,7 +141,6 @@
     margin: 0;
     padding: 0;
     font-size: 2rem;
-    line-height: 1.3em;
 }
 
 .container .header h2 {
@@ -251,13 +256,10 @@
 .container .post .post-header .meta {
     font-size: 0.725rem;
     color: #999;
-    margin-bottom: 4px;
-    padding-left: 5px;
-    margin-top: 10px;
 }
 
 .container .post .draft-label {
-    color: #29f;
+    color: #27c;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -271,10 +273,10 @@
 
 .container .post nav.post-tags .tags a {
     display: inline-block;
-    border: 1px solid #29f;
+    border: 1px solid #27c;
     border-radius: 4px;
     padding: 0px 6px;
-    color: #29f;
+    color: #27c;
     line-height: 20px;
     font-size: 12px;
     text-decoration: none;

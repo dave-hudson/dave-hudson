@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    color: #ddd;
+    color: #ccc;
 }
 
 .container a {
@@ -23,7 +23,7 @@ body {
 }
 
 .container blockquote {
-    border-color: #ddd;
+    border-color: #ccc;
 }
 
 .container hr {
@@ -40,7 +40,7 @@ body {
 }
 
 .container .header .site-title a {
-    color: #ddd;
+    color: #ccc;
 }
 
 .container .header nav.site-menu {
