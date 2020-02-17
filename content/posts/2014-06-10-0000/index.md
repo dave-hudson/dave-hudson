@@ -112,7 +112,7 @@ the course of hour or even a few days; those numbers, tantalizing as
 they may seem, are largely meaningless.  They are the lies among the
 truth that only becomes apparent over a much longer timescale.
 
-\[Data reference: blockchain.info\]
+\[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 

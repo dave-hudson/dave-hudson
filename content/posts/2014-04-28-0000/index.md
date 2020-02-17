@@ -129,7 +129,8 @@ all models there are some assumptions, so here are the main ones:
   but the impact on results is relatively small.
 
 Let's look at the prediction.  Data prior to May 2014 is actual measured
-data from blockchain.info, while the 2 years after are predicted.
+data from [blockchain.info](http://blockchain.info), while the 2 years after
+are predicted.
 
 ![Predictions of the Bitcoin hashing rate April 2014.  Shows an S curve
 appearing](./hash-predict.png)

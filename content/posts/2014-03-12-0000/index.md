@@ -39,4 +39,4 @@ right now):
 
 Does anyone have any data that might explain this?
 
-\[Data reference: blockchain.info\]
+\[Data reference: [blockchain.info](http://blockchain.info)\]

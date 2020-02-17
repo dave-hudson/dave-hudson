@@ -19,10 +19,10 @@ obvious "cost" is the transaction fee, so let's look at that:
 ## ![Mean cost per Bitcoin transaction for the last 4 years (linear scale)](./fee-per-trans-linear.png)
 
 This data, as with all of the data in this article, comes from
-blockchain.info.  The chart shows the fee per transaction for the last 4
-years, and shows that that cost is in BTC and what that converted to in
-USD. The USD trace is really hard to follow early on though so let's
-look at this on a logarithmic scale:
+[blockchain.info](http://blockchain.info).  The chart shows the fee per
+transaction for the last 4 years, and shows that that cost is in BTC and
+what that converted to in USD. The USD trace is really hard to follow early
+on though so let's look at this on a logarithmic scale:
 
 ![fee-per-trans-log](./fee-per-trans-log.png)
 
@@ -179,6 +179,8 @@ Of course this isn't the only way in which this particular problem
 might be averted, but one thing is clear: there will inevitably have to
 be changes to way in which mining is funded in order to keep things
 running smoothly. 
+
+\[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 

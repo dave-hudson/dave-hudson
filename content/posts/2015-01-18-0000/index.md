@@ -211,7 +211,7 @@ Many thanks to [\@oocBlog](https://twitter.com/oocBlog) (author of the
 well worth reading every week).  After I spotted the trends that led me
 to speculate about block size limits he generated the raw data that I
 needed to perform my analysis.  Other data sets came from standard charts
-available at blockchain.info.
+available at [blockchain.info](http://blockchain.info).
 
 ------------------------------------------------------------------------
 

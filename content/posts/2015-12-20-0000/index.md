@@ -128,8 +128,8 @@ at times under 10 seconds).
 Things become much more interesting when we start to consider some
 reasonable loading on the network.  As of early December 2015 the
 network's block capacity is at least 58% (data taken from
-blockchain.info).  In practice some blocks are mined smaller than the
-full 1M bytes that could be used (see
+[blockchain.info](http://blockchain.info)).  In practice some blocks are
+mined smaller than the full 1M bytes that could be used (see
 [The myth of the megabyte Bitcoin block]({{< relref "../2015-01-18-0000" >}}))
 and so we may have more block capacity being used:
 
@@ -204,6 +204,8 @@ has also seen a consolidation of mining in the hands of large industrial
 miners, and it will be interesting to see how they react to the block
 reward halving.  It seems extremely unlikely that a large enough fee
 market will be in place before then.
+
+\[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 

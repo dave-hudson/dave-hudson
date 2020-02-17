@@ -131,7 +131,7 @@ prove to be the characteristic that helps miners finally achieve
 revenues from fees instead of block rewards.  That, however, seems like a
 story for another day...
 
-\[Data reference: blockchain.info\]
+\[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 

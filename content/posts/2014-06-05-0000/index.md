@@ -29,7 +29,7 @@ gentle slopes of the low point trend (green line) form an intriguingly
 steady path.  Perhaps it's this trend that should be attracting far more
 attention?
 
-\[Data reference: blockchain.info\]
+\[Data reference: [blockchain.info](http://blockchain.info)\]
 
 ------------------------------------------------------------------------
 
