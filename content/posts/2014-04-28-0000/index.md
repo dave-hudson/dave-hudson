@@ -40,7 +40,8 @@ inefficiencies.
 If we take our 86 MW number then that equates to 2.06M kWh of
 electricity per day.  Electricity prices vary quite a lot based on
 location but the range is probably as low as \$0.08 all the way through
-to \$0.50 (see [energyusecalculator.com/global\_electricity\_prices](http://energyusecalculator.com/global_electricity_prices.htm)),
+to \$0.50 (see [energyusecalculator.com/global\_electricity\_prices](
+http://energyusecalculator.com/global_electricity_prices.htm)),
 but a reasonable working average might be \$0.20.  Commercial users might
 average a lower raw cost for electricity, but they will often have to
 pay for cooling systems that in turn take electricity and so have an
@@ -51,7 +52,7 @@ currently be \$413k per day (about \$151M per year!).
 
 ## How does this affect peak hashing rates?
 
-In an earlier article, "[The Rewards For A Bitcoin Miner]({{< relref "../2014-04-03-0000" >}})",
+In an earlier article, "[The rewards for a Bitcoin miner]({{< relref "../2014-04-03-0000" >}})",
 we looked at how hardware costs and mining rewards could put an upper
 limit on the worldwide hashing rate, but this didn't really try to
 account for operating costs.  If we start to think about these it starts
@@ -97,7 +98,7 @@ This probably has the largest impact on anyone looking to mine on a
 commercial scale because they have to generate profits to return to
 investors as well as cover costs.
 
-In another article, "[Where Next For Bitcoin Mining ASICs?]({{< relref "../2014-03-23-0000" >}})",
+In another article, "[Where next for Bitcoin mining ASICs?]({{< relref "../2014-03-23-0000" >}})",
 some thought was given to how much opportunity there is to see much more
 efficient hashing hardware.  It seems inevitable that technology will no
 longer offer a path to dramatically higher hashing rates at the same

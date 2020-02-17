@@ -48,7 +48,7 @@ irrespective of the number of blocks found.
 
 Another complication is that the current difficulty level doesn't
 really indicate the the actual hashing rate of the network even on the
-day it's first set. In the article, "[Lies, damned lies and Bitcoin Ddfficulties]({{< relref "../2014-06-10-0000" >}})",
+day it's first set. In the article, "[Lies, damned lies and Bitcoin Difficulties]({{< relref "../2014-06-10-0000" >}})",
 I showed that a more accurate starting measure was to multiple the new
 difficulty by the square root of the difficulty increase. The
 simulations account for this too.

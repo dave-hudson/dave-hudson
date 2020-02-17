@@ -212,9 +212,7 @@ competitors).  It might seem that this is a clear win for small mining
 pools, but let's not get too hasty!  There are (at least) 2 problems:
 
 - Small mining pools suffer from significanly worse reward variances
-  as we've seen before in, "[The gambler's guide to Bitcoin mining](
-- [The gambler's guide ro Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})
-)".
+  as we've seen before in, "[The gambler's guide to Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})"
 - The block withholding attack scales up by attacking multiple pools!
 
 Let's consider 2 victim mining pools with 12.5% of the total hash rate

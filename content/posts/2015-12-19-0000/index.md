@@ -67,7 +67,7 @@ single 24 hour period over the 25th and 26th of January.
 If a single block can take so long to find, what about the 6 blocks that
 we need for many simple Bitcoin clients (SPV wallets)?
 
-![Probabilities of finding 6 consecutive Bitcoin blocks](./20151219/6b_single.png)
+![Probabilities of finding 6 consecutive Bitcoin blocks](./6b_single.png)
 
 We'd certainly expect that things will be closer to our anticipated 10
 minutes per block and that is indeed the case.  50% of the time we've

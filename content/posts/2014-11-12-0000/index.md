@@ -42,7 +42,7 @@ BTC value being transferred.
 
 The fee structure means that BTC transfers are incredibly inexpensive
 for large transactions, but that small transfers can become much more
-expensive.  As we've seen before in "[7 Transactions Per Second?  Really?]({{< relref "../2014-11-02-0000" >}})",
+expensive.  As we've seen before in "[7 transactions per second?  Really?]({{< relref "../2014-11-02-0000" >}})",
 there's actually a hard limit on transaction space and the current mean
 transaction size limits the network to less than 3.5 transactions per
 second so the fee structure is designed to prevent people from consuming
@@ -184,6 +184,6 @@ running smoothly. 
 
 ## Related articles
 
-- [Bitcoin Traffic Bulletin (2014-11-11)]({{< relref "../2014-11-11-0000" >}})
-- [7 Transactions Per Second?  Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})
-- [The Rewards For A Bitcoin Miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})
+- [Bitcoin traffic bulletin (2014-11-11)]({{< relref "../2014-11-11-0000" >}})
+- [7 transactions per second?  Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})
+- [The rewards for a Bitcoin miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})

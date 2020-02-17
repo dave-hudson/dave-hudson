@@ -50,7 +50,7 @@ quicker than others.  We can also observe that transaction behaviour is
 different at different times of the day too, depending on where the
 transactions originate.
 
-In "[7 Transactions Per Second?  Really?]({{< relref "../2014-11-02-0000" >}})"
+In "[7 transactions per second?  Really?]({{< relref "../2014-11-02-0000" >}})"
 we saw that the current Bitcoin network has a peak capacity of a little
 under 3.5 transactions per second (arguably closer to 3.2 at times).  We
 can use that information to build a Monte Carlo simulation that will

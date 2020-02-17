@@ -19,7 +19,7 @@ the answers some questions.  What is it?  What isn't it?  What might it
 be?  Can it be something that will allow us to build new and enduring
 systems?  In short, what is the essence of blockchain?
 
-{{< figure src="MenaiBridge.jpg" title="The Menai Suspension Bridge, Bangor, North Wales, UK, completed in 1826 (almost 190 years ago), demonstrates how blocks and chains can create something quite remarkable and enduring (photograph taken by the author)" >}}
+{{< figure src="MenaiBridge.jpg" caption="The Menai Suspension Bridge, Bangor, North Wales, UK, completed in 1826 (almost 190 years ago), demonstrates how blocks and chains can create something quite remarkable and enduring (photograph taken by the author)" >}}
 
 ## The Satoshi whitepaper
 

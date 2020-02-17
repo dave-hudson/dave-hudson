@@ -1,9 +1,9 @@
 ---
-title: "About Dave Hudson"
+title: "About Me"
 date: 2020-01-22T21:09:58+00:00
 type: "page"
 ---
-{{< figure src="/about/dave.jpg" title="Dave (apparently always pictured with a drink!)" >}}
+{{< figure src="/about/dave.jpg" caption="Me (apparently always pictured with a drink!)" >}}
 
 Hello, good morning/afternoon/evening\* and welcome! _(\*please delete as appropriate)_
 
