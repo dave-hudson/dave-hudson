@@ -288,7 +288,7 @@ for privacy reasons).
 Are we actually seeing this style of attack on mining pools already?
 Realistically unless someone published verifiable details of what they
 had done then it's probably impossible to tell.  Have we seen
-large-scale attacks, perhaps not, but as with so many other Bitcoin
+large-scale attacks?  Perhaps not, but as with so many other Bitcoin
 network statistics there's a lot of room for things to hide!
 
 ------------------------------------------------------------------------
