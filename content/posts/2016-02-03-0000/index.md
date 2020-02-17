@@ -7,9 +7,9 @@ tags: [Bitcoin transatction fees, Bitcoin, Bitcoin mining]
 Most participants in the ongoing Bitcoin block size debates have a point
 of agreement; that a shortage of block space should have an effect on
 transaction fees. Arguments aside, then, let's see what has actually
-been happening. Are fees going through the roof? Are miners going to be
+been happening. Are fees going through the roof?  Are miners going to be
 celebrating a potential offset to the block reward halving that looms in
-July 2016? The results seem a little surprising!
+July 2016?  The results seem a little surprising!
 
 ## Rewards for a Bitcoin miner
 
@@ -37,7 +37,7 @@ transaction steadily declined, stabilized in the first half of 2015 and
 then jumped in July 2015. Thereafter the average fee actually started to
 fall again. Transaction fees have bounced back up a little in the first
 few weeks of 2016, but this doesn't appear to be the fee armageddon
-that was forecast! If anything fee levels are now back where they were
+that was forecast!  If anything fee levels are now back where they were
 in early 2014.
 
 The trend is certainly curious, so let's look at the transaction

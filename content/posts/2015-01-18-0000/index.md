@@ -59,14 +59,14 @@ and would need to be scaled up!
 
 ## An interlude on block sizing
 
-Why would 750k bytes be being used instead of 1M bytes? If one or more
+Why would 750k bytes be being used instead of 1M bytes?  If one or more
 miner was systematically generating smaller blocks than the theoretical
 maximum then that would definitely affect all of my earlier estimates on
 block utilization, mean confirmation times and block scarcity for mining
 fees.
 
 A little digging around in the Bitcoin Core git repository turns out to
-be very useful! The Bitcoin protocol implements a hard consensus limit
+be very useful!  The Bitcoin protocol implements a hard consensus limit
 of 1M bytes on blocks, but actually has a default size for miners that
 is actually smaller than this.  Individual transaction selectors
 (generally mining pool operators) can set the value to anything up to 1M
@@ -78,19 +78,19 @@ Since v0.9.0 (2014-03-09) the default maximum block size to be mined is
 that v0.8.6 had had the default maximum block size at 350k bytes and
 prior to that the value had been 250k bytes!
 
-If we were mining, why might we want to use smaller block sizes? Well,
+If we were mining, why might we want to use smaller block sizes?  Well,
 if we need to announce a mined block to the network it takes time.  If we
 assume we need to tell 8 peers about any new block and our block is 250k
 bytes in size, then that's 8 \* 250k \* 8 = 16M bits.  If our miner had
 a DSL line with only a 1 Mbps uplink then by the time we've added
 network protocol overheads then this block will take about 20 seconds to
-transmit! That's a very long time, especially in situations where two
+transmit!  That's a very long time, especially in situations where two
 blocks are found at almost the same time.  If the block had been 1M bytes
-then it would have taken 80 seconds! In practice large mining pools will
+then it would have taken 80 seconds!  In practice large mining pools will
 have much faster network connections than this now, but network
 bandwidth still plays an effect.
 
-Back to our original problem, however! The problem with miners selecting
+Back to our original problem, however!  The problem with miners selecting
 a smaller maximum block size is that if the network is heavily loaded
 then our miner is effectively leaving transactions waiting when they
 declare a block "full" at some level below 1M bytes.  Far from the 3.2
@@ -228,4 +228,4 @@ be found on github: <https://github.com/hashingitcom/the_myth_of_the_megabyte_b
 
 - [The future of Bitcoin transaction fees? (2014-11-12)]({{< relref "../2014-11-12-0000" >}})
 - [Bitcoin traffic bulletin (2014-11-11)]({{< relref "../2014-11-11-0000" >}})
-- [7 Transactions per second? Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})
+- [7 Transactions per second?  Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})

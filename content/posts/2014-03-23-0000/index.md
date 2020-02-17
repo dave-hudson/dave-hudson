@@ -76,7 +76,7 @@ either shipped or have been announced.
 
 The process geometry matters for many reasons:
 
-- As the feature size shrinks the speed of the devices increases! We
+- As the feature size shrinks the speed of the devices increases!  We
   don't just gain in terms of having more hashing engines, but each
   one can run faster too.
 - When larger ICs are built there's usually some amount of parts that

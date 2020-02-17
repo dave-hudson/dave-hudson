@@ -27,7 +27,7 @@ look at this on a logarithmic scale:
 ![fee-per-trans-log](./fee-per-trans-log.png)
 
 Certainly these numbers would appear to back up the claim that Bitcoin
-transactions are really inexpensive! BTC-denominated fees have actually
+transactions are really inexpensive!  BTC-denominated fees have actually
 steadily fallen for most of the last 4 years and are now at about
 0.00015 BTC per transaction.  As long as we're talking about
 transactions involving, say, 0.1 BTC then the fees have pretty-much
@@ -42,7 +42,7 @@ BTC value being transferred.
 
 The fee structure means that BTC transfers are incredibly inexpensive
 for large transactions, but that small transfers can become much more
-expensive.  As we've seen before in "[7 Transactions Per Second? Really?]({{< relref "../2014-11-02-0000" >}})",
+expensive.  As we've seen before in "[7 Transactions Per Second?  Really?]({{< relref "../2014-11-02-0000" >}})",
 there's actually a hard limit on transaction space and the current mean
 transaction size limits the network to less than 3.5 transactions per
 second so the fee structure is designed to prevent people from consuming
@@ -73,7 +73,7 @@ revenue for Bitcoin miners was at over \$1.5M per day, but that revenue
 is paying for the installation and running of mining hardware.  If we
 guess that the average mining server is about 1.5 TH/s and the current
 network capacity is around 270 PH/s then that would suggest at least
-180,000 mining units worldwide! In reality there are probably in excess
+180,000 mining units worldwide!  In reality there are probably in excess
 of 200,000.
 
 The 25 BTC reward for each block over the last 2 years has enabled
@@ -185,5 +185,5 @@ running smoothly. 
 ## Related articles
 
 - [Bitcoin Traffic Bulletin (2014-11-11)]({{< relref "../2014-11-11-0000" >}})
-- [7 Transactions Per Second? Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})
+- [7 Transactions Per Second?  Really? (2014-11-02)]({{< relref "../2014-11-02-0000" >}})
 - [The Rewards For A Bitcoin Miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})

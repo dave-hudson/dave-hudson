@@ -95,12 +95,12 @@ percentage of the total network hash rate allocated to the attack.  In
 this case the maximum value would be 25% as that is the total available
 to the attacker.
 
-There are some very striking trends! First the biggest winners in any
+There are some very striking trends!  First the biggest winners in any
 such attack are the neutral third parties.  The attack removes hashing
 from the network and so everyone else finds more of the blocks (albeit
 more slowly until after the next difficulty change reduces the
 difficulty).  The more intriguing aspect is that the attacker also gains
-financially! At up to 4% of the network hash rate (approximately 16% of
+financially!  At up to 4% of the network hash rate (approximately 16% of
 the pool's capacity) the attacker achieves a 1.87% increase in their
 total revenue.  At that same 4%, however, our victim has lost 10.2% of
 their revenue meaning that this has significantly harmed the other
@@ -109,7 +109,7 @@ miners in the victim pool.
 There is an interesting quirk in all of this as regards the operator of
 the victim pool.  If they mine within their own pool then they will also
 suffer losses from the attack, but if they don't then they may actually
-see increased income too! The attacker reduces their own hash rate and
+see increased income too!  The attacker reduces their own hash rate and
 so the victim pool is actually going to find a larger percentage of the
 total blocks.  In the example above, if the attacker shifts 4% of the
 total network hash rate to the attack then the victim pool's original
@@ -196,7 +196,7 @@ If this works one way round then can it work the other way round?
 ![1% miner attacks a 25% mining pool with a block withholding attack](./c1-25-1-no-yes.png)
 
 Clearly the answer is yes a small attacker can still gain a small amount
-at the expense of a large victim! It's worth noting though that in
+at the expense of a large victim!  It's worth noting though that in
 order to do this they must use 12.7% of their total hashing capacity to
 achieve the largest gain and that the gain in question probably isn't
 sufficient to be worthwhile.
@@ -209,7 +209,7 @@ pools cannot be victims of retaliation.  We've also seen that small
 pools can certainly suffer at the hands of large ones but not in ways
 that are directly profitable to larger pools (other than damaging
 competitors).  It might seem that this is a clear win for small mining
-pools, but let's not get too hasty! There are (at least) 2 problems:
+pools, but let's not get too hasty!  There are (at least) 2 problems:
 
 - Small mining pools suffer from significanly worse reward variances
   as we've seen before in, "[The gambler's guide to Bitcoin mining](
@@ -277,7 +277,7 @@ Consider a case where our attacker adds 5% of the useful global hash
 rate for the purpose of attacks.  They now control 28.6% of the total
 hash rate (their new 5% dilutes their old 25%) but are achieving 2.08%
 more than their 28.6% would normally achieve.  The victim pool (or pools)
-loses 12.5%, however! Our attacker knows that they have gained but
+loses 12.5%, however!  Our attacker knows that they have gained but
 no-one else is any the wiser, while our victim appears to be suffering
 from bad luck, and it could take months to statistically demonstrate
 that this wasn't just bad luck in any meaningful way.  No external

@@ -13,8 +13,8 @@ Please read that one; this one is retained purely for historical
 information!\]
 
 The Bitcoin network is currently running at around 30% of its maximum
-capacity, but what does that actually mean to its users? Should we care?
-What about when we reach 50%, or 90%? When roads start to get full of
+capacity, but what does that actually mean to its users?  Should we care?
+What about when we reach 50%, or 90%?  When roads start to get full of
 cars they start to get congested, when large numbers of visitors enter
 or exit a building everyone slows down and takes longer to set where
 they want, but what happens with Bitcoin?
@@ -93,7 +93,7 @@ to people, but no amount of fee changes, or network improvements will
 change these basic numbers!
 
 In the past we've tended to make use of graphs plotted on a logarithmic
-axis and these ones are no exception! Here's the same graph with a
+axis and these ones are no exception!  Here's the same graph with a
 logarithmic time (horizontal) axis:
 
 ![probabilities for time to a first block confirmation with the Bitcoin network loaded at 0.1% (log scale)](./first-conf-0-log.png)
@@ -121,8 +121,8 @@ not really seen any real effects as a result of transaction rate.  At 30%
 loading we'll still see half of all transactions confirmed within 434
 seconds, as opposed to 415 for 0.1%.  That gap really starts to widen at
 40%, however, where it now takes 466 seconds and at 80% we're up at
-1109 seconds (18.5 minutes)! At 100% we're up at a huge 7744 seconds
-(more than 2 hours)! If the network were ever to reach this 100% level,
+1109 seconds (18.5 minutes)!  At 100% we're up at a huge 7744 seconds
+(more than 2 hours)!  If the network were ever to reach this 100% level,
 though, the problems would be much worse as 10% of all transactions
 would still not have received a confirmation after 22800 seconds (6.3
 hours).
@@ -183,7 +183,7 @@ transactions.  They may well start to find themselves priced out of the
 blockchain.  This may well also be a trigger for the use of something
 like sidechains.
 
-One thing is clear though! Anyone looking closely at transactions on the
+One thing is clear though!  Anyone looking closely at transactions on the
 network can probably see the signs of those tail lights coming on ahead.
 Unless something happens quickly, it looks like we're going to be
 slowing down pretty soon.

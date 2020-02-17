@@ -25,8 +25,8 @@ a little later.
 
 Aside from that inexorable increase in difficulty and the cries of woe
 from miners watching it, the most striking characteristic is that way
-it's getting progressively much more \"spiky\"! Look at how smooth it
-used to look? In fact this assessment is actually just plain wrong; if
+it's getting progressively much more \"spiky\"!  Look at how smooth it
+used to look?  In fact this assessment is actually just plain wrong; if
 you were to look at 6 months of data starting 3 months earlier then that
 nice \"smooth\" part would end up looking just as bad as the most recent
 data.  The problem is a question of scale; the variations in the hash
@@ -40,7 +40,7 @@ data on a log chart:
 ![Bitcoin hash rate for the last 6 months (June 2014) on a logarithmic scale](./6m-hash-rate-log.png)
 
 Notice how the spikes in the blue hash rate look pretty much the same
-all the way across now? If you're observant you might argue that the
+all the way across now?  If you're observant you might argue that the
 ones on the left are slightly less spiky, but that's because the slope
 of the graph is steeper there.  Even there though it's clear that the
 statistical noise on a day-to-day basis is actually much larger than the
@@ -79,7 +79,7 @@ Visually our baseline looks pretty reasonable.  We know that even if the
 hash rate was constant the difficulty would change as a result of random
 noise (see \"[Reach for the ear defenders]({{< relref "../2014-05-24-0000" >}})\").
 The question is what does our noise profile look like if we subtract out
-the baseline hash rate estimate? This should approximately follow
+the baseline hash rate estimate?  This should approximately follow
 Bitcoin's Poisson process' noise profile and should oscillate about
 zero.  Here's what it actually looks like for the last 12 months:
 

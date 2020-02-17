@@ -86,7 +86,7 @@ each other:
 It's worth noticing the effect of noise again. The overlaps between the
 2% and 1% expansion rate are pretty clear. When we see a difficulty
 change at 11.75 days are we really seeing the effect of 13.1% extra
-hashing capacity, 24.8%, or more likely somewhere inbetween? It could be
+hashing capacity, 24.8%, or more likely somewhere inbetween?  It could be
 even more divergent though!
 
 Over the last few days there has been much discussion about the GHash.IO

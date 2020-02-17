@@ -7,7 +7,7 @@ tags: [Bitcoin, Bitcoin mining]
 Every so often a Bitcoin mining pool is reported to manage more than
 half of the Bitcoin hashing capacity, exposing the spectre of a so
 called "51% attack". Ignoring the perceived threat though, can we
-really trust the statistics? We've seen, previously, that Bitcoin
+really trust the statistics?  We've seen, previously, that Bitcoin
 mining statistics aren't quite as obvious as we might hope, so what do
 they look like in these cases?
 
@@ -46,7 +46,7 @@ or less and 56.4% and greater.
 ## 50% For 2016 blocks
 
 We've seen what happens on a daily basis, but what happens when we look
-at the 2016 block difficulty change? Here's the simulation for the
+at the 2016 block difficulty change?  Here's the simulation for the
 network when no expansion is occuring:
 
 ![2016 Bitcoin blocks for a pool having 50% of the network and with no network expansion](./2016blocks0percentgrowth.png)

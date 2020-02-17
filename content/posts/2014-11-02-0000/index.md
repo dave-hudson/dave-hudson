@@ -9,7 +9,7 @@ sustain 7 transactions per second.  Bitcoin advocates often worry that
 this will be a limiting factor when credit card processing networks can
 handle several orders of magnitude more transactions in the same time,
 but what are the actual statistics related to Bitcoin transaction
-processing? Our Bitcoin [mine train]({{< relref "../2014-03-09-0000" >}})
+processing?  Our Bitcoin [mine train]({{< relref "../2014-03-09-0000" >}})
 may not be seeing its hashing engines running away quite as much as they
 were earlier this year, but are we heading for other problems instead?
 
@@ -36,7 +36,7 @@ to look at this on a log scale:
 With this view the growth may not look quite as impressive but we can
 see that the daily variations really aren't anything new.
 
-What else can we see? Well we're not really getting to more than about
+What else can we see?  Well we're not really getting to more than about
 80k transactions per day right now, or just under 1 per second.  On the
 surface it would seem that we ought to be quite some way from hitting
 any limits.
@@ -44,14 +44,14 @@ any limits.
 ## A quick aside: The Bitcoin network gets tired on Sundays?
 
 Did you notice that the noise over the last year looks surprsingly
-periodic? Zooming in on this we can see that's surprisingly consistent!
+periodic?  Zooming in on this we can see that's surprisingly consistent!
 
 ![Periodic variations in the Bitcoin transaction processing rate with dips on Sundays](./sunday-trans.png)
 
 The horizontal axis grid lines correlate to Sundays.  For some reason the
 Bitcoin transaction processing network doesn't seem to get used as much
-on Sundays; it's down about 20% on the rest of the week? No I don't
-know why this happens either! Perhaps it gets tired and needs a nap? :-)
+on Sundays; it's down about 20% on the rest of the week?  No I don't
+know why this happens either!  Perhaps it gets tired and needs a nap? :-)
 The trend is evident all the way back to fairly early in 2013 but has
 become much more pronounced in 2014.
 
@@ -108,7 +108,7 @@ Unlike our other graphs the log chart reduces the apparent volatility of
 the left side of the chart this time, but the message is pretty clear;
 the last time we could hit 7 TPS was sometime in 2011.  Right now we're
 lucky to be able to achieve much over 3.2 TPS; it also means that we're
-at about 30% of the total capacity of the network! In fact on several
+at about 30% of the total capacity of the network!  In fact on several
 individual days we were at 40% of the total capacity of the network.
 
 For most engineers this will start to sound alarm bells.  We're not
@@ -126,7 +126,7 @@ congested.  With congestion miners will actually have a significant
 incentive to pick transactions with higher fees associated, as opposed
 to just taking all available transactions.  The specific "tragedy of the
 commons" that says it's better to take any minor reward than to hold
-out for a better one may be overturned! Block scarcity may actually
+out for a better one may be overturned!  Block scarcity may actually
 prove to be the characteristic that helps miners finally achieve
 revenues from fees instead of block rewards.  That, however, seems like a
 story for another day...

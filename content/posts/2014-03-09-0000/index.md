@@ -41,7 +41,7 @@ It's useful to think about what that red trend line shows us.  What we
 see is that in the last 12 months the worldwide hashing rate has
 increased by a factor of approximately 1000.  That means that roughly
 every 4 months it got 10x larger, that it doubles almost every 37 days
-and that it increases by almost 1.9% per day! We don't know how long
+and that it increases by almost 1.9% per day!  We don't know how long
 this trend will continue but it has been somewhat stable for the last
 year.  Given that newer and faster ASIC hardware is due to ship
 throughout the next few months it seems likely that it will continue for

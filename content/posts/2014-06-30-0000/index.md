@@ -4,8 +4,8 @@ date: 2014-06-30T00:00:00+00:00
 description: "What's the best way to get a return when we mine Bitcoins?  Should we mine on our own, mine with a small pool or mine with a large pool?  How much difference does it really make?  Whether we want to be a gambler or an investor is really a question of how much risk we're prepared to take, but what are those risks and what are the odds of success?"
 tags: [Bitcoin, Bitcoin mining]
 ---
-What's the best way to get a return when we mine Bitcoins? Should we
-mine on our own, mine with a small pool or mine with a large pool? How
+What's the best way to get a return when we mine Bitcoins?  Should we
+mine on our own, mine with a small pool or mine with a large pool?  How
 much difference does it really make?
 
 Whether we want to be a gambler or an investor is really a question of
@@ -47,7 +47,7 @@ might we expect?
 The chart shows 15 difficulty changes (6 months).  It plots the
 cumulative probability of achieving a particular BTC reward.  50% of
 miners will achieve 32 BTC or less at the end of the 6 months, while 5%
-will receive nothing at all! It's not possible to get smaller amounts
+will receive nothing at all!  It's not possible to get smaller amounts
 in this time period by solo mining so that's why there's a
 discontinuity in the graph at the start.  10% of miners will actually
 receive 65 BTC or more.
@@ -90,7 +90,7 @@ participate in such pools.  Just how good are the reasons to do so?
 ![Comparison of Bitcoin mining rewards for different pool sizes](./mining-comparison.png)
 
 The first things to notice are just how bad the solo mining and 10%
-membership of 0.1% pool now look! The larger pools are definitely more
+membership of 0.1% pool now look!  The larger pools are definitely more
 attractive to anyone seeking predictable returns.
 
 ## Mining pools are here to stay?

@@ -1,7 +1,7 @@
 ---
 title: "Waiting for blocks"
 date: 2015-02-06T00:00:00+00:00
-description: "Bitcoin blocks take 10 minutes to find don't they?  Well, actually no they don't.  Sometimes they can be found really quickly, but other times they can take a very long time.  Just to make things confusing, the gaps between blocks can change depending on whether the hashing network is stable, expanding or contracting. What if we need 6 blocks (to get 6 confirmations)?  So what we might expect to happen? What was happening during last year's growth phase, and what would happen if the network were to lose large amounts of hashing capacity?"
+description: "Bitcoin blocks take 10 minutes to find don't they?  Well, actually no they don't.  Sometimes they can be found really quickly, but other times they can take a very long time.  Just to make things confusing, the gaps between blocks can change depending on whether the hashing network is stable, expanding or contracting. What if we need 6 blocks (to get 6 confirmations)?  So what we might expect to happen?  What was happening during last year's growth phase, and what would happen if the network were to lose large amounts of hashing capacity?"
 tags: [Bitcoin, Bitcoin mining]
 ---
 \[***Note 2015-12-19:*** This article is the
@@ -11,14 +11,14 @@ as "[Waiting for blocks (revised)]({{< relref "../2015-12-19-0000" >}})".
 Please read that one; this one is retained purely for historical
 information!\]
 
-Bitcoin blocks take 10 minutes to find don't they? Well, actually no
+Bitcoin blocks take 10 minutes to find don't they?  Well, actually no
 they don't.  Sometimes they can be found really quickly, but other times
 they can take a very long time.  Just to make things confusing, the gaps
 between blocks can change depending on whether the hashing network is
 stable, expanding or contracting.  What if we need 6 blocks (to get 6
 confirmations)?
 
-So what we might expect to happen? What was happening during last
+So what we might expect to happen?  What was happening during last
 year's growth phase, and what would happen if the network were to lose
 large amounts of hashing capacity?
 
@@ -35,9 +35,9 @@ block is indeed 10 minutes.  What might seem a little surprising is what
 we see from the red, cumulative probability, line.  By the time we reach
 10 minutes there's a better than 63% probability that we've found a
 new block, not 50%.  The problem is that the remaining 37% of the blocks
-can take a very long time to find! At an hour we've still not found a
+can take a very long time to find!  At an hour we've still not found a
 block a little less than 0.25% of the time; that means that typically 1
-block in 401 will take more than an hour to find! There are a few
+block in 401 will take more than an hour to find!  There are a few
 subtleties to this particular number but we'll come back to those in a
 little while.
 
@@ -62,7 +62,7 @@ The good news is that our guess that 6 blocks would most likely take
 3600 seconds (an hour) is correct.  A surprise, however, is that in 10%
 of cases it takes more than 5560 seconds (more than 1 hour, 32 minutes)
 to find 6 blocks; in 1% of cases it takes more than 7870 seconds (2
-hours, 11 minutes)! On the flip side of this though, in 10% of cases we
+hours, 11 minutes)!  On the flip side of this though, in 10% of cases we
 get all 6 blocks within 1890 seconds (a little under 32 minutes) and in
 1% of cases we have all 6 within 1070 seconds (just under 18 minutes).
 
@@ -95,7 +95,7 @@ an hour or longer increases to once every 480 blocks.
 ## What about more extreme changes in hash rate?
 
 A hash rate increase of 0.2% per day doesn't have much effect, but what
-about 2% per day? 2% seems like a huge number based on recent months,
+about 2% per day?  2% seems like a huge number based on recent months,
 but was quite common in the earlier part of 2014.  At the same time as
 considering postive increases it seems worth considering negative
 changes too; if the BTC:USD price were to continue dropping then in

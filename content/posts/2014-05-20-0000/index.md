@@ -22,7 +22,7 @@ what will or won't give a particular hash result without actually
 computing the hash and seeing if it solved a block.  Essentially each
 minor change in the an attempt to solve a block gives a totally random
 effect, so trying one hash means that the next attempt is neither no
-more likely, or no less likely, to succeed! This highly random nature
+more likely, or no less likely, to succeed!  This highly random nature
 means that mining is a [Poisson Process](http://en.wikipedia.org/wiki/Poisson_process).  As each attempt
 to solve a block is unpredictable then in theory everyone might mine all
 day and never solve a block.  Similarly it's also possible that a single

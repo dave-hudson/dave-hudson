@@ -5,7 +5,7 @@ description: "Everyone knows that mining is a noisy task.  Did you realize just 
 tags: [Bitcoin, Bitcoin mining]
 ---
 Everyone knows that mining is a noisy task.  Did you realize just how
-noisy Bitcoin mining is though? These aren't the noises you were
+noisy Bitcoin mining is though?  These aren't the noises you were
 looking for...
 
 ## ![High noise level warning sign](./high-noise-levels.jpg)
@@ -23,7 +23,7 @@ rate stayed constant for 52 difficulty changes (approximately 2 years)
 then what would happen to the Bitcoin difficulty during that time?
 
 Intuitively it seems that the difficulty shouldn't really change, but
-what are the statistics? This seemed like an interesting thing to try to
+what are the statistics?  This seemed like an interesting thing to try to
 unravel so I built another simulator (it's another one written in C,
 please [contact me](contact) if you'd like to know more about it).
 

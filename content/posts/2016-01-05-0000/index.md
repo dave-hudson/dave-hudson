@@ -11,8 +11,8 @@ will soon become part of the new folklore. It will, as others before it,
 quantitatively destroy all earlier incarnations of itself.
 
 Common wisdom that this ever-increasing hash rate makes the Bitcoin
-network continually stronger, but what does that strength mean? What is
-it stronger than? What guarantees does it offer? The answer, as so
+network continually stronger, but what does that strength mean?  What is
+it stronger than?  What guarantees does it offer?  The answer, as so
 often, is perhaps less clear-cut than we might first imagine!
 
 ## The nature of Bitcoin hashing (an aside)
@@ -122,20 +122,20 @@ slighly less than 8 months was required for 10 zettahashes.
 
 What we've just seen is something of an intellectual curiosity, but
 let's consider a new metric. How long it would take the network to
-recompute all of the previous history? We can do this by plotting the
+recompute all of the previous history?  We can do this by plotting the
 ratio of the total hashes computed over all time to the hashes computed
 on each day up to that point:
 
 ![Ratio of total cumulative hashes to daily hashes](./ratio-of-hashes.png)
 
-We see something new! During periods of extreme, rapid, expansion the
+We see something new!  During periods of extreme, rapid, expansion the
 hashing capacity can accelate to a point where all earlier proofs of
 work become dramatically less valuable. Steady network growth in most of
 2015 culminated in the network requiring almost 12 months of computation
 to recompute every block since the genesis block, but only two months
 later the progression towards 1 exahash/s has seen this fall to under 9
 months; the entire blockchain history is apparently less strong than 2
-months ago! In the middle of the extreme expansion from the first wave
+months ago!  In the middle of the extreme expansion from the first wave
 of ASICs during November 2013 the network could recompute the entire
 blockchain history of 58 months in under 40 days.
 
