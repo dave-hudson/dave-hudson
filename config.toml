@@ -6,7 +6,7 @@ languageCode = "en-gb"
 #
 # Name of the blog and the copyright info.
 #
-title = "Musings of an Itinerant Software Designer"
+title = "Dave Hudson"
 copyright = "© 2014-2020 David J. Hudson"
 
 #
@@ -35,7 +35,7 @@ googleAnalytics = "UA-123-45"
 # disqusShortname = "dave-hudson-demo"
 
 [params]
-	subtitle = "Dave Hudson's Blog/Wiki"
+    subtitle = "hashingit.com"
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "auto" # "dark", "auto", "light"
