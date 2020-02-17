@@ -43,7 +43,7 @@ difficulty change of 24.8% on average, but this doesn't actually make
 much difference. Our "once in ten days" metric now has ranges of 43.5%
 or less and 56.4% and greater.
 
-## 50% For 2016 blocks
+## 50% for 2016 blocks
 
 We've seen what happens on a daily basis, but what happens when we look
 at the 2016 block difficulty change?  Here's the simulation for the

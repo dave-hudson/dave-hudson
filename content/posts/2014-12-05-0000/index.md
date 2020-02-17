@@ -1,13 +1,13 @@
 ---
 title: "Pool wars?"
 date: 2014-12-05T00:00:00+00:00
-description: An intriguiging paper, \"The Miner's Dilemma\" was published a few days ago by Ittay Eyal.  It describes an attack by which an open mining pool may be attacked using block withholding.  Given that most Bitcoin mining is managed by open mining pools then it seems like it ought to raise a few eyebrows (perhaps more than it has already). Just how does this attack work though, who wins, who loses and by how much?""
+description: A few days ago, Ittay Eyal published an intriguiging paper, \"The Miner's Dilemma\".  It describes an attack where an open mining pool may be attacked using block withholding.  Given that most Bitcoin mining is managed by open mining pools then it seems like it ought to raise a few eyebrows (perhaps more than it has already). Just how does this attack work though, who wins, who loses and by how much?""
 tags: [Bitcoin, Bitcoin mining]
 ---
-An intriguiging paper, "[The Miner's Dilemma](http://hackingdistributed.com/2014/12/03/the-miners-dilemma/)"
-was published a few days ago by Ittay Eyal.  It describes an attack by
-which an open mining pool may be attacked using block withholding.  Given
-that most Bitcoin mining is managed by open mining pools then it seems
+A few days ago, Ittay Eyal published an intriguiging paper,
+"[The Miner's Dilemma](http://hackingdistributed.com/2014/12/03/the-miners-dilemma/)".
+It describes an attack where an open mining pool may be attacked using block withholding.
+Given that most Bitcoin mining is managed by open mining pools then it seems
 like it ought to raise a few eyebrows (perhaps more than it has
 already).  Just how does this attack work though, who wins, who loses and
 by how much?
@@ -303,5 +303,5 @@ code can be found on github: <https://github.com/hashingitcom/pool_wars>
 
 ## Related articles
 
-- [The gambler's guide ro Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})
+- [The gambler's guide to Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})
 - [The rewards for a Bitcoin miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})
