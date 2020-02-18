@@ -21,6 +21,11 @@ baseURL = "https://dave-hudson.github.io/"
 publishDir = "../dave-hudson.github.io"
 
 #
+# We want a robots.txt file
+#
+enableRobotsTXT = true
+
+#
 # Mixed case pathnames are not a crime.
 #
 disablePathToLower = true
