@@ -15,8 +15,6 @@ block capacity but events have moved on and we're at nearer to 60% at
 the time of writing.  It's probably a good time to review things once
 more!
 
-## Acknowledgement
-
 I'd been thinking about writing an updated version of the original
 article for several months but didn't feel there was enough new data to
 make it useful.  A few days ago I was contacted by gandrewstone
@@ -26,8 +24,6 @@ actually correct but really not that meaningful.  My thanks go to him for
 his observations.  I updated the simulation (the patches can be seen on
 github - see later), but in the course of reviewing things I also
 realized there were interesting new findings to present.
-
-------------------------------------------------------------------------
 
 ## Bitcoin transaction processing
 
