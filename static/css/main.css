@@ -20,12 +20,12 @@
 }
 
 .container a {
-    color: #06c;
+    color: #05a;
     text-decoration: none;
 }
 
 .container a:hover {
-    color: #06c;
+    color: #05a;
     text-decoration: underline;
     opacity: 0.8;
 }
@@ -40,7 +40,7 @@
     font-size: 1.4rem;
     font-family: Georgia, bitstream charter, serif;
     border-left: 3px solid;
-    border-color: #06c;
+    border-color: #05a;
     padding-left: 20px;
 }
 
@@ -121,15 +121,15 @@
 }
 
 .container table th {
-    background-color: #f4f4f4;
+    background-color: #ccc;
     padding: 5px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #999;
     font-weight: bold;
 }
 
 .container table td {
     padding: 5px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #999;
 }
 
 .container .header {
@@ -149,31 +149,37 @@
 .container .header .site-title a {
     color: #333;
     text-decoration: none !important;
+    float: left;
 }
 
 .container .header .site-description {
     display: flex;
-    justify-content: space-between;
+    float: right;
 }
 
-.container .header .site-description nav.social {
+.container .header nav.social {
+    clear: right;
     margin: 0;
-    padding: 0;
     border: none;
 }
 
-.container .header .site-description nav.social .icon {
-    float: left;
+.container .header nav.social .icon {
+    float: right;
+    margin-top: 5px;
+    margin-left: 7px;
 }
 
-.container .header .site-description nav.social .icon svg {
+.container .header nav.social .icon svg {
+    max-width: 15px;
     max-height: 15px;
     vertical-align: middle;
 }
 
 .container .header nav.site-menu {
-    margin-top: 20px;
-    border-top: 1px solid #f4f4f4;
+    margin-top: 40px;
+    padding-bottom: 0.6em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .container .header nav.site-menu ul {
@@ -184,8 +190,7 @@
 .container .header nav.site-menu ul li {
     display: inline-block;
     list-style: none;
-    margin-left: 0;
-    margin-right: 10px;
+    margin-right: 12px;
     margin-top: 10px;
     text-transform: capitalize;
 }
@@ -207,8 +212,8 @@
     text-align: right;
     font-size: 0.75em;
     color: #999;
-    border-top: 1px solid #f4f4f4;
-    padding: 0px 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
     margin-top: 40px;
 }
 
@@ -266,7 +271,7 @@
 }
 
 .container .post .draft-label {
-    color: #06c;
+    color: #05a;
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 4px;
@@ -276,10 +281,10 @@
 
 .container .post nav.tags a {
     display: inline-block;
-    border: 1px solid #06c;
+    border: 1px solid #05a;
     border-radius: 4px;
     padding: 0px 6px;
-    color: #06c;
+    color: #05a;
     font-size: 12px;
     text-decoration: none;
     margin: 0 1px;
