@@ -6,11 +6,9 @@
         <div class="container">
             {{ partial "header.html" . }}
 
-            {{ if isset .Data "Term" }}
-                <h1>Entries tagged - "{{ .Data.Term }}"</h1>
-            {{ else }}
+            <div class="title">
                 <h1>All Posts</h1>
-            {{ end }}
+            </div>
 
             <div class="list">
                 <div class="posts">

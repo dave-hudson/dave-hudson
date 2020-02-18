@@ -6,7 +6,10 @@
         <div class="container">
             {{ partial "header.html" . }}
 
-            <h1>Posts tagged "{{ .Data.Term }}"</h1>
+            <div class="title">
+                <h1>Posts tagged "{{ .Data.Term }}"</h1>
+            </div>
+
             <div class="list">
                 <div class="posts">
                     {{- range .Data.Pages -}}
