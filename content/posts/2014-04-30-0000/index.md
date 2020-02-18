@@ -3,6 +3,7 @@ title: "Prisoner's dilemmas?"
 date: 2014-04-30T00:00:00+00:00
 description: "Over the last few months I've written about patterns and trends in Bitcoin mining while I've been trying to predict how things will evolve.  More recently I\"ve built simulations that attempt to model how various trends will affect the mining network.  Irrespective of the \"improvements\", be they improved hashing rates, lower power consumption per hash, lower price per kWh of electricity or higher BTC price, one thing is inescapable: The Bitcoin difficulty increases quickly absorb everything thrown at them in order to maintain the system's block finding rate.  This has very significant implications for the not-too-distant future."
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/25-prisoners-dilemmas]
 ---
 Over the last few months I've written about patterns and trends in
 Bitcoin mining while I've been trying to predict how things will
@@ -42,7 +43,11 @@ In the prisoner's dilemma, two prisoners, A and B, suspected of
 committing the same crime (and for which there is no other evidence) are
 arrested and held such that they cannot communicate with each other.
 Each has a choice: confess (known as defecting) or remain silent (known
-as cooperating).  The choices lead to 4 possible outcomes:
+as cooperating).
+
+{{< figure src="Prisoners_Dilemma.png" caption="Depiction of the Prisoner's Dilema.  Image by Chris Jensen and Greg Riestenberg" >}}
+
+The choices lead to 4 possible outcomes:
 
 1. A and B both stay silent: both go free
 2. A and B both confess: both get 2 years in jail
