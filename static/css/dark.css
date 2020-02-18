@@ -39,10 +39,6 @@ body {
     border: 1px solid #666;
 }
 
-.container .header .site-title a {
-    color: #ccc;
-}
-
 .container .header nav.site-menu {
     border-color: #333;
 }

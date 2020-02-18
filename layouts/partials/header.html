@@ -1,20 +1,23 @@
 <div class="header">
-    <div class="site-title">
-        <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-    </div>
-    <div class="site-description">
-        {{- if isset .Site.Params "subtitle" -}}
-            <h1>{{ .Site.Params.Subtitle | markdownify }}</h1>
-        {{- end -}}
-    </div>
-    <nav class="social">
-        {{- range $index, $key := .Site.Params.Social -}}
-            <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
-        {{- end -}}
-        <div class="icon" id="dark-mode-moon"><a><i data-feather="moon"></i></a></div>
-        <div class="icon" id="dark-mode-sun"><a><i data-feather="sun"></i></a></div>
-    </nav>
-
+    <table class="site-title">
+        <tr>
+            <td>
+                <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+                {{- if isset .Site.Params "subtitle" -}}
+                    <h2>{{ .Site.Params.Subtitle | markdownify }}</h1>
+                {{- end -}}
+            </td>
+            <td>
+                <nav class="social">
+                    {{- range $index, $key := .Site.Params.Social -}}
+                        <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
+                    {{- end -}}
+                    <div class="icon" id="dark-mode-moon"><a><i data-feather="moon"></i></a></div>
+                    <div class="icon" id="dark-mode-sun"><a><i data-feather="sun"></i></a></div>
+                </nav>
+            </td>
+        </tr>
+    </table>
     <nav class="site-menu">
         <ul>
             {{ range .Site.Menus.main }}
