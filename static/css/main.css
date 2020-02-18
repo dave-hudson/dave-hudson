@@ -220,10 +220,18 @@
     margin-bottom: 30px;
 }
 
+.container .recent-posts .posts .post .title {
+    margin: 0 auto 30px auto;
+}
+
+.container .recent-posts .posts .post .title h2 {
+    margin: 0;
+}
+
 .container .recent-posts .posts .post .meta {
     font-size: 0.725rem;
     color: #999;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .container .recent-posts .posts .pagination {
