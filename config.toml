@@ -45,9 +45,9 @@ googleAnalytics = "UA-123-45"
     # Icons.
     #
     [[params.social]]
-        name = "Github"
-        icon = "github"
-        url = "https://github.com/dave-hudson"
+        name = "RSS"
+        icon = "rss"
+        url = "/index.xml"
 
     [[params.social]]
         name = "Twitter"
@@ -60,9 +60,9 @@ googleAnalytics = "UA-123-45"
         url = "https://linkedin.com/in/davejh"
 
     [[params.social]]
-        name = "RSS"
-        icon = "rss"
-        url = "/index.xml"
+        name = "Github"
+        icon = "github"
+        url = "https://github.com/dave-hudson"
 
 #
 # Menu items.
