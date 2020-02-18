@@ -3,6 +3,7 @@ title: "51% of the network?"
 date: 2014-06-23T00:00:00+00:00
 description: "Every so often a Bitcoin mining pool is reported to manage more than half of the Bitcoin hashing capacity, exposing the spectre of a so called \"51% attack\".  Ignoring the perceived threat though, can we really trust the statistics?  We've seen, previously, that Bitcoin mining statistics aren't quite as obvious as we might hope, so what do they look like in these cases?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/31-51-percent-of-the-network]
 ---
 Every so often a Bitcoin mining pool is reported to manage more than
 half of the Bitcoin hashing capacity, exposing the spectre of a so

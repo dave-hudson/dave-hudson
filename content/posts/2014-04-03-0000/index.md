@@ -3,6 +3,7 @@ title: "The rewards for a Bitcoin miner"
 date: 2014-04-03T00:00:00+00:00
 description: "Bitcoin mining can be a very profitable activity.  It's good that it is because Bitcoin, as a system, only works because of the mining activity; it's the mining that ensures the transactions actually take place. Just how much money does it generate though and does this help us make any predictions for the future?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/23-the-rewards-for-a-bitcoin-miner]
 ---
 Bitcoin mining can be a very profitable activity.  It's good that it is
 beause Bitcoin, as a system, only works because of the mining activity;

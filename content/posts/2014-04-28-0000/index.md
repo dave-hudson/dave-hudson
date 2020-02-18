@@ -3,6 +3,7 @@ title: "Megawatts of mining"
 date: 2014-04-28T00:00:00+00:00
 description: "One of the more common questions asked when people think about the scale of Bitcoin mining is just how much electricity is being spent supporting the worldwide hashing activities.  The question becomes more interesting once it\"s realized that hashing performs no useful function other than to support mining.</p><p>While the green footprint is of interest to many, the electricity costs turn out to play a much more interesting role in predicting future mining behaviour.  They play a major role in defining the viability of mining hardware, help determine the upper limit on the worldwide hashing rate and the potential scale of future mining operations."
 tags: [Bitcoin, Bitcoin mining, Bitcoin energy usage]
+aliases: [/analysis/24-megawatts-of-mining]
 ---
 One of the more common questions asked when people think about the scale
 of Bitcoin mining is just how much electricity is being spent supporting

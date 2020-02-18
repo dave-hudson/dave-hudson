@@ -3,6 +3,7 @@ title: "The gambler's guide to Bitcoin mining"
 date: 2014-06-30T00:00:00+00:00
 description: "What's the best way to get a return when we mine Bitcoins?  Should we mine on our own, mine with a small pool or mine with a large pool?  How much difference does it really make?  Whether we want to be a gambler or an investor is really a question of how much risk we're prepared to take, but what are those risks and what are the odds of success?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/32-the-gamblers-guide-to-bitcoin-mining]
 ---
 What's the best way to get a return when we mine Bitcoins?  Should we
 mine on our own, mine with a small pool or mine with a large pool?  How

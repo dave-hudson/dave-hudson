@@ -3,6 +3,7 @@ title: "The Bitcoin runaway mine train"
 date: 2014-03-09T00:00:00+00:00
 description: "Bitcoin mining is seemingly unique.  There has probably never been any technology problem that has triggered such sustained growth and it may be a very long time before we see another one. A convergence of the scalable Bitcoin protocol design, readily available technology, money and mining incentives have accelerated this particular mine train in a truly explosive way. Let's look at the trends and what they suggest for future mining activities."
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/19-the-bitcoin-runaway-mine-train]
 ---
 Bitcoin mining is seemingly unique.  There has probably never been any
 technology problem that has triggered such sustained growth and it may

@@ -3,6 +3,7 @@ title: "Finding 2016 blocks"
 date: 2014-06-15T00:00:00+00:00
 description: "2016 blocks is the magic number that corresponds to each change in difficulty within the Bitcoin network.  Nominally it should take 14 days to find this many blocks, but how long does it really take?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/30-finding-2016-blocks]
 ---
 2016 blocks is the magic number that corresponds to each change in
 difficulty within the Bitcoin network.  Nominally it should take 14 days

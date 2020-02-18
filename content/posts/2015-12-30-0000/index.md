@@ -3,6 +3,7 @@ title: "Blockchain, what art thou?"
 date: 2015-12-30T00:00:00+00:00
 description: "As we approach 2016 there seem to be endless discussions about \"blockchain\".  It's a term that is ever-more frequently cited in even mainstream journalism, while in the fintech space alone there are a slew of would-be suppliers and would-be users claiming that \"blockchain\" will revolutionize any number of applications.  This now-common usage suggests it must be something precisely defined and well understood, but this seems to be more a matter of mantra than comprehension.  The echo chambers of the Internet reverberate to many opinions, but attempts to find a precise meaning seem to find a dismaying lack of agreement.  To be anything more than marketing hyperbole we really need the answers some questions.  What is it?  What isn't it?  What might it be?  Can it be something that will allow us to build new and enduring systems?  In short, what is the essence of blockchain?"
 tags: [Blockchain]
+aliases: [/analysis/45-blockchain-what-art-thou]
 ---
 As we approach 2016 there seem to be endless discussions about
 "blockchain".  It's a term that is ever-more frequently cited in even

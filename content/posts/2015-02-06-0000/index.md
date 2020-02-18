@@ -3,6 +3,7 @@ title: "Waiting for blocks"
 date: 2015-02-06T00:00:00+00:00
 description: "Bitcoin blocks take 10 minutes to find don't they?  Well, actually no they don't.  Sometimes they can be found really quickly, but other times they can take a very long time.  Just to make things confusing, the gaps between blocks can change depending on whether the hashing network is stable, expanding or contracting. What if we need 6 blocks (to get 6 confirmations)?  So what we might expect to happen?  What was happening during last year's growth phase, and what would happen if the network were to lose large amounts of hashing capacity?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/41-waiting-for-blocks]
 ---
 \[***Note 2015-12-19:*** This article is the
 original \"Waiting for blocks\" but had a problem with some of the

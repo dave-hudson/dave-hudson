@@ -3,6 +3,7 @@ title: "Behold mighty exahash, hammer of the blocks!"
 date: 2016-01-05T00:00:00+00:00
 description: "\"Exahash\" sounds like it could well have been the hammer of the Norse Gods of old as it defeated all in battle.  In the Bitcoin world of early 2016, however, a mining network that achieves one exahash per second will soon become part of the new folklore.  It will, as others before it, quantitatively destroy all earlier incarnations of itself.  Common wisdom that this ever-increasing hash rate makes the Bitcoin network continually stronger, but what does that strength mean?  What is it stronger than?  What guarantees does it offer? The answer, as so often, is perhaps less clear-cut than we might first imagine!"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/46-behold-exahash]
 ---
 "Exahash" sounds like it could well have been the hammer of the Norse
 Gods of old as it defeated all in battle.  In the Bitcoin world of early

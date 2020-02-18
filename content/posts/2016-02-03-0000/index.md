@@ -3,6 +3,7 @@ title: "A Market For Bitcoin Transaction Fees?"
 date: 2016-02-03T00:00:00+00:00
 description: "Most participants in the ongoing Bitcoin block size debates have a point of agreement; that a shortage of block space should have an effect on transaction fees.  Arguments aside, then, let's see what has actually been happening.  Are fees going through the roof?  Are miners going to be celebrating a potential offset to the block reward halving that looms in July 2016?  The results seem a little surprising!"
 tags: [Bitcoin transatction fees, Bitcoin, Bitcoin mining]
+aliases: [/analysis/47-bitcoin-tx-fees]
 ---
 Most participants in the ongoing Bitcoin block size debates have a point
 of agreement; that a shortage of block space should have an effect on

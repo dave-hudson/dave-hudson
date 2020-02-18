@@ -3,6 +3,7 @@ title: "Reach for the ear defenders!"
 date: 2014-05-24T00:00:00+00:00
 description: "Everyone knows that mining is a noisy task.  Did you realize just how noisy Bitcoin mining is though?  These aren't the noises you were looking for..."
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/28-reach-for-the-ear-defenders]
 ---
 Everyone knows that mining is a noisy task.  Did you realize just how
 noisy Bitcoin mining is though?  These aren't the noises you were

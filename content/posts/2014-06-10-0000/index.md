@@ -3,6 +3,7 @@ title: "Lies, damned lies and Bitcoin difficulties"
 date: 2014-06-10T00:00:00+00:00
 description: "Bitcoin difficulty and hash rate statistics should be considered an illness.  The symptoms include anxiety, depression, sleeplessness and paranoia.  Bitcoin miners follow their every movement, rejoicing at smaller-than-expected difficulty changes and collectively dismaying when things go the other way.  Authoritative-looking charts have people puzzling about why things are so erratic and chasing non-existent mining conspiracies.  The truth is out there..."
 tags: [Bitcoin, Bitcoin mining, Bitcoin difficulty]
+aliases: [/analysis/29-lies-damned-lies-and-bitcoin-difficulties]
 ---
 Bitcoin difficulty and hash rate statistics should be considered an
 illness.  The symptoms include anxiety, depression, sleeplessness and

@@ -3,6 +3,7 @@ title: "Bitcoin traffic bulletin"
 date: 2014-11-11T00:00:00+00:00
 description: "The Bitcoin network is currently running at around 30% of its maximum capacity, but what does that actually mean to its users?  Should we care?  What about when we reach 50%, or 90%?  When roads start to get full of cars they start to get congested, when large numbers of visitors enter or exit a building everyone slows down and takes longer to set where they want, but what happens with Bitcoin?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/34-bitcoin-traffic-bulletin]
 ---
 \[***Note 2015-12-20:***  This article is the
 original "Bitcoin traffic bulletin" but has a minor problem with some

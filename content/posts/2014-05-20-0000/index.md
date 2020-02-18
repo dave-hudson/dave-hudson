@@ -3,6 +3,7 @@ title: "Hash rate headaches"
 date: 2014-05-20T00:00:00+00:00
 description: "One of the more infuriating challenges when trying to do any sort of analysis of Bitcoin mining is to understand the current world-wide hashing rate and how this affects difficulty changes. The very best \"live update\" websites seem to show the hash rate being all over the place. Large spikes occur frequently and it appears that huge amounts of hashing capacity have either come online or gone offline. This explanation may appeal to conspiracy theorists, and will sometimes be the real cause, but there is a much more mundane reason most of the time (but nontheless surprising)."
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/27-hash-rate-headaches]
 ---
 One of the more infuriating challenges when trying to do any sort of
 analysis of Bitcoin mining is to understand the current world-wide

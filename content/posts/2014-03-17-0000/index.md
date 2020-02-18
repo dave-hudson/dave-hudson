@@ -3,6 +3,7 @@ title: "Chickens And Eggs?"
 date: 2014-03-17T00:00:00+00:00
 description: "Which comes first The miners or the money?  Much as the old question of \"Which came first:\" The chicken or the egg?\" there appears to have been a lot of debate about whether the price of Bitcoins is a result of mining activity or whether mining activity is the result of the price of Bitcoins.  The generally-held belief is that as the value of Bitcoins has increased there has been more interest in Bitcoins and this has in turn driven miners to mine, but is it really this simple?"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/21-chickens-and-eggs]
 ---
 Which comes first: The miners or the money?  Much as the old question of
 "Which came first: The chicken or the egg?" there appears to have been

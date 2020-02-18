@@ -3,6 +3,7 @@ title: "Strange spikes in the Bitcoin price?"
 date: 2014-03-12T00:00:00+00:00
 description: "There's something odd about the fluctuations in the price of Bitcoins.  The data shows a set of spikes when the price jumps up and then falls back somewhat and levels out.  This wouldn't be so unusual if the spikes occurred intermittently but in the case of Bitcoins the spikes happen with a very surprising regularity!"
 tags: [Bitcoin, Bitcoin price]
+aliases: [/analysis/20-strange-spikes-in-the-bitcoin-price]
 ---
 There's something odd about the fluctuations in the price of Bitcoins.
 The data shows a set of spikes when the price jumps up and then falls

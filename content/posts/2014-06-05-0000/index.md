@@ -3,6 +3,7 @@ title: "Strange spikes revisited!"
 date: 2014-06-05T00:00:00+00:00
 description: "About 3 months ago I looked at how the BTC price seems to spike up approximately every 7 months.  It seems to be happening again!"
 tags: [Bitcoin, Bitcoin price]
+aliases: [/analysis/18-strange-spikes-revisited]
 ---
 About 3 months ago I looked at how the BTC price seems to spike up
 approximately every 7 months.  It seems to be happening again!

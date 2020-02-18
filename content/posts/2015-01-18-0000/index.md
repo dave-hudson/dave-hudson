@@ -3,6 +3,7 @@ title: "The myth of the megabyte Bitcoin block"
 date: 2015-01-18T00:00:00+00:00
 description: "It's well described how Bitcoin has a one Megabyte block limit; it's defined in the Bitcoin Core source code.  The knowledge of that 1 Mbyte limit has even served in some of my analysis such as \"The future of Bitcoin transaction fees?\", \"Bitcoin traffic bulletin\" and \"7 transactions per second?  Really?\".  Turns out that I was wrong; in practice this limit is actually quite a lot smaller!"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/39-the-myth-of-the-megabyte-bitcoin-block]
 ---
 It's well described how Bitcoin has a one Megabyte block limit; it's
 defined in the Bitcoin Core source code.  The knowledge of that 1 Mbyte

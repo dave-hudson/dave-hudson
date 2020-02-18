@@ -3,6 +3,7 @@ title: "The future of Bitcoin transaction fees?"
 date: 2014-11-12T00:00:00+00:00
 description: "Bitcoin is often touted as having substantially lower fees associated with using it than most other financial systems, but fees and costs are very different things.  The reality of things in the Bitcoin ecosystem is rarely simple, and this one is no exception.  What then are the actual numbers, where are they heading and what are the consequences?"
 tags: [Bitcoin, Bitcoin transaction fees]
+aliases: [/analysis/35-the-future-of-bitcoin-transaction-fees]
 ---
 Bitcoin is often touted as having substantially lower fees associated
 with using it than most other financial systems, but fees and costs are

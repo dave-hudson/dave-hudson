@@ -3,6 +3,7 @@ title: "Bitcoin traffic bulletin (redux)"
 date: 2015-12-20T00:00:00+00:00
 description: "In November 2014 I wrote an article, \"Bitcoin traffic bulletin\" that sought to look at what happens if the Bitcoin network started to get congested.  Since then there has been considerable debate about the Bitcoin block size and there are now many proposals to increase block capacity.  The original asked questions about what it would mean to reach, say, 50% block capacity but events have moved on and we're at nearer to 60% at the time of writing.  It's probably a good time to review things once more!"
 tags: [Bitcoin, Bitcoin mining]
+aliases: [/analysis/44-bitcoin-traffic-bulletin-redux]
 ---
 In November 2014 I wrote an article, "[Bitcoin traffic bulletin]({{< relref "../2014-11-11-0000" >}})"
 that sought to look at what happens if the Bitcoin network started to

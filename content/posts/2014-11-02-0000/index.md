@@ -2,7 +2,8 @@
 title: "7 transactions per second?  Really?"
 date: 2014-11-02T00:00:00+00:00
 description: "The general wisdom seems to be that the Bitcoin network can currently sustain 7 transactions per second.  Bitcoin advocates often worry that this will be a limiting factor when credit card processing networks can handle several orders of magnitude more transactions in the same time, but what are the actual statistics related to Bitcoin transaction processing?  Our Bitcoin mine train may not be seeing its hashing engines running away quite as much as they were earlier this year, but are we heading for other problems instead?"
-tags: 
+tags: [Bitcoin, Bitcoin mining, Bitcoin TPS]
+aliases: [/analysis/33-7-transactions-per-second]
 ---
 The general wisdom seems to be that the Bitcoin network can currently
 sustain 7 transactions per second.  Bitcoin advocates often worry that
