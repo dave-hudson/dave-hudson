@@ -43,8 +43,7 @@ googleAnalytics = "UA-49245383-1"
     subtitle = "hashingit.com"
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
-	mode = "auto" # "dark", "auto", "light"
-	customJS = ["https://code.jquery.com/jquery-3.4.1.js"]  # Custom JS scripts.
+	mode = "auto"
 
     #
     # Icons.
