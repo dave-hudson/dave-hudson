@@ -10,40 +10,38 @@
             </div>
 
             <div class="recent-posts">
-                <div class="posts">
-                    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                    {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-                    {{ range $paginator.Pages }}
-                        <div class="post">
-                            <a class="title" href="{{ .RelPermalink }}"><h2>{{.Title}}</h2></a>
-                            <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
-                            <div class="description">
-                                {{ if isset .Params "description" }}
-                                    {{ .Description }}
-                                {{ else if gt (len .RawContent) 120 }}
-                                    {{ slicestr .RawContent 0 120 }}...
-                                {{ else }}
-                                    {{ .RawContent }}
-                                {{ end }}
-                            </div>
-
-                            <nav class="tags">
-                                {{ if ne .Type "page" }}
-                                    {{ if gt .Params.tags 0 }}
-                                        <ul>
-                                            {{ range .Params.tags }}
-                                                <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-                                            {{ end }}
-                                        </ul>
-                                    {{ end }}
-                                {{ end }}
-                            </nav>
+                {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+                {{ range $paginator.Pages }}
+                    <div class="post">
+                        <a class="title" href="{{ .RelPermalink }}"><h2>{{.Title}}</h2></a>
+                        <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
+                        <div class="description">
+                            {{ if isset .Params "description" }}
+                                {{ .Description }}
+                            {{ else if gt (len .RawContent) 120 }}
+                                {{ slicestr .RawContent 0 120 }}...
+                            {{ else }}
+                                {{ .RawContent }}
+                            {{ end }}
                         </div>
-                    {{ end }}
-                    {{ template "partials/paginator.html" . }}
-                </div>
+
+                        <nav class="tags">
+                            {{ if ne .Type "page" }}
+                                {{ if gt .Params.tags 0 }}
+                                    <ul>
+                                        {{ range .Params.tags }}
+                                            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                {{ end }}
+                            {{ end }}
+                        </nav>
+                    </div>
+                {{ end }}
             </div>
 
+            {{ template "partials/paginator.html" . }}
             {{ partial "footer.html" . }}
         </div>
     </body>

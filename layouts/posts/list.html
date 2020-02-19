@@ -10,21 +10,25 @@
                 <h1>All Posts</h1>
             </div>
 
-            <div class="list">
-                <div class="posts">
-                    {{- range .Data.Pages -}}
-                        {{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
-                        {{- else -}}
-                            <div class="post">
-                                <span class="title">{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}<a href="{{ .RelPermalink }}">{{.Title}}</a></span>
-                                <span class="meta">{{ dateFormat "2006-01-02 15:04" .Date }} - {{ .ReadingTime }} min read </span>
-                            </div>
-                        {{- end -}}
-                    {{- end -}}
-                </div>
+            <div class="all-posts">
+                {{- $paginator := .Paginate (where .Pages "Type" "posts") (index .Site.Params "all-posts-paginate" | default 10) }}
+                {{- range $index, $element := $paginator.Pages -}}
+                    {{- $thisYear := $element.Date.Format "2006" }}
+                    {{- $lastElement := $index | add -1 | index $paginator.Pages }}
+                    {{ if or (eq $index 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
+                        <h2>{{ $thisYear }}</h2>
+                    {{- end }}
+
+                    <div class="post">
+                        <span class="title">{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}<a href="{{ .RelPermalink }}">{{.Title}}</a></span>
+                        <span class="meta">{{ dateFormat "2006-01-02 15:04" .Date }} - {{ .ReadingTime }} min read </span>
+                    </div>
+                {{- end -}}
             </div>
 
+            {{ template "partials/paginator.html" . }}
             {{ partial "footer.html" . }}
         </div>
     </body>
 </html>
+

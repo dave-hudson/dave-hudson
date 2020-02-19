@@ -36,6 +36,9 @@ pygmentscodefencesguesssyntax = true
 
 paginate = 5
 
+#
+# Google Analytics ID.
+#
 googleAnalytics = "UA-49245383-1"
 # disqusShortname = "dave-hudson-demo"
 
@@ -44,6 +47,11 @@ googleAnalytics = "UA-49245383-1"
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "auto"
+
+    #
+    # For the All Posts section, allow 25 posts per page.
+    #
+    all-posts-paginate = 25
 
     #
     # Icons.

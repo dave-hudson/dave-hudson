@@ -205,6 +205,29 @@
     color: #999;
 }
 
+.container ul.pagination {
+    margin: 30px 0 0 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.container ul.pagination .page-prev {
+    text-align: left;
+}
+
+.container ul.pagination .page-next {
+    text-align: right;
+}
+
 .container .footer {
     text-align: right;
     font-size: 0.75rem;
@@ -218,45 +241,35 @@
     margin-top: 10px;
 }
 
-.container .recent-posts .posts .post {
+.container .recent-posts .post {
     margin-bottom: 30px;
 }
 
-.container .recent-posts .posts .post .title {
+.container .recent-posts .post .title {
     margin: 0 auto 30px auto;
 }
 
-.container .recent-posts .posts .post .title h2 {
+.container .recent-posts .post .title h2 {
     margin: 0;
 }
 
-.container .recent-posts .posts .post .meta {
+.container .recent-posts .post .meta {
     font-size: 0.725rem;
     color: #999;
     margin-bottom: 15px;
 }
 
-.container .recent-posts .posts .pagination {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
+.container .all-posts .post {
+    display: table;
+    width: 100%;
 }
 
-.container .recent-posts .posts .pagination li {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-.container .recent-posts .posts .pagination .page-prev {
-    text-align: left;
-}
-
-.container .recent-posts .posts .pagination .page-next {
+.container .all-posts .post .meta {
+    display: table-cell;
     text-align: right;
+    font-size: 0.725rem;
+    color: #999;
+    margin-left: 5px;
 }
 
 .container .post ul li {
@@ -298,19 +311,6 @@
     margin-top: 10px;
     display: inline-block;
     list-style: none;
-}
-
-.container .list .posts .post {
-    display: table;
-    width: 100%;
-}
-
-.container .list .posts .post .meta {
-    display: table-cell;
-    text-align: right;
-    font-size: 0.725rem;
-    color: #999;
-    margin-left: 5px;
 }
 
 .container .tag-cloud {
