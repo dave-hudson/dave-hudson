@@ -40,7 +40,11 @@ paginate = 5
 # Google Analytics ID.
 #
 googleAnalytics = "UA-49245383-1"
-# disqusShortname = "dave-hudson-demo"
+
+#
+# Disqus ID
+#
+disqusShortname = "hashingit-com"
 
 [params]
     subtitle = "hashingit.com"

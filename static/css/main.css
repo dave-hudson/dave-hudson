@@ -174,7 +174,7 @@
 
 .container .header nav.site-menu {
     margin-top: 15px;
-    padding-bottom: 0.6rem;
+    padding: 0.6rem 0 0.6rem 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -188,7 +188,6 @@
     display: inline-block;
     list-style: none;
     margin-right: 12px;
-    margin-top: 10px;
     text-transform: capitalize;
 }
 
@@ -205,17 +204,48 @@
     color: #999;
 }
 
+.container ul.prev-next {
+    margin: 30px 0 0 0;
+    padding: 0.6rem 0 0.6rem 0;
+    text-align: left;
+    display: table;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.container ul.prev-next li {
+    list-style: none;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+}
+
+.container ul.prev-next .prev {
+    text-align: left;
+}
+
+.container ul.prev-next .next {
+    text-align: right;
+}
+
+.container .disqus_thread {
+    margin: 30px 0 0 0;
+}
+
 .container ul.pagination {
     margin: 30px 0 0 0;
-    padding: 0;
+    padding: 0.6rem 0 0 0;
     text-align: left;
-    display: flex;
+    display: table;
+    width: 100%;
     justify-content: space-between;
 }
 
 .container ul.pagination li {
     list-style: none;
-    display: inline-block;
+    display: table-cell;
     margin: 0;
     padding: 0;
 }
@@ -238,7 +268,7 @@
 }
 
 .container .footer .copyright {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .container .recent-posts .post {

@@ -3,12 +3,12 @@
     <ul class="pagination">
         <li class="page-prev">
             {{ if $pag.HasPrev }}
-                <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev page</span></a>
+                <a href="{{ $pag.Prev.URL }}" class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev page</span></a>
             {{ end }}
         </li>
         <li class="page-next">
             {{ if $pag.HasNext }}
-                <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">Next page →</span></a>
+                <a href="{{ $pag.Next.URL }}" class="page-link" aria-label="Next"><span aria-hidden="true">Next page →</span></a>
             {{ end }}
         </li>
     </ul>
