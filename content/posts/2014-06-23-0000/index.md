@@ -17,7 +17,7 @@ they look like in these cases?
 Let's look at what happens when a Bitcoin mining pool has 50% of the
 actual global hash rate and see what the estimated statistics look like
 for 24 hours.  We'll start by considering what happens when there's no
-expansion occuring in the network.  Here's what we find from a Monte
+expansion occurring in the network.  Here's what we find from a Monte
 Carlo simulation with 10M trials:
 
 ![Mining pool with 50% of the Bitcoin network over 24 hours, assuming no network hash rate expansion](./24hours0percent.png)

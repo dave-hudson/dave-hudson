@@ -22,19 +22,19 @@ systems?  In short, what is the essence of blockchain?
 
 {{< figure src="MenaiBridge.jpg" caption="The Menai Suspension Bridge, Bangor, North Wales, UK, completed in 1826 (almost 190 years ago), demonstrates how blocks and chains can create something quite remarkable and enduring (photograph taken by the author)" >}}
 
-## The Satoshi whitepaper
+## The Satoshi white paper
 
 Almost every discussion of blockchains starts with the Satoshi
-whitepaper, but it is this very foundation that starts us on a path to
+white paper, but it is this very foundation that starts us on a path to
 confusion.  Neither the terms "blockchain" or "block chain" appear
 there; there are 67 uses of "block" and "27" of chain, but 0 of
 "block chain" or "blockchain".  This aside though, let's see where
 this origin leads us.
 
-The whitepaper is short; it's just 9 page long.  The first mention of
+The white paper is short; it's just 9 page long.  The first mention of
 "block" and "chain" starts at the bottom of page 2, section 3, where
 there is a discussion of a basic timestamp server.  Prior to this the
-whitepaper describes a series of design goals associated with the
+white paper describes a series of design goals associated with the
 Bitcoin design such as the ability to allow two parties to transact
 without needing to trust a third party.
 
@@ -47,7 +47,7 @@ attributes, rather than characteristics of this first implementation.
 
 ### Transactions
 
-Section 1 of the whitepaper is an introduction and it is with section 2
+Section 1 of the white paper is an introduction and it is with section 2
 that we see anything really substantive.  Section 2 sets a scene for a
 digital coin, but it is described as being a chain of transactions in
 which the "coin" is assigned to new owners.  The coin is really a
@@ -67,7 +67,7 @@ predecessor block to ensure the construction of a chain.  The block
 hashes are published as a form of widely witnessed evidence that
 demonstrate shows the existence of both the block data and the
 predecessor hash. Changing either the predecessor or the other data
-within the block would result in a different hash signatuare for the
+within the block would result in a different hash signature for the
 block that would not match the widely witnessed view.
 
 These characteristics are all fundamental, and without them we cannot
@@ -93,7 +93,7 @@ ones:
 
 ### Enabling peer-to-peer operations
 
-The next section, 4, of the whitepaper talks about proof-of-work.  The
+The next section, 4, of the white paper talks about proof-of-work.  The
 first line is interesting: "To implement a distributed timestamp server
 on a peer-to-peer (P2P) basis, we will need to use a proof-of-work
 system similar to Adam Back's Hashcash".  Proof-of-work is not required
@@ -117,7 +117,7 @@ about what a blockchain might be.
 
 ## Answers to our questions
 
-If the Satoshi whitepaper is the origin of the blockchain design we're
+If the Satoshi white paper is the origin of the blockchain design we're
 left with a rather thin definition, but perhaps that is the most
 enlightening aspect.  It is very explicit about particular design choices
 and their purpose, which tends to lead towards a realization that many
@@ -128,7 +128,7 @@ Let's ask some specific questions then!
 
 ### Must a blockchain have coins?
 
-There is an interesting discussion in the whitepaper about the need to
+There is an interesting discussion in the white paper about the need to
 provide incentives to those providing security to the P2P network to
 remain honest and as a means to introduce "coins" into the system, but
 the discussion is clearly in the context of the P2P network.  The concept
@@ -141,7 +141,7 @@ about trust but we will return to that later.
 
 ### Must a blockchain implement smart contracts?
 
-From the perspective of the whitepaper this seems unlikely.  The word
+From the perspective of the white paper this seems unlikely.  The word
 "contract" does not appear anywhere.
 
 Might a blockchain enable smart contracts?  Yes, of course it might, but
@@ -150,10 +150,10 @@ it might enable many other things too.
 ### Must a blockchain be programmable?
 
 Again the answer seems to be no.  Neither the words "program" or
-"script" appear in the whitepaper.
+"script" appear in the white paper.
 
 A blockchain does have a requirement to be interpretable by one or more
-indepdendent observers, so it is clearly built from one or more
+independent observers, so it is clearly built from one or more
 well-defined data structures.  The block data structure must contain a
 previous block hash, and the cryptographic hash of the block must be
 performed in a very specific way, but none of these require that the
@@ -170,7 +170,7 @@ more ambitious design goals, but it seems a blockchain need no more be
 ### Is a blockchain a database?
 
 Once more the answer seems to be no.  As before, the word "database"
-does not appear in the whitepaper.
+does not appear in the white paper.
 
 At its core a blockchain is a special type of data structure.  The blocks
 within the chain contain data, but this does not make it a database; at

@@ -1,7 +1,7 @@
 ---
 title: "Prisoner's dilemmas?"
 date: 2014-04-30T00:00:00+00:00
-description: "Over the last few months I've written about patterns and trends in Bitcoin mining while I've been trying to predict how things will evolve.  More recently I\"ve built simulations that attempt to model how various trends will affect the mining network.  Irrespective of the \"improvements\", be they improved hashing rates, lower power consumption per hash, lower price per kWh of electricity or higher BTC price, one thing is inescapable: The Bitcoin difficulty increases quickly absorb everything thrown at them in order to maintain the system's block finding rate.  This has very significant implications for the not-too-distant future."
+description: "Over the last few months I've written about patterns and trends in Bitcoin mining while I've been trying to predict how things will evolve.  More recently I've built simulations that attempt to model how various trends will affect the mining network.  Irrespective of the \"improvements\", be they improved hashing rates, lower power consumption per hash, lower price per kWh of electricity or higher BTC price, one thing is inescapable: The Bitcoin difficulty increases quickly absorb everything thrown at them in order to maintain the system's block finding rate.  This has very significant implications for the not-too-distant future."
 tags: [Bitcoin, Bitcoin mining]
 aliases: [/analysis/25-prisoners-dilemmas]
 ---
@@ -110,7 +110,7 @@ game, while most will make long-term losses.
 
 ## The runaway mining headache
 
-As with goldrushes of the past, most of the money has recently flowed to
+As with gold rushes of the past, most of the money has recently flowed to
 suppliers who have enabled ever-larger-scale mining.  While much more
 efficient than previous generations the difficulty levels increased
 exponentially to absorb the improvements and the trend towards

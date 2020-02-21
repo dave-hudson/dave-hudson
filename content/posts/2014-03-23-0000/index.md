@@ -54,7 +54,7 @@ of a design and this is measured in nanometers (nm).  This number
 describes the smallest sized part used in constructing the transistors
 or wires within the integrated circuit (IC).  The smaller the number, the
 more such elements can be fitted into the same space.  It's important to
-realize that beause ICs are two dimensional then making the feature size
+realize that because ICs are two dimensional then making the feature size
 half of what it was means that we can actually get four times as many
 things in the same space.
 

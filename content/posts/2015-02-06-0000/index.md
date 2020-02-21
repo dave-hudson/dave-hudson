@@ -70,9 +70,9 @@ get all 6 blocks within 1890 seconds (a little under 32 minutes) and in
 ## The network isn't static!
 
 So far none of the results we've seen should come as anything of a
-shock to anyone who understands the statistics assoicated with a Poisson
+shock to anyone who understands the statistics associated with a Poisson
 process.  The real Bitcoin network is somewhat more subtle though because
-it is really a non-homegeneous Poisson process; underlying hashing
+it is really a non-homogeneous Poisson process; underlying hashing
 capacities change throughout each difficulty period of 2016 blocks.  If
 we start out at, say, 300 PH/s but add 0.2% new capacity every day, then
 after 14 days (a little more than the 2016 blocks take) we'd have 308.5
@@ -98,14 +98,14 @@ an hour or longer increases to once every 480 blocks.
 A hash rate increase of 0.2% per day doesn't have much effect, but what
 about 2% per day?  2% seems like a huge number based on recent months,
 but was quite common in the earlier part of 2014.  At the same time as
-considering postive increases it seems worth considering negative
+considering positive increases it seems worth considering negative
 changes too; if the BTC:USD price were to continue dropping then in
 theory some reasonably large number of miners might disconnect their
 hardware!
 
 A +2% per day change corresponds to a nominal 24.8% increase in hash
 rate over 2016 blocks and takes about 11.2 days.  The rapid increase
-causes us to find blocks very quicky and thus readjust the difficulty
+causes us to find blocks very quickly and thus readjust the difficulty
 quickly.  A -2% per day change has a much larger impact, however, because
 our 2016 blocks end up taking nearer to 21 days.  This would correspond
 to a hash rate reduction of 34.6%.
@@ -114,7 +114,7 @@ The following curves assume a steady state change, i.e.  what would
 happen if we'd been seeing a steady +2%, 0% or -2% change in the
 previous difficulty period too.  As such these are more extreme that we
 would see in the first difficulty period for which the change was
-occuring; they do match a second or subsequent period:
+occurring; they do match a second or subsequent period:
 
 ![Probabilities of finding a single Bitcoin block under -2%, 0% and +2% daily hash rate changes](./1b_triple.png)
 
@@ -130,7 +130,7 @@ blocks.
 
 ## Final thoughts
 
-The Bitcoin design is suprisingly well adjusted for a network in which
+The Bitcoin design is surprisingly well adjusted for a network in which
 hash rates are expanding.  Given that technologies continually improve
 then that's probably the right bias as a normal schedule of replacing
 older, less power efficient, hardware with newer, more power efficient
@@ -138,7 +138,7 @@ models will tend to see global hash rates increase.
 
 On the surface it looks like it works much less well when we see steady
 contraction of the global hash rate, but such contractions are much less
-likely.  In general miners will remove their least power effiicient
+likely.  In general miners will remove their least power efficient
 hardware from the network rather than their most efficient, so if the
 BTC price reduces the impact on the hash rate is significantly dampened.
 

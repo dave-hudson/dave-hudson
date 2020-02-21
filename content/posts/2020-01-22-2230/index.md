@@ -8,7 +8,7 @@ A number of times in the past I've found myself wanting to blog about some of th
 about, or working on.  Somehow, though, I've never managed to make this stick.
 
 Back in 2014/2015 I did manage to get into quite a good habit of blogging about Bitcoin mining but then I ended up busy
-and the blogging fell aside.  I'd also falled out of love with Joomla as a blogging platform.  I think part of the problem
+and the blogging fell aside.  I'd also fallen out of love with Joomla as a blogging platform.  I think part of the problem
 is that I will always be a software developer at heart and prepackaged, WYSIWYG, tools that have limited flexibility never
 quite appealed to me (that and disliking the bloaty databases and slow rendering behind most of them).  The next time I
 did this I'd already decided I needed to be able to do pretty much everything from a command line and with my trusty

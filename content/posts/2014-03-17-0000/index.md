@@ -50,7 +50,7 @@ but neither the price nor the hashing rate really changed that much.
 Roll forward to early 2013 though and things suddenly changed - a
 lot.
 
-In early 2013 Bitcoin mining ASICs started to take over the hasing
+In early 2013 Bitcoin mining ASICs started to take over the hashing
 activity.  Unlike previous generations that used CPUs and GPUs that were
 intrinsically useful for other purposes the ASICs weren't; they
 weren't cheap either!  Suddenly a lot of Bitcoin miners were having to

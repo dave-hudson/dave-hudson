@@ -68,7 +68,7 @@ hardware achieve when run this way?
 
 Our gambler self may be disappointed to see that the potentially large
 payouts have vanished; 10% of miners will achieve 44 BTC or better.  Our,
-more rational, investor self is probably much happer though as only 10%
+more rational, investor self is probably much happier though as only 10%
 of miners achieve less than 26 BTC.  The simple exercise of merging with
 a pool that has 10x the total mining capacity has made a huge difference
 to the variance of the mining rewards.  Our 50% reward point is higher

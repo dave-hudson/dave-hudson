@@ -19,7 +19,7 @@ lot smaller!
 Back in "[Bitcoin traffic bulletin]({{< relref "../2014-11-11-0000" >}})"
 we saw how first transaction confirmation times were highly dependent on
 how full mined blocks were.  Essentially anything larger than 30% started
-to show noticably slower confirmations than the default 415 seconds that
+to show noticeably slower confirmations than the default 415 seconds that
 is seen when the blocks are pretty-much empty.  In fact the 415 second
 number can be larger or smaller for both statistical noise reasons, or
 if the global hash rate is increasing/decreasing (shorter if it's
@@ -126,7 +126,7 @@ of the larger pools:
 
 - Antpool never adopted the 350k bytes value and jumped from 250k to
   750k in June 2014.
-- BTCGuild adoped 475k bytes in March 2013, then 500k bytes from
+- BTCGuild adopted 475k bytes in March 2013, then 500k bytes from
   August 2013.
 - The now defunct DeepBit pool never went over 100k bytes.
 - Discus Fish (F2Pool) switched from 250k bytes to 32k in
@@ -148,7 +148,7 @@ of the larger pools:
 - Megabigpower has highly erratic maximum block sizes; the variation
   is seemingly far too large for their share of the network, with
   smaller pools showing dramatically more stability.  This perhaps
-  implies that they are usign some sort of custom maximum block size
+  implies that they are using some sort of custom maximum block size
   estimation software.
 - Most of the "unknown" hashing seems to be done by miners using the
   default sizes.

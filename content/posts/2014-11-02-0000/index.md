@@ -44,7 +44,7 @@ any limits.
 
 ## A quick aside: The Bitcoin network gets tired on Sundays?
 
-Did you notice that the noise over the last year looks surprsingly
+Did you notice that the noise over the last year looks surprisingly
 periodic?  Zooming in on this we can see that's surprisingly consistent!
 
 ![Periodic variations in the Bitcoin transaction processing rate with dips on Sundays](./sunday-trans.png)

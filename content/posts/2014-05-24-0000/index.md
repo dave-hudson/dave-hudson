@@ -13,7 +13,7 @@ looking for...
 
 ## A Simple Question
 
-An earlier article, "[Hash Rate Headaches](index.php?option=com_content&view=article&id=27:hash-rate-headaches&catid=8:analysis&Itemid=110)",
+An earlier article, "[Hash Rate Headaches]({{< relref "../2014-05-20-0000" >}})",
 looked at the statistics associated with Bitcoin mining and how it is a
 random Poisson Process.  It was pretty clear that the global hashing
 rate, and thus the Bitcoin mining difficulty, are subject to quite a lot
@@ -39,7 +39,7 @@ orphaned blocks, but these have a very small impact.  Here's one run:
 ![Chart showing noise spikes in the Bitcoin difficulty based on a simulation at a constant hash rate](./simulation.png "Bitcoin difficulty simulated with constant hash rate")
 
 This is just one of many random simulation runs.  The difficulty changes
-are somewhat suprising.  On 7 occasions the difficulty increases by more
+are somewhat surprising.  On 7 occasions the difficulty increases by more
 than 5% and on 3 it reduces by more than 5% (over a much larger number
 of runs the number higher and lower are typically the same; in this
 instance if we move the threshold to 4% then it's 8 higher and 7

@@ -5,7 +5,7 @@ description: A few days ago, Ittay Eyal published an intriguiging paper, \"The M
 tags: [Bitcoin, Bitcoin mining]
 aliases: [/analysis/36-pool-wars]
 ---
-A few days ago, Ittay Eyal published an intriguiging paper,
+A few days ago, Ittay Eyal published an intriguing paper,
 "[The Miner's Dilemma](http://hackingdistributed.com/2014/12/03/the-miners-dilemma/)".
 It describes an attack where an open mining pool may be attacked using block withholding.
 Given that most Bitcoin mining is managed by open mining pools then it seems
@@ -20,7 +20,7 @@ take a simple look at how mining pools pay out to their miners.
 
 A mining pool needs to use a way to have its contributors demonstrate
 that they've been working to find Bitcoin blocks.  Given that Bitcoin is
-designed as a trustless system this isn't a trivial problem.  The
+designed as a trust-less system this isn't a trivial problem.  The
 approach that is taken is to have miners submit "shares" where a share
 is defined to be a proof-of-work solution towards the Bitcoin block that
 the pool is trying to find but that doesn't necessarily meet the
@@ -47,7 +47,7 @@ beforehand by its participants.  Let's assume that we're looking at a
 reasonably simple case where the payout is proportionate to the number
 of shares submitted since the pool last found a block (although the
 logic works for other too).  Our pool, on average, finds a block 1.44
-times per day and thus receives 100,000 shares inbetween blocks that it
+times per day and thus receives 100,000 shares between blocks that it
 finds, of which the last one is the solution to a block.  Our 1% miner
 will have submitted 1000 of these shares and the pool will pay out a
 proportionate amount of the mined block reward.  At its most simplistic
@@ -60,7 +60,7 @@ every 69.4 days that they might hope to achieve on average mining on
 their own, and carries a much lower variance in terms of potential
 returns.
 
-We should note that all of the above is a simplifcation becuase mining
+We should note that all of the above is a simplification because mining
 is a Non-Homogeneous Poisson Process and as such all of the numbers are
 mean values.  For example our miner may end up submitting 1050 shares for
 one block and 950 for the next and 1000 for the one after that; it
@@ -131,7 +131,7 @@ The curves are similar, they're just scaled down.  In fact the attacker
 has less scope to win, achieving a maximum gain of 0.28% when deploying
 0.55% of the global hash rate during the attack (approximately 5.5% of
 the pool's capacity).  Conversely though the losses to the victim
-accumulate faster because a fixed amount of hash rate targetted towards
+accumulate faster because a fixed amount of hash rate targeted towards
 it represents a proportionately larger fraction of the pool's capacity.
 
 If we consider two pools each of which have 1% of the global hashing
@@ -212,7 +212,7 @@ that are directly profitable to larger pools (other than damaging
 competitors).  It might seem that this is a clear win for small mining
 pools, but let's not get too hasty!  There are (at least) 2 problems:
 
-- Small mining pools suffer from significanly worse reward variances
+- Small mining pools suffer from significantly worse reward variances
   as we've seen before in, "[The gambler's guide to Bitcoin mining (2014-06-30)]({{< relref "../2014-06-30-0000" >}})"
 - The block withholding attack scales up by attacking multiple pools!
 
@@ -220,7 +220,7 @@ Let's consider 2 victim mining pools with 12.5% of the total hash rate
 each, and an attacker that has 25%.  Now if our attacker targets each
 with 2% of the global hash rate then the effects are identical to using
 4% to attack one pool with 25% of the total hash rate.  Similarly
-attacking 25 pools with 1% of the global hash rate each and targetting
+attacking 25 pools with 1% of the global hash rate each and targeting
 0.16% at each has the same effect.  In fact if an attacker has a
 reasonable estimate for the hash rate of potential victims then an
 attack can be made, proportionate to each one's size.
@@ -266,7 +266,7 @@ hashing.  This is hashing capacity that has never been used for
 conventional mining but is brought online solely to attack open pools.
 As this capacity would never have contributed to hash rate statistics
 then it won't be noticed by anyone, potentially including the victim
-pool, because it can be targetted in small chunks of a few TH/s each.
+pool, because it can be targeted in small chunks of a few TH/s each.
 
 Let's see what this might look like:
 

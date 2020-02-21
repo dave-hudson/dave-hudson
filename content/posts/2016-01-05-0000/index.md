@@ -35,7 +35,7 @@ When we talk about "work" we really mean this in a thermodynamic
 sense.  The work involves performing a deliberately uninteresting
 computational task that takes useful energy (electricity) and turns it
 into less useful energy (heat).  The purpose is for the hashing engines
-to demonstrate their expenditure of real-world-valuable electrictiy in
+to demonstrate their expenditure of real-world-valuable electricity in
 the chance of obtaining Bitcoins via mining rewards.
 
 In theory the system can be gamed by trying to find uses for the less
@@ -86,7 +86,7 @@ When we actually talk about this sort of proof, however, what's really
 meant is that we believe the probability of constructing an alternative
 timeline for the Bitcoin blockchain becomes sufficiently low that it's
 not a practical concern.  The mathematics for this are given in the
-original Satoshi whitepaper.
+original Satoshi white paper.
 
 It's generally presumed that newer work makes it incrementally less
 likely that really old work could be overturned.  This would certainly be
@@ -117,7 +117,7 @@ hashing capacity undergoes significant growth that the gaps become much
 smaller.  If we consider the 10 zettahash (1.0 x 10^22^) level, the
 cumulative date was around 2013-10-22, and the daily date was
 2014-06-16.  Instead of 24 months required for the 100 exahash level,
-slighly less than 8 months was required for 10 zettahashes.
+slightly less than 8 months was required for 10 zettahashes.
 
 ## A new metric
 
@@ -130,7 +130,7 @@ on each day up to that point:
 ![Ratio of total cumulative hashes to daily hashes](./ratio-of-hashes.png)
 
 We see something new!  During periods of extreme, rapid, expansion the
-hashing capacity can accelate to a point where all earlier proofs of
+hashing capacity can accelerate to a point where all earlier proofs of
 work become dramatically less valuable.  Steady network growth in most of
 2015 culminated in the network requiring almost 12 months of computation
 to recompute every block since the genesis block, but only two months
@@ -151,7 +151,7 @@ General threat models for the Bitcoin network consider the risks of a
 Bitcoin network is used to anchor other blockchains, the history itself
 becomes valuable for other reasons, potentially in excess of the value
 for Bitcoin itself.  In the short term there is no obvious technology to
-surplant the current ASIC roadmap, but we might have some pause for
+supplant the current ASIC roadmap, but we might have some pause for
 thought about whether, environmental concerns aside, proof-of-work alone
 will be sufficient to secure the long-term history of the Bitcoin
 blockchain.

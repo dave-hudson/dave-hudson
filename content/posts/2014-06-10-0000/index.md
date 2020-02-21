@@ -47,7 +47,7 @@ of the graph is steeper there.  Even there though it's clear that the
 statistical noise on a day-to-day basis is actually much larger than the
 overall trend.  That overall trend shows that hashing rate, and thus the
 difficulty, increases are slowing down for now (and probably for the
-forseeable future).  The slowdown wasn't evident on the linear scale
+foreseeable future).  The slowdown wasn't evident on the linear scale
 graph and so we can see another advantage of logarithmic scale graphs.
 
 ## Calculating a baseline
