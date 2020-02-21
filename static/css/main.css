@@ -188,7 +188,6 @@
     display: inline-block;
     list-style: none;
     margin-right: 12px;
-    text-transform: capitalize;
 }
 
 .container .title {
@@ -295,6 +294,19 @@
 }
 
 .container .all-posts .post .meta {
+    display: table-cell;
+    text-align: right;
+    font-size: 0.725rem;
+    color: #999;
+    margin-left: 5px;
+}
+
+.container .tagged-posts .post {
+    display: table;
+    width: 100%;
+}
+
+.container .tagged-posts .post .meta {
     display: table-cell;
     text-align: right;
     font-size: 0.725rem;

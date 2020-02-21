@@ -10,7 +10,7 @@
                 <h1>Posts tagged "{{ .Data.Term }}"</h1>
             </div>
 
-            <div class="list">
+            <div class="tagged-posts">
                 {{- range .Data.Pages -}}
                     {{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
                     {{- else -}}

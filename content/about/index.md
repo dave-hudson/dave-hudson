@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About me"
 date: 2020-01-22T21:09:58+00:00
 type: "page"
 aliases: [/follow]
@@ -24,7 +24,7 @@ A number of years ago I got interesting in blockchain technology and now have th
 very talented engineers at [R3](http://r3.com), where we build [Corda](http://corda.net).  If you want a peek at how
 decentralized computing is evolving then it's well worth a look (but then I would say that, wouldn't I?)
 
-## What's This Site About?
+## What's this site about?
 
 This site is a little bit of an experiment.  Over the years I've researched and developed a lot of things I think are
 interesting, and I wanted to have somewhere to try and share some of what I've learned and some of what I learn as I go along.

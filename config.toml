@@ -53,7 +53,7 @@ disqusShortname = "hashingit-com"
 	mode = "auto"
 
     #
-    # For the All Posts section, allow 25 posts per page.
+    # For the "All posts" section, allow 25 posts per page.
     #
     all-posts-paginate = 25
 
@@ -85,12 +85,12 @@ disqusShortname = "hashingit-com"
 #
 [menu]
     [[menu.main]]
-        name = "Recent Posts"
+        name = "Home"
         url = "/"
         weight = 1
 
     [[menu.main]]
-        name = "All Posts"
+        name = "All posts"
         url = "/posts"
         weight = 2
 
