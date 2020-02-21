@@ -5,7 +5,7 @@ description: "Some thoughts on what I'm trying to achieve with this site/blog."
 tags: [Hugo, Blog, Vim, MacVim]
 ---
 A number of times in the past I've found myself wanting to blog about some of the things I've been reading about, thinking
-about, or working on.  Somehow, though, I've never managed to make the habit stick.
+about, or working on.  Somehow, though, I've never managed to make this stick.
 
 Back in 2014/2015 I did manage to get into quite a good habit of blogging about Bitcoin mining but then I ended up busy
 and the blogging fell aside.  I'd also falled out of love with Joomla as a blogging platform.  I think part of the problem
