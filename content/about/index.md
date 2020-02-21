@@ -1,7 +1,6 @@
 ---
 title: "About me"
 date: 2020-01-22T21:09:58+00:00
-type: "page"
 aliases: [/follow]
 ---
 Hello, good morning/afternoon/evening\* and welcome! _(\*please delete as appropriate)_

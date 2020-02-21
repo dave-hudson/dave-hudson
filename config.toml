@@ -48,7 +48,6 @@ disqusShortname = "hashingit-com"
 
 [params]
     subtitle = "hashingit.com"
-	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 	mode = "auto"
 
@@ -100,8 +99,8 @@ disqusShortname = "hashingit-com"
         weight = 3
 
     [[menu.main]]
-        name = "Wiki"
-        url = "/wiki"
+        name = "Elements"
+        url = "/elements"
         weight = 4
 
     [[menu.main]]
