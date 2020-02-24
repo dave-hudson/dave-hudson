@@ -7,6 +7,7 @@ Throughout my career I've been reading and collecting papers/articles that I fin
 Date&nbsp;Published | Author(s)                                                                         | Title
 ------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 2017-05             | Todd Warszawski, Peter Bailis                                                     | [ACIDRain: Concurrency-Related Attacks on Database-Backed Web Applications](2017-05-acidrain-sigmod2017.pdf)
+2016-11             | Philipp Holzinger, Stefan Triller, Alexandre Bartel, Eric Bodden                  | [An In-Depth Study of More Than Ten Years of Java Exploitation](./2016-10-holzinger2016java.pdf)
 2015-01-21          | Carl Hewitt                                                                       | [Actor Model of Computation: Scalable Robust Information Systems](./2015-01-21-1008.1459.pdf)
 2013-02-04          | Dror G. Feitelson, Eitan Frachtenberg, Kent L. Beck                               | [Development and Deployment at Facebook](./2013-02-04-devops.pdf)
 2012-10             | James C. Corbett, Jeffrey Dean, Michael Epstein, Andrew Fikes, et. al             | [Spanner: Google’s Globally-Distributed Database](./2012-10-spanner-osdi2012.pdf)
@@ -18,7 +19,9 @@ Date&nbsp;Published | Author(s)                                                 
 2007-10             | Iavor S. Diatchki, Thomas Hallgren, Mark P. Jones, Rebekah Leslie, Andrew Tolmach | [Writing Systems Software in a Functional Language](./2007-10-plos07.pdf)
 2005-11             | John Regehr, Alastair Reid, Kirk Webb                                             | [Eliminating Stack Overflow by Abstract Interpretation](./2005-11-stacktool-submit.pdf)
 2003-11-20          | Joe Armstrong                                                                     | [Making reliable distributed systems in the presence of sodware errors](./2003-11-20-armstrong_thesis_2003.pdf)
+2002-08-02          | Josh Berdine, Peter O’Hearn, Uday Reddy, Hayo Thielecke                           | [Linear Continuation-Passing](./2002-08-02-LinCP.pdf)
 2002-07-01          | Timothy L. Harris                                                                 | [Dependable Software Needs Pervasive Debugging](./2002-07-01-tim-harris-sigops.pdf)
+1997-03             | Jacques Supcik, Moira C. Norrie                                                   | [An Object-Oriented Database Programming Environment for Oberon](./1997-03-JMLC97.pdf)
 1996-05             | Luca Cardelli                                                                     | [Object-based vs. Class-based Languages](./1996-05-Class-based-vs-Object-based-Languages.pdf)
 1995-12             | Dawson R. Engler, M. Frans Kaashoek, James O’Toole Jr.                            | [Exokernel: An Operating System Architecture for Application-Level Resource Management](./1995-12-engler95exokernel.pdf)
 1994-03             | Henry G. Baker                                                                    | [Linear Logic and Permutation Stacks - The Forth Shall Be First](./1994-03-ForthStack.pdf)
