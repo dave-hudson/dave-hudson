@@ -1,6 +1,6 @@
 ---
 title: "Research resources"
-date: 2020-02-24T10:10:00+00:00
+date: 2020-02-25T22:50:00+00:00
 ---
 Throughout my career I've been reading and collecting papers/articles that I find interesting.  Here are some of them:
 
