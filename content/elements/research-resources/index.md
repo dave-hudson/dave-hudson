@@ -7,6 +7,7 @@ Throughout my career I've been reading and collecting papers/articles that I fin
 Date&nbsp;Published | Author(s)                                                                                  | Title
 ------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 2019-11             | Chia-Che Tsai, Jeongseok Son, Bhushan Jain, John McAvey, Raluca Ada Popa, Donald E. Porter | [Civet: An Efficient Java Partitioning Framework for Hardware Enclaves](./2019-11-sec20spring_tsai_prepub.pdf)
+2017-08-15          | Martin Kleppmann, Alastair R. Beresford                                                    | [A Conflict-Free Replicated JSON Datatype](./2017-08-15-conflict-free-replicated-json-datatype.pdf)
 2017-08             | Austin T. Clements, M. Frans Kaashoek, Eddie Kohler, Robert T. Morris, Nickolai Zeldovich  | [The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors](./2017-08-p83-clements.pdf)
 2017-05             | Alexandre Verbitski, Anurag Gupta, Debanjan Saha, Murali Brahmadesam, et al.               | [Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases](./2017-05-p1041-verbitski.pdf)
 2017-05             | Todd Warszawski, Peter Bailis                                                              | [ACIDRain: Concurrency-Related Attacks on Database-Backed Web Applications](./2017-05-acidrain-sigmod2017.pdf)
@@ -90,6 +91,7 @@ Date&nbsp;Published | Author(s)                                                 
 2002-08-01          | Adam Back                                                                                  | [Hashcash - A Denial of Service Counter-Measure](./2002-08-01-hashcash.pdf)
 2002-07-31          | Paul A. Karger, Roger R. Schell                                                            | [Thirty Years Later: Lessons from the Multics Security Evaluation](./2002-07-31-RC22534.pdf)
 2002-07-01          | Timothy L. Harris                                                                          | [Dependable Software Needs Pervasive Debugging](./2002-07-01-tim-harris-sigops.pdf)
+2001-07             | Hugo Krawczyk                                                                              | [The Order of Encryption and Authentication for Protecting Communications (Or: How Secure is SSL?)](./2001-07-order-of-encryption-and-authentication.pdf)
 2001                | Phil Bagwell                                                                               | [Ideal Hash Trees](./2001-ideal-hash-trees.pdf)
 2000-12             | Peter Buneman, Sanjeev Khanna, Wang-Chiew Tan                                              | [Data Provenance: Some Basic Issues](./2000-12-data-provenance-some-basic-issues.pdf)
 2000-08             | Jonathan Stone, Craig Partridge                                                            | [When The CRC and TCP Checksum Disagree](./2000-08-crc-tcp-checksum.pdf)
