@@ -278,10 +278,6 @@
     margin: 0 auto 30px auto;
 }
 
-.container .recent-posts .post .title h2 {
-    margin: 0;
-}
-
 .container .recent-posts .post .meta {
     font-size: 0.725rem;
     color: #999;

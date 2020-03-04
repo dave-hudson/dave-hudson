@@ -55,8 +55,8 @@
 
             <!-- Check if disqus short name is given -->
             {{ if .Site.DisqusShortname }}
-                {{- partial "disqus.html" . -}}
-            {{- end -}}
+                {{ partial "disqus.html" . }}
+            {{ end }}
 
             {{ partial "footer.html" . }}
         </div>

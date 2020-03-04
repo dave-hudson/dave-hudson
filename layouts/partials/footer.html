@@ -1,5 +1,5 @@
 <div class="footer">
-    <div class="copyright">{{ with .Site.Copyright }} {{ . }} {{ end }}</div>
+    <div class="copyright">{{ with .Site.Copyright }}{{ . }}{{ end }}</div>
 </div>
 
 <script src="{{ .Site.BaseURL }}js/footer.js"></script>
@@ -7,6 +7,6 @@
 {{ if not .Site.IsServer }}
     {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
-{{- with .Site.Params.Social -}}
+{{ with .Site.Params.Social }}
     <script>feather.replace()</script>
-{{- end -}}
+{{ end }}

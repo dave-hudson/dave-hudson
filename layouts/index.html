@@ -9,6 +9,12 @@
                 <h1>Home</h1>
             </div>
 
+            <div class="markdown">
+                {{ .Content }}
+            </div>
+
+            <hr />
+            <h1>Recent posts</h1>
             <div class="recent-posts">
                 {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
                 {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}

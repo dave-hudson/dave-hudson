@@ -3,15 +3,15 @@
         <tr>
             <td>
                 <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-                {{- if isset .Site.Params "subtitle" -}}
+                {{ if isset .Site.Params "subtitle" }}
                     <h2>{{ .Site.Params.Subtitle | markdownify }}</h1>
-                {{- end -}}
+                {{ end }}
             </td>
             <td>
                 <nav class="social">
-                    {{- range $index, $key := .Site.Params.Social -}}
+                    {{ range $index, $key := .Site.Params.Social }}
                         <div class="icon"><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></div>
-                    {{- end -}}
+                    {{ end }}
                     <div class="icon" id="dark-mode-moon"><a><i data-feather="moon"></i></a></div>
                     <div class="icon" id="dark-mode-sun"><a><i data-feather="sun"></i></a></div>
                 </nav>
