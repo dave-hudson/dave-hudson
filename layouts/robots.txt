@@ -1,6 +1,4 @@
 User-agent: *
 Disallow: /analysis/
 Disallow: /follow/
-Disallow: /page/
-Disallow: /posts/page/
 Disallow: /tags/
