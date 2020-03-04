@@ -1,7 +1,7 @@
 ---
 title: "Pool wars?"
 date: 2014-12-05T00:00:00+00:00
-description: A few days ago, Ittay Eyal published an intriguiging paper, \"The Miner's Dilemma\".  It describes an attack where an open mining pool may be attacked using block withholding.  Given that most Bitcoin mining is managed by open mining pools then it seems like it ought to raise a few eyebrows (perhaps more than it has already). Just how does this attack work though, who wins, who loses and by how much?""
+description: "A few days ago, Ittay Eyal published an intriguiging paper, \"The Miner's Dilemma\".  It describes an attack where an open mining pool may be attacked using block withholding.  Given that most Bitcoin mining is managed by open mining pools then it seems like it ought to raise a few eyebrows (perhaps more than it has already). Just how does this attack work though, who wins, who loses and by how much?"
 tags: [Bitcoin, Bitcoin mining]
 aliases: [/analysis/36-pool-wars]
 ---
