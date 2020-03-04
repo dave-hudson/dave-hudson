@@ -68,6 +68,11 @@ disqusShortname = "hashingit-com"
         url = "https://twitter.com/hashingitcom"
 
     [[params.social]]
+        name = "Facebook"
+        icon = "facebook"
+        url = "https://facebook.com/hashingitcom"
+
+    [[params.social]]
         name = "LinkedIn"
         icon = "linkedin"
         url = "https://linkedin.com/in/davejh"
