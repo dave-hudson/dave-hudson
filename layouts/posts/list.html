@@ -7,11 +7,11 @@
             {{ partial "header.html" . }}
 
             <div class="title">
-                <h1>All posts</h1>
+                <h1>Blog posts</h1>
             </div>
 
-            <div class="all-posts">
-                {{ $paginator := .Paginate (where .Pages "Type" "posts") (index .Site.Params "all-posts-paginate" | default 10) }}
+            <div class="blog-posts">
+                {{ $paginator := .Paginate (where .Pages "Type" "posts") (index .Site.Params "blog-posts-paginate" | default 10) }}
                 {{ range $index, $element := $paginator.Pages }}
                     {{ $thisYear := $element.Date.Format "2006" }}
                     {{ $lastElement := $index | add -1 | index $paginator.Pages }}

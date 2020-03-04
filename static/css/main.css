@@ -284,12 +284,12 @@
     margin-bottom: 15px;
 }
 
-.container .all-posts .post {
+.container .blog-posts .post {
     display: table;
     width: 100%;
 }
 
-.container .all-posts .post .meta {
+.container .blog-posts .post .meta {
     display: table-cell;
     text-align: right;
     font-size: 0.725rem;

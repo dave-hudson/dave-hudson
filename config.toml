@@ -34,8 +34,6 @@ pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-paginate = 5
-
 #
 # Google Analytics ID.
 #
@@ -52,9 +50,9 @@ disqusShortname = "hashingit-com"
 	mode = "auto"
 
     #
-    # For the "All posts" section, allow 25 posts per page.
+    # For the "Blog" section, allow 25 posts per page.
     #
-    all-posts-paginate = 25
+    blog-posts-paginate = 25
 
     #
     # Icons.
@@ -89,7 +87,7 @@ disqusShortname = "hashingit-com"
         weight = 1
 
     [[menu.main]]
-        name = "All posts"
+        name = "Blog"
         url = "/posts"
         weight = 2
 

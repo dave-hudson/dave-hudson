@@ -17,8 +17,7 @@
             <h1>Recent posts</h1>
             <div class="recent-posts">
                 {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                {{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-                {{ range $paginator.Pages }}
+                {{ range first 6 $pages }}
                     <div class="post">
                         <a class="title" href="{{ .RelPermalink }}"><h2>{{.Title}}</h2></a>
                         <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
@@ -47,7 +46,6 @@
                 {{ end }}
             </div>
 
-            {{ partial "paginator.html" . }}
             {{ partial "footer.html" . }}
         </div>
     </body>
