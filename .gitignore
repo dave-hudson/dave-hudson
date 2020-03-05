@@ -13,3 +13,7 @@
 # Ignore vim swp files
 
 **/*.swp
+
+# Ingore the auto-generated resources director
+
+resources/
