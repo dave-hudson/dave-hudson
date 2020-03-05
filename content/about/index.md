@@ -2,6 +2,7 @@
 title: "About me"
 date: 2020-01-22T21:09:58+00:00
 description: "An introduction to Dave and this site."
+type: about
 aliases: [/follow]
 ---
 Hello, good morning/afternoon/evening\* and welcome! _(\*please delete as appropriate)_

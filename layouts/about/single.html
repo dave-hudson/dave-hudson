@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+    <body>
+        <div class="container">
+            {{ partial "header.html" . }}
+
+            <div class="title">
+                <h1>{{ .Title }}</h1>
+                <div class="meta">
+                    {{ dateFormat "2006-01-02 15:04" .Date }} - {{ .ReadingTime }} min read
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            </div>
+
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>
