@@ -98,7 +98,7 @@ difficulty change are already echoing around the Internet.  Unlike space,
 where no-one can hear your scream, it seems that in Cyberspace a little
 noise can sometimes be very loud indeed!
 
-------------------------------------------------------------------------
+---
 
 ## Related Articles
 

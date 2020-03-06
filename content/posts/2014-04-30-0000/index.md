@@ -156,7 +156,7 @@ happy ending for anyone else but the energy suppliers.
 an [insightful remark](https://bitcointalk.org/index.php?topic=580632.msg6572887#msg6572887) when
 I first posted a link to it!\]
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

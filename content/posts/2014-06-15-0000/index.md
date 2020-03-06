@@ -96,7 +96,7 @@ but the error margins even across an entire 2016 block period are
 surprisingly large.  As ever Bitcoin statistics often lead to more
 questions than answers!
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

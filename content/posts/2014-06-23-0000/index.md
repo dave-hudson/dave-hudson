@@ -70,7 +70,7 @@ owner gaining a majority of the network hashing, but as we've seen
 before, we should be wary that daily statistics alone aren't enough to
 show that this level has been reached.
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

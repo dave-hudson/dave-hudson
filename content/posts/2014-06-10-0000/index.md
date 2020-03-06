@@ -115,7 +115,7 @@ truth that only becomes apparent over a much longer timescale.
 
 \[Data reference: [blockchain.info](http://blockchain.info)\]
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

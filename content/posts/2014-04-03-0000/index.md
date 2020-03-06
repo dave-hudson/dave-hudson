@@ -141,7 +141,7 @@ write about next time :-)
 
 \[Data reference: [blockchain.info](http://blockchain.info)\]
 
-------------------------------------------------------------------------
+---
 
 ## Related Articles}
 

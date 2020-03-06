@@ -18,13 +18,14 @@ capacity?
 
 ## Note
 
-This article is a revised version of an earlier one, "[Waiting for blocks]({{< relref "../2015-02-06-0000" >}})".
+This article is a revised version of an earlier one,
+"[Waiting for blocks]({{< relref "../2015-02-06-0000" >}})".
 Unfortunately, in that article, some of the probability data wasn't
 presented in the right form and this affected a few minor parts of the
 commentary.  This revision contains updated charts and also updated
 commentary!
 
-------------------------------------------------------------------------
+---
 
 ## Running like clockwork?
 
@@ -163,14 +164,14 @@ will be being mined each day.  Whether this actually happens or not may
 be an interesting indicator of what might happen when the block reward
 halves in 2016.
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 
 The source code for the simulation tool that generated the results for
 this article can be found on github at: <https://github.com/hashingitcom/waiting_for_blocks>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

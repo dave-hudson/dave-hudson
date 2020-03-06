@@ -203,7 +203,7 @@ indicator: A periodic report on the mean, minimum and maximum block
 sizes mined by various pools and their associated statistical
 likelihoods could be very interesting.
 
-------------------------------------------------------------------------
+---
 
 ## Acknowledgments
 
@@ -214,7 +214,7 @@ to speculate about block size limits he generated the raw data that I
 needed to perform my analysis.  Other data sets came from standard charts
 available at [blockchain.info](http://blockchain.info).
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 
@@ -223,7 +223,7 @@ would combine all of the raw data into a form I could use with Excel to
 generate the charts.  The source code, and the source CSV data files can
 be found on github: <https://github.com/hashingitcom/the_myth_of_the_megabyte_bitcoin_block>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

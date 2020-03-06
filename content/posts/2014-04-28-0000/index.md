@@ -168,7 +168,7 @@ It is somewhat ironic that rather the decentralized hashing we may be on
 the verge of moving much of it into large, highly centralized, mining
 facilities.
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

@@ -113,7 +113,7 @@ occurring every 2016 blocks!
 As for hash rate estimation, doesn't it now look much more complex than
 it seemed it would?
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 

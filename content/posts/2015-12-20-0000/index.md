@@ -204,7 +204,7 @@ market will be in place before then.
 
 \[Data reference: [blockchain.info](http://blockchain.info)\]
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 
@@ -212,7 +212,7 @@ This article was written with the help of data from a C language
 simulation.  The data was rendered into charts using Excel.  The source
 code can be found on github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

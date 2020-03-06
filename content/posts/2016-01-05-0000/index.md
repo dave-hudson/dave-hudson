@@ -156,7 +156,7 @@ thought about whether, environmental concerns aside, proof-of-work alone
 will be sufficient to secure the long-term history of the Bitcoin
 blockchain.
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

@@ -5,12 +5,14 @@ description: "Bitcoin blocks take 10 minutes to find don't they?  Well, actually
 tags: [Bitcoin, Bitcoin mining]
 aliases: [/analysis/41-waiting-for-blocks]
 ---
-\[***Note 2015-12-19:*** This article is the
+***Note 2015-12-19:*** This article is the
 original \"Waiting for blocks\" but had a problem with some of the
 probability statistics.  A revised, authoritative, version can be found
 as "[Waiting for blocks (revised)]({{< relref "../2015-12-19-0000" >}})".
 Please read that one; this one is retained purely for historical
-information!\]
+information!
+
+---
 
 Bitcoin blocks take 10 minutes to find don't they?  Well, actually no
 they don't.  Sometimes they can be found really quickly, but other times
@@ -151,14 +153,14 @@ will be being mined each day.  Whether this actually happens or not may
 be an interesting indicator of what might happen when the block reward
 halves in 2016.
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 
 The source code for the simulation tool that generated the results for
 this article can be found on github at: <https://github.com/hashingitcom/waiting_for_blocks>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

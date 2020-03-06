@@ -111,7 +111,7 @@ network, but it seems very unlikely that they will be disappearing any
 time soon.  Any proposal to remove them will have to address the issue of
 variance if it is to gain any sort of widespread acceptance.
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

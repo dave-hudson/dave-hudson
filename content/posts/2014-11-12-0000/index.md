@@ -183,7 +183,7 @@ running smoothly. 
 
 \[Data reference: [blockchain.info](http://blockchain.info)\]
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

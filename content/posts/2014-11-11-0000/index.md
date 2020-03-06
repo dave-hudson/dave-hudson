@@ -5,13 +5,15 @@ description: "The Bitcoin network is currently running at around 30% of its maxi
 tags: [Bitcoin, Bitcoin mining]
 aliases: [/analysis/34-bitcoin-traffic-bulletin]
 ---
-\[***Note 2015-12-20:***  This article is the
+***Note 2015-12-20:***  This article is the
 original "Bitcoin traffic bulletin" but has a minor problem with some
 of the probability statistics.  A revised, authoritative, version with
 significantly updated commentary can be found as "[Bitcoin traffic
 bulletin (redux)]({{< relref "../2015-12-20-0000" >}})".
 Please read that one; this one is retained purely for historical
-information!\]
+information!
+
+---
 
 The Bitcoin network is currently running at around 30% of its maximum
 capacity, but what does that actually mean to its users?  Should we care?
@@ -189,7 +191,7 @@ network can probably see the signs of those tail lights coming on ahead.
 Unless something happens quickly, it looks like we're going to be
 slowing down pretty soon.
 
-------------------------------------------------------------------------
+---
 
 ## Source Code
 
@@ -198,7 +200,7 @@ simulation.  The data was rendered into charts using Excel.  The source
 code can be found on
 github: <https://github.com/hashingitcom/bitcoin_traffic_bulletin>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 

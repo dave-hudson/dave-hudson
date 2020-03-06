@@ -292,7 +292,7 @@ had done then it's probably impossible to tell.  Have we seen
 large-scale attacks?  Perhaps not, but as with so many other Bitcoin
 network statistics there's a lot of room for things to hide!
 
-------------------------------------------------------------------------
+---
 
 ## Source code
 
@@ -300,7 +300,7 @@ This article was written with the help of data from a C language
 simulation.  The data was rendered into charts using Excel.  The source
 code can be found on github: <https://github.com/hashingitcom/pool_wars>
 
-------------------------------------------------------------------------
+---
 
 ## Related articles
 
