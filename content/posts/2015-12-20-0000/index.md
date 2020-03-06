@@ -202,7 +202,11 @@ miners, and it will be interesting to see how they react to the block
 reward halving.  It seems extremely unlikely that a large enough fee
 market will be in place before then.
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
 
 ---
 

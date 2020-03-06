@@ -139,7 +139,11 @@ expansions in the hashing rate will have to slow down and that will
 start to change the mining economics again\... seems like something to
 write about next time :-)
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
 
 ---
 

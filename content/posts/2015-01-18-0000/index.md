@@ -211,8 +211,13 @@ Many thanks to [\@oocBlog](https://twitter.com/oocBlog) (author of the
 "[Neighbourhood Pool Watch](http://organofcorti.blogspot.com)" blog;
 well worth reading every week).  After I spotted the trends that led me
 to speculate about block size limits he generated the raw data that I
-needed to perform my analysis.  Other data sets came from standard charts
-available at [blockchain.info](http://blockchain.info).
+needed to perform my analysis.
+
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
 
 ---
 

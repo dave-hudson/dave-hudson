@@ -170,6 +170,12 @@ facilities.
 
 ---
 
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
+
+---
+
 ## Related articles
 
 - [The rewards for a Bitcoin miner (2014-04-03)]({{< relref "../2014-04-03-0000" >}})

@@ -98,4 +98,8 @@ While the block size squabbles will continue it's unclear that there
 have yet been any wide-scale implications for current users of the
 network.
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)

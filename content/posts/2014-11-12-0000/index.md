@@ -181,7 +181,11 @@ might be averted, but one thing is clear: there will inevitably have to
 be changes to way in which mining is funded in order to keep things
 running smoothly. 
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
 
 ---
 

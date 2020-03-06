@@ -73,4 +73,8 @@ limits the ability to increase the hash rate?  At that point there will
 need to be some other driver for any other price
 increases.
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)

@@ -40,4 +40,8 @@ right now):
 
 Does anyone have any data that might explain this?
 
-\[Data reference: [blockchain.info](http://blockchain.info)\]
+---
+
+## Data reference
+
+Data for this article was sourced via [blockchain.info](http://blockchain.info)
