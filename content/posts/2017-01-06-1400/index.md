@@ -150,7 +150,8 @@ both having problems in terms defining operational rules in the face of users pu
 installed designs.
 
 With Bitcoin, the block size has seen miners incentivized to restrict block expansion to maximize mining
-rewards, while the DAO hack incentivized users to want their coins back.
+rewards, while the [DAO hack](https://www.coindesk.com/understanding-dao-hack-journalists) incentivized users
+to want their coins back.
 
 When we consider the deployment of blockchains into other types of applications, then how are these sorts of
 governance issues to be reviewed and resolved?  If we consider systems that might potentially operate for
