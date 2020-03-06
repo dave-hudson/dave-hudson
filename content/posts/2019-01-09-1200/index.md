@@ -147,7 +147,7 @@ most rewarding aspect of working with any platform is seeing what other people a
 {{< figure src="ta-da.png" caption="The R3 NYC office, when they have that \"aha\" moment about how to help a Corda customer - well that's what they tell me anyway ;-)" >}}
 
 ---
-## Acknowlegement
+## Acknowledgement
 
 \* Austin Moothart gets the credit for joking that Solutions Engineers should really be called "Solutions
 Therapists" and that "we feel your pain" - I've been laughing about it ever since
