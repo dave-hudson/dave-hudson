@@ -47,11 +47,25 @@ body {
     border-color: #333;
 }
 
-.container .post .draft-label {
+.container .recent-blog-posts .recent-blog-post nav.tags a {
+    border: 1px solid #b94;
     color: #b94;
 }
 
-.container .post nav.tags a {
+.container .blog-post .draft-label {
+    color: #b94;
+}
+
+.container .blog-post nav.tags a {
+    border: 1px solid #b94;
+    color: #b94;
+}
+
+.container .journal-entry .draft-label {
+    color: #b94;
+}
+
+.container .journal-entry nav.tags a {
     border: 1px solid #b94;
     color: #b94;
 }
