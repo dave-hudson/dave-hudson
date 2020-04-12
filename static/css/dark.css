@@ -43,6 +43,14 @@ body {
     border-color: #333;
 }
 
+.container .prev-next {
+    border-top: 1px solid #333;
+}
+
+.container .disqus {
+    border-top: 1px solid #333;
+}
+
 .container .footer {
     border-color: #333;
 }
