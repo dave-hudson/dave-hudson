@@ -30,7 +30,7 @@ enableRobotsTXT = true
 #
 disablePathToLower = true
 
-pygmentsstyle = "solarized-dark"
+pygmentsUseClasses = true
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
