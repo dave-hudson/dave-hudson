@@ -7,74 +7,94 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #101010;
 }
 
 .container {
-    color: #ccc;
+    color: #ddd;
 }
 
 .container a {
-    color: #b94;
+    color: #80a8d0;
 }
 
 .container a:hover {
-    color: #b94;
+    color: #80a8d0;
 }
 
 .container blockquote {
-    border-color: #ccc;
+    border-color: #ddd;
 }
 
 .container hr {
-    border-color: #333;
+    border-color: #555;
 }
 
 .container table th {
-    background-color: #333;
-    border: 1px solid #666;
+    background-color: #555;
+    border: 1px solid #777;
 }
 
 .container table td {
-    border: 1px solid #666;
+    border: 1px solid #777;
+}
+
+.container .title .meta {
+    color: #aaa;
 }
 
 .container .header nav.site-menu {
-    border-color: #333;
+    border-color: #555;
 }
 
 .container .prev-next {
-    border-top: 1px solid #333;
+    border-top: 1px solid #555;
 }
 
 .container .disqus {
-    border-top: 1px solid #333;
+    border-top: 1px solid #555;
 }
 
 .container .footer {
-    border-color: #333;
+    border-color: #555;
+}
+
+.container .recent-blog-posts .recent-blog-post .meta {
+    color: #aaa;
 }
 
 .container .recent-blog-posts .recent-blog-post nav.tags a {
-    border: 1px solid #b94;
-    color: #b94;
+    border: 1px solid #80a8d0;
+    color: #80a8d0;
+}
+
+.container .blog-posts .blog-post .meta {
+    color: #aaa;
 }
 
 .container .blog-post .draft-label {
-    color: #b94;
+    color: #80a8d0;
 }
 
 .container .blog-post nav.tags a {
-    border: 1px solid #b94;
-    color: #b94;
+    border: 1px solid #80a8d0;
+    color: #80a8d0;
+}
+
+.container .journal-entries .journal-entry .meta {
+    color: #aaa;
 }
 
 .container .journal-entry .draft-label {
-    color: #b94;
+    color: #80a8d0;
 }
 
 .container .journal-entry nav.tags a {
-    border: 1px solid #b94;
-    color: #b94;
+    border: 1px solid #80a8d0;
+    color: #80a8d0;
+}
+
+.container .tagged-posts .tagged-post .meta {
+    color: #aaa;
 }
 
