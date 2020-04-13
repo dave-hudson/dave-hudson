@@ -36,7 +36,7 @@
                     <ul>
                         <li class="prev">
                             {{ if .PrevInSection }}
-                                <a href="{{ .PrevInSection.Permalink }}" class="page-link" aria-label="Previous"><span aria-hidden="true">←&nbsp;</span></a>
+                                <a href="{{ .PrevInSection.Permalink }}" class="page-link" aria-label="Previous"><span aria-hidden="true">&lt;&lt;&nbsp;</span></a>
                             {{ end }}
                         </li>
                         <li class="prev">
@@ -51,7 +51,7 @@
                         </li>
                         <li class="next">
                             {{ if .NextInSection }}
-                                <a href="{{ .NextInSection.Permalink }}" class="page-link" aria-label="Next"><span aria-hidden="true">&nbsp;→</span></a>
+                                <a href="{{ .NextInSection.Permalink }}" class="page-link" aria-label="Next"><span aria-hidden="true">&nbsp;&gt;&gt;</span></a>
                             {{ end }}
                         </li>
                     </ul>
