@@ -19,7 +19,7 @@
                 {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
                 {{ range first 6 $pages }}
                     <div class="recent-blog-post">
-                        <a class="title" href="{{ .RelPermalink }}"><h2>{{.Title}}</h2></a>
+                        <a class="title" href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
                         <div class="meta">{{ dateFormat "2006-01-02 15:04" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} - {{ .ReadingTime }} min read</div>
                         <div class="description">
                             {{ if isset .Params "description" }}
