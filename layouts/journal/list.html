@@ -11,7 +11,7 @@
             </div>
 
             <div class="journal-entries">
-                {{ $paginator := .Paginate (where .Pages "Type" "journal") (index .Site.Params "journal-entrys-paginate" | default 10) }}
+                {{ $paginator := .Paginate (where .Pages "Type" "journal") (index .Site.Params "journal-entries-paginate" | default 10) }}
                 {{ range $index, $element := $paginator.Pages }}
                     {{ $thisYear := $element.Date.Format "2006" }}
                     {{ $lastElement := $index | add -1 | index $paginator.Pages }}
