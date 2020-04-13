@@ -60,6 +60,11 @@ disqusShortname = "hashingit-com"
     journal-entries-paginate = 25
 
     #
+    # Main sections are the blog
+    #
+    mainSections = ["blog"]
+
+    #
     # Icons.
     #
     [[params.social]]
