@@ -123,6 +123,10 @@ body {
     color: #a80018;
 }
 
+.container ol a {
+    font-weight: 600;
+}
+
 .container p a {
     font-weight: 600;
 }
@@ -141,6 +145,10 @@ body {
 .container table td {
     padding: 5px 10px;
     border: 1px solid #777;
+}
+
+.container ul a {
+    font-weight: 600;
 }
 
 .container .header {
