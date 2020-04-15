@@ -231,7 +231,7 @@ body {
 .container .prev-next .meta-nav .prev {
     text-align: left;
     border: none;
-    width: 4%;
+    width: 30px;
     padding-top: 5px;
 }
 
@@ -243,19 +243,17 @@ body {
 .container .prev-next .meta-nav .prev-text {
     text-align: left;
     border: none;
-    width: 46%;
 }
 
 .container .prev-next .meta-nav .next-text {
     text-align: right;
     border: none;
-    width: 46%;
 }
 
 .container .prev-next .meta-nav .next {
     text-align: right;
     border: none;
-    width: 4%;
+    width: 30px;
     padding-top: 5px;
 }
 
@@ -280,7 +278,7 @@ body {
 .container .pagination .meta-nav .prev {
     text-align: left;
     border: none;
-    width: 4%;
+    width: 30px;
     padding-top: 5px;
 }
 
@@ -292,19 +290,17 @@ body {
 .container .pagination .meta-nav .prev-text {
     text-align: left;
     border: none;
-    width: 46%;
 }
 
 .container .pagination .meta-nav .next-text {
     text-align: right;
     border: none;
-    width: 46%;
 }
 
 .container .pagination .meta-nav .next {
     text-align: right;
     border: none;
-    width: 4%;
+    width: 30px;
     padding-top: 5px;
 }
 
