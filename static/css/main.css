@@ -114,43 +114,6 @@ body {
     font-size: .9rem;
 }
 
-.container code {
-    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-    font-size: .95em;
-}
-
-.container p code {
-    color: #a80018;
-}
-
-.container ol a {
-    font-weight: 600;
-}
-
-.container p a {
-    font-weight: 600;
-}
-
-.container table {
-    margin: 25px auto 25px auto;
-}
-
-.container table th {
-    background-color: #bbb;
-    padding: 5px 10px;
-    border: 1px solid #777;
-    font-weight: bold;
-}
-
-.container table td {
-    padding: 5px 10px;
-    border: 1px solid #777;
-}
-
-.container ul a {
-    font-weight: 600;
-}
-
 .container .header {
     margin-bottom: 40px;
 }
@@ -220,6 +183,43 @@ body {
 .container .title .meta {
     font-size: 0.725rem;
     color: #777;
+}
+
+.container .markdown code {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: .95em;
+}
+
+.container .markdown p code {
+    color: #a80018;
+}
+
+.container .markdown ol a {
+    font-weight: 600;
+}
+
+.container .markdown p a {
+    font-weight: 600;
+}
+
+.container .markdown table {
+    margin: 25px auto 25px auto;
+}
+
+.container .markdown table th {
+    background-color: #bbb;
+    padding: 5px 10px;
+    border: 1px solid #777;
+    font-weight: bold;
+}
+
+.container .markdown table td {
+    padding: 5px 10px;
+    border: 1px solid #777;
+}
+
+.container .markdown ul a {
+    font-weight: 600;
 }
 
 .container .prev-next {
