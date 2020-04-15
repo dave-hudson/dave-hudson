@@ -2,7 +2,7 @@
     <table class="site-title">
         <tr>
             <td>
-                <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+                <h1>{{ .Site.Title }}</h1>
                 {{ if isset .Site.Params "subtitle" }}
                     <h2>{{ .Site.Params.Subtitle | markdownify }}</h1>
                 {{ end }}

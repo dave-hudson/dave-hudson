@@ -1,15 +1,29 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
-    <ul class="pagination">
-        <li class="page-prev">
-            {{ if $pag.HasPrev }}
-                <a href="{{ $pag.Prev.URL }}" class="page-link" aria-label="Previous"><span aria-hidden="true">&lt;&lt; Prev page</span></a>
-            {{ end }}
-        </li>
-        <li class="page-next">
-            {{ if $pag.HasNext }}
-                <a href="{{ $pag.Next.URL }}" class="page-link" aria-label="Next"><span aria-hidden="true">Next page &gt;&gt;</span></a>
-            {{ end }}
-        </li>
-    </ul>
+    <div class="pagination">
+        <table class="meta-nav">
+            <tr>
+                <td class="prev">
+                    {{ if $pag.HasPrev }}
+                        <a href="{{ $pag.Prev.URL }}" class="page-link" aria-label="Previous"><span aria-hidden="true"><i data-feather="rewind"></i></span></a>
+                    {{ end }}
+                </td>
+                <td class="prev-text">
+                    {{ if $pag.HasPrev }}
+                        <a href="{{ $pag.Prev.URL }}" class="page-link" aria-label="Previous"><span aria-hidden="true">Prev page</span></a>
+                    {{ end }}
+                </td>
+                <td class="next-text">
+                    {{ if $pag.HasNext }}
+                        <a href="{{ $pag.Next.URL }}" class="page-link" aria-label="Next"><span aria-hidden="true">Next page</span></a>
+                    {{ end }}
+                </td>
+                <td class="next">
+                    {{ if $pag.HasNext }}
+                        <a href="{{ $pag.Next.URL }}" class="page-link" aria-label="Next"><span aria-hidden="true"><i data-feather="fast-forward"></i></span></a>
+                    {{ end }}
+                </td>
+            </tr>
+        </table>
+    </div>
 {{ end }}
