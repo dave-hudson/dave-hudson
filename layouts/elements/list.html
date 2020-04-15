@@ -10,7 +10,9 @@
                 <h1>{{ .Title }}</h1>
             </div>
 
-            {{ .Content }}
+            <div class="markdown">
+                {{ .Content }}
+            </div>
 
             {{ partial "footer.html" . }}
         </div>
