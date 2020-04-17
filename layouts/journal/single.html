@@ -37,7 +37,7 @@
                         <tr>
                             <td class="prev">
                                 {{ if .PrevInSection }}
-                                    <a href="{{ .PrevInSection.Permalink }}" class="page-link" aria-label="Previous"><span aria-hidden="true"><i data-feather="rewind"></i>&nbsp;</span></a>
+                                    <a href="{{ .PrevInSection.Permalink }}" class="page-link" aria-label="Previous"><span aria-hidden="true"><i data-feather="chevron-left"></i>&nbsp;</span></a>
                                 {{ end }}
                             </td>
                             <td class="prev-text">
@@ -52,7 +52,7 @@
                             </td>
                             <td class="next">
                                 {{ if .NextInSection }}
-                                    <a href="{{ .NextInSection.Permalink }}" class="page-link" aria-label="Next"><span aria-hidden="true">&nbsp;<i data-feather="fast-forward"></i></span></a>
+                                    <a href="{{ .NextInSection.Permalink }}" class="page-link" aria-label="Next"><span aria-hidden="true">&nbsp;<i data-feather="chevron-right"></i></span></a>
                                 {{ end }}
                             </td>
                         </tr>
