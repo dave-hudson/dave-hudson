@@ -13,7 +13,7 @@ body {
     color: #181818;
     line-height: 1.5;
     font-size: 15px;
-    padding: 30px;
+    padding: 30px 10px 30px 10px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -172,6 +172,7 @@ body {
 .container .header nav.site-menu .icon {
     float: right;
     margin-left: 7px;
+    padding-top: 2px;
 }
 
 .container .header nav.site-menu .icon svg {
