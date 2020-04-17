@@ -30,10 +30,6 @@ body {
     border-color: #555;
 }
 
-.container p code {
-    color: #d06050;
-}
-
 .container table th {
     background-color: #555;
     border: 1px solid #777;
@@ -45,6 +41,10 @@ body {
 
 .container .title .meta {
     color: #aaa;
+}
+
+.container .markdown p code {
+    color: #d06060;
 }
 
 .container .header nav.site-menu {
