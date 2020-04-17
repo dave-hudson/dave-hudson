@@ -4,7 +4,7 @@
             <td>
                 <h1>{{ .Site.Title }}</h1>
                 {{ if isset .Site.Params "subtitle" }}
-                    <h2>{{ .Site.Params.Subtitle | markdownify }}</h1>
+                    <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Subtitle | markdownify }}</a></h2>
                 {{ end }}
             </td>
             <td>
