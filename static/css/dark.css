@@ -30,21 +30,21 @@ body {
     border-color: #555;
 }
 
-.container table th {
-    background-color: #555;
-    border: 1px solid #777;
-}
-
-.container table td {
-    border: 1px solid #777;
-}
-
 .container .title .meta {
     color: #aaa;
 }
 
 .container .markdown p code {
     color: #d06060;
+}
+
+.container .markdown table th {
+    background-color: #555;
+    border: 1px solid #777;
+}
+
+.container .markdown table td {
+    border: 1px solid #777;
 }
 
 .container .header nav.site-menu {
