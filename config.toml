@@ -42,12 +42,14 @@ googleAnalytics = "UA-49245383-1"
 #
 # Disqus ID
 #
-disqusShortname = "hashingit-com"
+# disqusShortname = "hashingit-com"
 
 [params]
     subtitle = "hashingit.com"
 	featherIconsCDN = true
 	mode = "auto"
+    description = "Dave Hudson's space on the Internet"
+    images = ["/about/dave.jpg"]
 
     #
     # For the "Blog" section, allow 25 posts per page.
