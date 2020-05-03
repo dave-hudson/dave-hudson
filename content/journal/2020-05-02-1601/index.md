@@ -1,6 +1,6 @@
 ---
 title: "Database design reading"
-date: 2020-04-18T12:03:00+00:00
+date: 2020-05-02T15:01:00+00:00
 description: "Some reading on the subject of databases"
 ---
 I ran across a researcher called Daniel Lemire who has a really interesting blog about performance at

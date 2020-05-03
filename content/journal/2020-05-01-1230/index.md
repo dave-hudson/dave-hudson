@@ -1,6 +1,6 @@
 ---
 title: "Improving the performance of this site"
-date: 2020-04-18T12:03:00+00:00
+date: 2020-05-01T11:30:00+00:00
 description: "I want this site to be fast, so time to improve a few things!"
 ---
 ## Disqus really isn't friendly to site performance
