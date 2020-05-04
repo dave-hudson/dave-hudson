@@ -1,11 +1,3 @@
-::-moz-selection {
-    background: #666;
-}
-
-::selection {
-    background: #666;
-}
-
 body {
     background-color: #101010;
 }
