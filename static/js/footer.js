@@ -25,7 +25,7 @@ function setDarkTheme(dark) {
     }
 }
 
-// If the user clicks the sun icon then flip to lisht mode.
+// If the user clicks the sun icon then flip to light mode.
 darkModeSun.addEventListener("click", () => {
     if (darkModeSun.style.display === "none") {
         setDarkTheme(true);
