@@ -7,7 +7,7 @@ languageCode = "en-gb"
 # Name of the blog and the copyright info.
 #
 title = "Dave Hudson"
-copyright = "© 2014-2020 David J. Hudson"
+copyright = "© 2014-2021 David J. Hudson"
 
 #
 # This site will go to a github pages site.  Have the site URL set accordingly.
