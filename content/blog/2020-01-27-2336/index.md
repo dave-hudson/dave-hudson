@@ -5,7 +5,7 @@ description: "The original HTML and CSS I started with for this site weren't qui
 tags: [Software development]
 ---
 When I decided to create this site, one of the main things I wanted to do was keep the blog as something of a journal.
-I've tried this in the past when I was writing a C++ library, [C8](http://github.com/hashingitcom/c8/wiki/Dev-Notes) and it
+I've tried this in the past when I was writing a C++ library, [C8](http://github.com/dave-hudson/c8/wiki/Dev-Notes) and it
 was an interesting experience.
 
 While my earlier efforts related to something a little more complex, one of the reasons I found the exercise interesting

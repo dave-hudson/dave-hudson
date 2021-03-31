@@ -21,7 +21,7 @@ change occurring in someone's thinking but doesn't necessarily leave a clear vie
 and do something a little different here, and try to capture both.
 
 I tried something similar when I was writing a C++ arbitrary precision maths library called
-[c8](http://github.com/hashingitcom/c8/wiki).  In that instance, I used a GitHub wiki to host my blog notes
+[c8](http://github.com/dave-hudson/c8/wiki).  In that instance, I used a GitHub wiki to host my blog notes
 as I was writing the code and evolving the design, keeping pace alongside the git commits.  While it worked, it was a
 pretty painful experience - maintaining all the links and metadata was just a lot of work.
 

@@ -208,6 +208,6 @@ Having found that we're spending too much time on allocations it's time to look 
 `c8::natural::divide_modulus()` method and see what's going on.
 
 The first problem was an unused temporary.  Fixed in commit
-[5fd6c6d3c7bb584e9e2038b7eaf0667af7de69a7](https://github.com/hashingitcom/c8/commit/5fd6c6d3c7bb584e9e2038b7eaf0667af7de69a7).
+[5fd6c6d3c7bb584e9e2038b7eaf0667af7de69a7](https://github.com/dave-hudson/c8/commit/5fd6c6d3c7bb584e9e2038b7eaf0667af7de69a7).
 This wasn't a huge performance loss, but a small one, nonetheless.
 

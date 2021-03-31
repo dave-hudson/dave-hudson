@@ -169,7 +169,7 @@ halves in 2016.
 ## Source code
 
 The source code for the simulation tool that generated the results for
-this article can be found on github at: <https://github.com/hashingitcom/waiting_for_blocks>
+this article can be found on github at: <https://github.com/dave-hudson/waiting_for_blocks>
 
 ---
 

@@ -16,7 +16,7 @@ a pretty simple approach is simply to add non-default versions and then trace th
 
 Doing this showed up some specific problems related to the use of `std::pair`.  By using `std::move()` quite a
 number of copy operations could be replaced with more efficient moves.  The relevant commit is
-[b04347b037f17af66ef8a397248288508bff7024](https://github.com/hashingitcom/c8/commit/b04347b037f17af66ef8a397248288508bff7024).
+[b04347b037f17af66ef8a397248288508bff7024](https://github.com/dave-hudson/c8/commit/b04347b037f17af66ef8a397248288508bff7024).
 
 The performance doesn't change by a huge margin, but it's notably quicker:
 
