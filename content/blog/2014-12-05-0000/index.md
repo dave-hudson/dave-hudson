@@ -298,7 +298,7 @@ network statistics there's a lot of room for things to hide!
 
 This article was written with the help of data from a C language
 simulation.  The data was rendered into charts using Excel.  The source
-code can be found on github: <https://github.com/dave-hudson/pool_wars>
+code can be found on github: <https://github.com/dave-hudson/pool-wars>
 
 ---
 

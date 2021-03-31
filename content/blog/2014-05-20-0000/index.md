@@ -120,4 +120,4 @@ it seemed it would?
 This article was written with the help of data from a C language
 application that generates the probability distributions.  The data was
 rendered into charts using Excel.  The source code can be found on
-github: <https://github.com/dave-hudson/hash_rate_headaches>
+github: <https://github.com/dave-hudson/hash-rate-headaches>

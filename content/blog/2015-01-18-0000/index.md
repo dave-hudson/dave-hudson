@@ -226,7 +226,7 @@ Data for this article was sourced via [blockchain.info](http://blockchain.info)
 When I came to write this article I also wrote a C++ application that
 would combine all of the raw data into a form I could use with Excel to
 generate the charts.  The source code, and the source CSV data files can
-be found on github: <https://github.com/dave-hudson/the_myth_of_the_megabyte_bitcoin_block>
+be found on github: <https://github.com/dave-hudson/the-myth-of-the-megabyte-bitcoin-block>
 
 ---
 
