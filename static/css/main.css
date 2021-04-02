@@ -401,7 +401,7 @@ body {
     margin-left: 5px;
 }
 
-.container .blog-post .draft-label {
+.container .blog-posts .blog-post .draft-label {
     color: #1840a8;
     text-decoration: none;
     padding: 2px 4px;
@@ -447,7 +447,7 @@ body {
     margin-left: 5px;
 }
 
-.container .journal-entry .draft-label {
+.container .journal-entries .journal-entry .draft-label {
     color: #1840a8;
     text-decoration: none;
     padding: 2px 4px;
