@@ -1,17 +1,17 @@
 body {
-    background-color: #101010;
+    background-color: #141414;
 }
 
 .container {
-    color: #ddd;
+    color: #ccc;
 }
 
 .container a {
-    color: #7088d0;
+    color: #70a0f0;
 }
 
 .container a:hover {
-    color: #7088d0;
+    color: #f06e82;
 }
 
 .container blockquote {
@@ -19,7 +19,7 @@ body {
 }
 
 .container hr {
-    border-color: #555;
+    border-color: #444;
 }
 
 .container .title .meta {
@@ -31,7 +31,7 @@ body {
 }
 
 .container .markdown table th {
-    background-color: #555;
+    background-color: #444;
     border: 1px solid #777;
 }
 
@@ -40,19 +40,19 @@ body {
 }
 
 .container .header nav.site-menu {
-    border-color: #555;
+    border-color: #444;
 }
 
 .container .prev-next {
-    border-top: 1px solid #555;
+    border-top: 1px solid #444;
 }
 
 .container .disqus {
-    border-top: 1px solid #555;
+    border-top: 1px solid #444;
 }
 
 .container .footer {
-    border-color: #555;
+    border-color: #444;
 }
 
 .container .recent-blog-posts .recent-blog-post .meta {
